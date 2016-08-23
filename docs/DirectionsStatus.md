@@ -1,7 +1,7 @@
 <h2 id="DirectionsStatus"> DirectionsStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsStatus</span></code>
 constants
-</p><p>The status returned by the <code>DirectionsService</code> on the completion of a call to <code>route()</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="DirectionsStatus constants">
+</p><p>The status returned by the <code>DirectionsService</code> on the completion of a call to <code>route()</code>. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.DirectionsStatus.OK</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="DirectionsStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

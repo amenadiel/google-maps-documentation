@@ -1,7 +1,7 @@
 <h2 id="MapTypeId"> MapTypeId constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeId</span></code>
 constants
-</p><p>Identifiers for common MapTypes.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="MapTypeId constants">
+</p><p>Identifiers for common MapTypes. Specify these by value, or by using the constant's name. For example, <code>'satellite'</code> or <code>google.maps.MapTypeId.SATELLITE</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="MapTypeId constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="ElevationStatus"> ElevationStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">ElevationStatus</span></code>
 constants
-</p><p>The status returned by the <code>ElevationService</code> upon completion of an elevation requerst.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="ElevationStatus constants">
+</p><p>The status returned by the <code>ElevationService</code> upon completion of an elevation request. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.ElevationStatus.OK</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="ElevationStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="StreetViewPreference"> StreetViewPreference constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewPreference</span></code>
 constants
-</p><p>Options that bias a search result towards returning a Street View panorama that is nearest to the request location, or a panorama that is considered most likely to be what the user wants to see.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="StreetViewPreference constants">
+</p><p>Options that bias a search result towards returning a Street View panorama that is nearest to the request location, or a panorama that is considered most likely to be what the user wants to see. Specify these by value, or by using the constant's name. For example, <code>'best'</code> or <code>google.maps.StreetViewPreference.BEST</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="StreetViewPreference constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

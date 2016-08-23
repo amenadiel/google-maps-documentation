@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixElementStatus"> DistanceMatrixElementStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixElementStatus</span></code>
 constants
-</p><p>The element-level status about a particular origin-destination pairing returned by the <code>DistanceMatrixService</code> upon completion of a distance matrix request.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="DistanceMatrixElementStatus constants">
+</p><p>The element-level status about a particular origin-destination pairing returned by the <code>DistanceMatrixService</code> upon completion of a distance matrix request. These values are specified as strings, for example, <code>'OK'</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="DistanceMatrixElementStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

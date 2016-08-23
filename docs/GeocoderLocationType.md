@@ -1,7 +1,7 @@
 <h2 id="GeocoderLocationType"> GeocoderLocationType constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderLocationType</span></code>
 constants
-</p><p>Describes the type of location returned from a geocode.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="GeocoderLocationType constants">
+</p><p>Describes the type of location returned from a geocode. Specify these by value, or by using the constant's name. For example, <code>'ROOFTOP'</code> or <code>google.maps.GeocoderLocationType.ROOFTOP</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="GeocoderLocationType constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

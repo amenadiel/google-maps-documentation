@@ -9,7 +9,7 @@ object specification
 <tr>
 <td><code><span>drawingModes</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md">OverlayType</a>&gt;</code></div>
-<div class="desc">The drawing modes to display in the drawing control, in the order in which they are to be displayed. The hand icon (which corresponds to the null drawing mode) is always available and is not to be specified in this array. Defaults to <code>[MARKER, POLYLINE, RECTANGLE, CIRCLE, POLYGON]</code>.</div></td>
+<div class="desc">The drawing modes to display in the drawing control, in the order in which they are to be displayed. The hand icon (which corresponds to the null drawing mode) is always available and is not to be specified in this array. Defaults to <code>['marker', 'polyline', 'rectangle', 'circle', 'polygon']</code>.</div></td>
 </tr>
 <tr>
 <td><code><span>position</span></code></td>

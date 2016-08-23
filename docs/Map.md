@@ -66,7 +66,7 @@ class
 <tr>
 <td><code><span>getTilt()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
-<div class="desc">Returns the current angle of incidence of the map, in degrees from the viewport plane to the map plane. The result will be <code>0</code> for imagery taken directly overhead or <code>45</code> for 45° imagery. 45° imagery is only available for <code>SATELLITE</code> and <code>HYBRID</code> map types, within some locations, and at some zoom levels. <b>Note:</b> This method does not return the value set by <code>setTilt</code>. See <code>setTilt</code> for details.</div></td>
+<div class="desc">Returns the current angle of incidence of the map, in degrees from the viewport plane to the map plane. The result will be <code>0</code> for imagery taken directly overhead or <code>45</code> for 45° imagery. 45° imagery is only available for <code>satellite</code> and <code>hybrid</code> map types, within some locations, and at some zoom levels. <b>Note:</b> This method does not return the value set by <code>setTilt</code>. See <code>setTilt</code> for details.</div></td>
 </tr>
 <tr>
 <td><code><span>getZoom()</span></code></td>
@@ -121,7 +121,7 @@ class
 <tr>
 <td><code><span>setTilt(<wbr>tilt:number)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are <code>0</code> and <code>45</code>. <code>setTilt(0)</code> causes the map to always use a 0° overhead view regardless of the zoom level and viewport. <code>setTilt(45)</code> causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for <code>SATELLITE</code> and <code>HYBRID</code> map types, within some locations, and at some zoom levels. <b>Note:</b> <code>getTilt</code> returns the current tilt angle, not the value set by <code>setTilt</code>. Because <code>getTilt</code> and <code>setTilt</code> refer to different things, do not <code>bind()</code> the <code>tilt</code> property; doing so may yield unpredictable effects.</div></td>
+<div class="desc">Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are <code>0</code> and <code>45</code>. <code>setTilt(0)</code> causes the map to always use a 0° overhead view regardless of the zoom level and viewport. <code>setTilt(45)</code> causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for <code>satellite</code> and <code>hybrid</code> map types, within some locations, and at some zoom levels. <b>Note:</b> <code>getTilt</code> returns the current tilt angle, not the value set by <code>setTilt</code>. Because <code>getTilt</code> and <code>setTilt</code> refer to different things, do not <code>bind()</code> the <code>tilt</code> property; doing so may yield unpredictable effects.</div></td>
 </tr>
 <tr>
 <td><code><span>setZoom(<wbr>zoom:number)</span></code></td>

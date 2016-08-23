@@ -1,7 +1,7 @@
 <h2 id="KmlLayerStatus"> KmlLayerStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayerStatus</span></code>
 constants
-</p><p>The status returned by <code>KmlLayer</code> on the completion of loading a document.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="KmlLayerStatus constants">
+</p><p>The status returned by <code>KmlLayer</code> on the completion of loading a document. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.KmlLayerStatus.OK</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="KmlLayerStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

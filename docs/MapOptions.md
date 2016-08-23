@@ -67,11 +67,6 @@ object specification
 <div class="desc">If false, prevents the map from being controlled by the keyboard. Keyboard shortcuts are enabled by default.</div></td>
 </tr>
 <tr>
-<td><code><span>mapMaker</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">True if <a href="http://www.google.com/mapmaker">Map Maker</a> tiles should be used instead of regular tiles.</div></td>
-</tr>
-<tr>
 <td><code><span>mapTypeControl</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">The initial enabled/disabled state of the Map type control.</div></td>
@@ -159,12 +154,12 @@ object specification
 <tr>
 <td><code><span>styles</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md">MapTypeStyle</a>&gt;</code></div>
-<div class="desc">Styles to apply to each of the default map types. Note that for Satellite/Hybrid and Terrain modes, these styles will only apply to labels and geometry.</div></td>
+<div class="desc">Styles to apply to each of the default map types. Note that for <code>satellite</code>/<code>hybrid</code> and <code>terrain</code> modes, these styles will only apply to labels and geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>tilt</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are <code>0</code> and <code>45</code>. The value <code>0</code> causes the map to always use a 0° overhead view regardless of the zoom level and viewport. The value <code>45</code> causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for <code>SATELLITE</code> and <code>HYBRID</code> map types, within some locations, and at some zoom levels. <b>Note:</b> <code>getTilt</code> returns the current tilt angle, not the value specified by this option. Because <code>getTilt</code> and this option refer to different things, do not <code>bind()</code> the <code>tilt</code> property; doing so may yield unpredictable effects.</div></td>
+<div class="desc">Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are <code>0</code> and <code>45</code>. The value <code>0</code> causes the map to always use a 0° overhead view regardless of the zoom level and viewport. The value <code>45</code> causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for <code>satellite</code> and <code>hybrid</code> map types, within some locations, and at some zoom levels. <b>Note:</b> <code>getTilt</code> returns the current tilt angle, not the value specified by this option. Because <code>getTilt</code> and this option refer to different things, do not <code>bind()</code> the <code>tilt</code> property; doing so may yield unpredictable effects.</div></td>
 </tr>
 <tr>
 <td><code><span>zoom</span></code></td>

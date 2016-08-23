@@ -29,6 +29,11 @@ class
 <div class="desc">Returns the StreetViewLocation of the current panorama.</div></td>
 </tr>
 <tr>
+<td><code><span>getMotionTracking()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns the state of motion tracker. If true when the user physically moves the device and the browser supports it, the Street View Panorama tracks the physical movements.</div></td>
+</tr>
+<tr>
 <td><code><span>getPano()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Returns the current panorama ID for the Street View panorama. This id is stable within the browser's current session only.</div></td>
@@ -72,6 +77,11 @@ class
 <td><code><span>setLinks(<wbr>links:Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLink.md"><span>StreetViewLink</span></a><span>&gt;)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the set of navigation links for the Street View panorama.</div></td>
+</tr>
+<tr>
+<td><code><span>setMotionTracking(<wbr>motionTracking:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the state of motion tracker. If true when the user physically moves the device and the browser supports it, the Street View Panorama tracks the physical movements.</div></td>
 </tr>
 <tr>
 <td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md"><em><span>StreetViewPanoramaOptions</span></em></a><span>)</span></code></td>

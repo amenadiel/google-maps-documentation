@@ -1,7 +1,7 @@
 <h2 id="PlacesServiceStatus"> PlacesServiceStatus constants </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacesServiceStatus</span></code>
 constants
-</p><p>The status returned by the <code>PlacesService</code> on the completion of its searches.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="PlacesServiceStatus constants">
+</p><p>The status returned by the <code>PlacesService</code> on the completion of its searches. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.places.PlacesServiceStatus.OK</code>.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="PlacesServiceStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

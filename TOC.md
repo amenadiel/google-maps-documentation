@@ -120,9 +120,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)
 * [MapTypeRegistry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeRegistry.md)
 * [MapTypeStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md)
-* [MapTypeStyleElementType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyleElementType.md)
-* [MapTypeStyleFeatureType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyleFeatureType.md)
-* [MapTypeStyler](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyler.md)
 * [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
 * [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)
 * [MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
@@ -132,6 +129,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [MaxZoomResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomResult.md)
 * [MaxZoomService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomService.md)
 * [MaxZoomStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomStatus.md)
+* [MotionTrackingControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MotionTrackingControlOptions.md)
 * [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 * [OverlayCompleteEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md)
 * [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
@@ -222,4 +220,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, August 03, 2016
+Last updated Thursday, August 18, 2016
