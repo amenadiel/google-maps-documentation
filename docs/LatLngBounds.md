@@ -17,7 +17,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>contains(<wbr>latLng:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>)</span></code></td>
+<td><code><span>contains(<wbr>latLng:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Returns <code>true</code> if the given lat/lng is in this bounds.</div></td>
 </tr>
@@ -27,7 +27,7 @@ class
 <div class="desc">Returns <code>true</code> if this bounds approximately equals the given bounds.</div></td>
 </tr>
 <tr>
-<td><code><span>extend(<wbr>point:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>)</span></code></td>
+<td><code><span>extend(<wbr>point:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
 <div class="desc">Extends this bounds to contain the given point.</div></td>
 </tr>
