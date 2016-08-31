@@ -1,148 +1,163 @@
-<h2 id="Polygon"> Polygon class </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Polygon</span></code>
-class
-</p><p>A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence; additionally, polygons form a closed loop and define a filled region.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
-</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Polygon - Constructor">
-<thead>
-<tr><th colspan="2">Constructor</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>Polygon(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md"><em><span>PolygonOptions</span></em></a><span>)</span></code></td>
-<td>Create a polygon using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md"><span>PolygonOptions</span></a></em></code>, which specify the polygon's path, the stroke style for the polygon's edges, and the fill style for the polygon's interior regions. A polygon may contain one or more paths, where each path consists of an array of <code><span>LatLng</span></code>s. You may pass either an array of LatLngs or an <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a></code> of <code><span>LatLng</span></code>s when constructing these paths. Arrays are converted to <code><span>MVCArray</span></code>s within the polygon upon instantiation.</td>
-</tr>
-</tbody>
-</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Polygon - Methods">
-<thead>
-<tr><th colspan="2">Methods</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>getDraggable()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Returns whether this shape can be dragged by the user.</div></td>
-</tr>
-<tr>
-<td><code><span>getEditable()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Returns whether this shape can be edited by the user.</div></td>
-</tr>
-<tr>
-<td><code><span>getMap()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
-<div class="desc">Returns the map on which this shape is attached.</div></td>
-</tr>
-<tr>
-<td><code><span>getPath()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;</code></div>
-<div class="desc">Retrieves the first path.</div></td>
-</tr>
-<tr>
-<td><code><span>getPaths()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;&gt;</code></div>
-<div class="desc">Retrieves the paths for this polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>getVisible()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Returns whether this poly is visible on the map.</div></td>
-</tr>
-<tr>
-<td><code><span>setDraggable(<wbr>draggable:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">If set to true, the user can drag this shape over the map. The <code>geodesic</code> property defines the mode of dragging.</div></td>
-</tr>
-<tr>
-<td><code><span>setEditable(<wbr>editable:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">If set to true, the user can edit this shape by dragging the control points shown at the vertices and on each segment.</div></td>
-</tr>
-<tr>
-<td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Renders this shape on the specified map. If map is set to null, the shape will be removed.</div></td>
-</tr>
-<tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md"><em><span>PolygonOptions</span></em></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setPath(<wbr>path:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>&gt;|<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>&gt;)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Sets the first path. See <em><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md">PolygonOptions</a></code></em> for more details.</div></td>
-</tr>
-<tr>
-<td><code><span>setPaths(<wbr>paths:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>&gt;&gt;|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>&gt;|<wbr>Array&lt;Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>&gt;&gt;|<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>&gt;)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Sets the path for this polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>setVisible(<wbr>visible:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Hides this poly if set to <code>false</code>.</div></td>
-</tr>
-</tbody>
-</table></div><div class="devsite-table-wrapper"><table class="details responsive" summary="class Polygon - Events">
-<thead>
-<tr><th colspan="2">Events</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the DOM click event is fired on the Polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>dblclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the DOM dblclick event is fired on the Polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>drag</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is repeatedly fired while the user drags the polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>dragend</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the user stops dragging the polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>dragstart</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the user starts dragging the polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>mousedown</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the DOM mousedown event is fired on the Polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>mousemove</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the DOM mousemove event is fired on the Polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>mouseout</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired on Polygon mouseout.</div></td>
-</tr>
-<tr>
-<td><code><span>mouseover</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired on Polygon mouseover.</div></td>
-</tr>
-<tr>
-<td><code><span>mouseup</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the DOM mouseup event is fired on the Polygon.</div></td>
-</tr>
-<tr>
-<td><code><span>rightclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the Polygon is right-clicked on.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Polygon.html)
+
+
+Polygon class
+-------------
+
+google.maps.Polygon class
+
+A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence; additionally, polygons form a closed loop and define a filled region.
+
+This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+
+Constructor
+
+Polygon(opts?:[_PolygonOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md))
+
+Create a polygon using the passed _[PolygonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md)_, which specify the polygon's path, the stroke style for the polygon's edges, and the fill style for the polygon's interior regions. A polygon may contain one or more paths, where each path consists of an array of LatLngs. You may pass either an array of LatLngs or an [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md) of LatLngs when constructing these paths. Arrays are converted to MVCArrays within the polygon upon instantiation.
+
+Methods
+
+getDraggable()
+
+**Return Value:**  boolean
+
+Returns whether this shape can be dragged by the user.
+
+getEditable()
+
+**Return Value:**  boolean
+
+Returns whether this shape can be edited by the user.
+
+getMap()
+
+**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+
+Returns the map on which this shape is attached.
+
+getPath()
+
+**Return Value:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+
+Retrieves the first path.
+
+getPaths()
+
+**Return Value:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>>
+
+Retrieves the paths for this polygon.
+
+getVisible()
+
+**Return Value:**  boolean
+
+Returns whether this poly is visible on the map.
+
+setDraggable(draggable:boolean)
+
+**Return Value:**  None
+
+If set to true, the user can drag this shape over the map. The geodesic property defines the mode of dragging.
+
+setEditable(editable:boolean)
+
+**Return Value:**  None
+
+If set to true, the user can edit this shape by dragging the control points shown at the vertices and on each segment.
+
+setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md))
+
+**Return Value:**  None
+
+Renders this shape on the specified map. If map is set to null, the shape will be removed.
+
+setOptions(options:[_PolygonOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md))
+
+**Return Value:**  None
+
+setPath(path:[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>)
+
+**Return Value:**  None
+
+Sets the first path. See _[PolygonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md)_ for more details.
+
+setPaths(paths:[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>>|[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|Array<Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>)
+
+**Return Value:**  None
+
+Sets the path for this polygon.
+
+setVisible(visible:boolean)
+
+**Return Value:**  None
+
+Hides this poly if set to false.
+
+Events
+
+click
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired when the DOM click event is fired on the Polygon.
+
+dblclick
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired when the DOM dblclick event is fired on the Polygon.
+
+drag
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is repeatedly fired while the user drags the polygon.
+
+dragend
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the user stops dragging the polygon.
+
+dragstart
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the user starts dragging the polygon.
+
+mousedown
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired when the DOM mousedown event is fired on the Polygon.
+
+mousemove
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired when the DOM mousemove event is fired on the Polygon.
+
+mouseout
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired on Polygon mouseout.
+
+mouseover
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired on Polygon mouseover.
+
+mouseup
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired when the DOM mouseup event is fired on the Polygon.
+
+rightclick
+
+**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+
+This event is fired when the Polygon is right-clicked on.

@@ -1,298 +1,279 @@
-<h2 id="Marker"> Marker class </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Marker</span></code>
-class
-</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
-</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Marker - Constructor">
-<thead>
-<tr><th colspan="2">Constructor</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>Marker(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md"><em><span>MarkerOptions</span></em></a><span>)</span></code></td>
-<td>Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.</td>
-</tr>
-</tbody>
-</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Marker - Methods">
-<thead>
-<tr><th colspan="2">Methods</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>getAnimation()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md">Animation</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getAttribution()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md">Attribution</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getClickable()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getCursor()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getDraggable()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getIcon()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md">Icon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md">Symbol</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getLabel()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md">MarkerLabel</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getMap()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getOpacity()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getPlace()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md">MarkerPlace</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getPosition()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getShape()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md">MarkerShape</a></code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getTitle()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getVisible()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>getZIndex()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setAnimation(<wbr>animation:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md"><span>Animation</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in <code>null</code> will cause any animation to stop.</div></td>
-</tr>
-<tr>
-<td><code><span>setAttribution(<wbr>attribution:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md"><em><span>Attribution</span></em></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setClickable(<wbr>flag:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setCursor(<wbr>cursor:string)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setDraggable(<wbr>flag:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setIcon(<wbr>icon:string|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md"><span>Icon</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md"><span>Symbol</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setLabel(<wbr>label:string|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md"><span>MarkerLabel</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md"><span>StreetViewPanorama</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Renders the marker on the specified map or panorama. If map is set to null, the marker will be removed.</div></td>
-</tr>
-<tr>
-<td><code><span>setOpacity(<wbr>opacity:number)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md"><em><span>MarkerOptions</span></em></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setPlace(<wbr>place:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md"><em><span>MarkerPlace</span></em></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setPosition(<wbr>latlng:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setShape(<wbr>shape:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md"><em><span>MarkerShape</span></em></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setTitle(<wbr>title:string)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setVisible(<wbr>visible:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-<tr>
-<td><code><span>setZIndex(<wbr>zIndex:number)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc"></div></td>
-</tr>
-</tbody>
-</table></div><div class="devsite-table-wrapper"><table class="constants responsive" summary="Marker constants">
-<thead>
-<tr><th colspan="2">Constant</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>MAX_ZINDEX</span></code></td>
-<td>The maximum default z-index that the API will assign to a marker. You may set a higher z-index to bring a marker to the front.</td>
-</tr>
-</tbody>
-</table></div><div class="devsite-table-wrapper"><table class="details responsive" summary="class Marker - Events">
-<thead>
-<tr><th colspan="2">Events</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>animation_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's animation property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the marker icon was clicked.</div></td>
-</tr>
-<tr>
-<td><code><span>clickable_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's clickable property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>cursor_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's cursor property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>dblclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the marker icon was double clicked.</div></td>
-</tr>
-<tr>
-<td><code><span>drag</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is repeatedly fired while the user drags the marker.</div></td>
-</tr>
-<tr>
-<td><code><span>dragend</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the user stops dragging the marker.</div></td>
-</tr>
-<tr>
-<td><code><span>draggable_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's draggable property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>dragstart</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the user starts dragging the marker.</div></td>
-</tr>
-<tr>
-<td><code><span>flat_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's flat property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>icon_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker icon property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>mousedown</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired for a mousedown on the marker.</div></td>
-</tr>
-<tr>
-<td><code><span>mouseout</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the mouse leaves the area of the marker icon.</div></td>
-</tr>
-<tr>
-<td><code><span>mouseover</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the mouse enters the area of the marker icon.</div></td>
-</tr>
-<tr>
-<td><code><span>mouseup</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired for a mouseup on the marker.</div></td>
-</tr>
-<tr>
-<td><code><span>position_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker position property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>rightclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired for a rightclick on the marker.</div></td>
-</tr>
-<tr>
-<td><code><span>shape_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's shape property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>title_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker title property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>visible_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's visible property changes.</div></td>
-</tr>
-<tr>
-<td><code><span>zindex_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the marker's zIndex property changes.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Marker.html)
+
+
+Marker class
+------------
+
+google.maps.Marker class
+
+This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+
+Constructor
+
+Marker(opts?:[_MarkerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md))
+
+Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.
+
+Methods
+
+getAnimation()
+
+**Return Value:**  [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
+
+getAttribution()
+
+**Return Value:**  [Attribution](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md)
+
+getClickable()
+
+**Return Value:**  boolean
+
+getCursor()
+
+**Return Value:**  string
+
+getDraggable()
+
+**Return Value:**  boolean
+
+getIcon()
+
+**Return Value:**  string|[Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)|[Symbol](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md)
+
+getLabel()
+
+**Return Value:**  [MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
+
+getMap()
+
+**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
+
+getOpacity()
+
+**Return Value:**  number
+
+getPlace()
+
+**Return Value:**  [MarkerPlace](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md)
+
+getPosition()
+
+**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+
+getShape()
+
+**Return Value:**  [MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md)
+
+getTitle()
+
+**Return Value:**  string
+
+getVisible()
+
+**Return Value:**  boolean
+
+getZIndex()
+
+**Return Value:**  number
+
+setAnimation(animation:[Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md))
+
+**Return Value:**  None
+
+Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in null will cause any animation to stop.
+
+setAttribution(attribution:[_Attribution_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md))
+
+**Return Value:**  None
+
+setClickable(flag:boolean)
+
+**Return Value:**  None
+
+setCursor(cursor:string)
+
+**Return Value:**  None
+
+setDraggable(flag:boolean)
+
+**Return Value:**  None
+
+setIcon(icon:string|[Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)|[Symbol](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md))
+
+**Return Value:**  None
+
+setLabel(label:string|[MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md))
+
+**Return Value:**  None
+
+setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md))
+
+**Return Value:**  None
+
+Renders the marker on the specified map or panorama. If map is set to null, the marker will be removed.
+
+setOpacity(opacity:number)
+
+**Return Value:**  None
+
+setOptions(options:[_MarkerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md))
+
+**Return Value:**  None
+
+setPlace(place:[_MarkerPlace_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md))
+
+**Return Value:**  None
+
+setPosition(latlng:[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md))
+
+**Return Value:**  None
+
+setShape(shape:[_MarkerShape_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md))
+
+**Return Value:**  None
+
+setTitle(title:string)
+
+**Return Value:**  None
+
+setVisible(visible:boolean)
+
+**Return Value:**  None
+
+setZIndex(zIndex:number)
+
+**Return Value:**  None
+
+Constant
+
+MAX\_ZINDEX
+
+The maximum default z-index that the API will assign to a marker. You may set a higher z-index to bring a marker to the front.
+
+Events
+
+animation\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's animation property changes.
+
+click
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the marker icon was clicked.
+
+clickable\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's clickable property changes.
+
+cursor\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's cursor property changes.
+
+dblclick
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the marker icon was double clicked.
+
+drag
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is repeatedly fired while the user drags the marker.
+
+dragend
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the user stops dragging the marker.
+
+draggable\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's draggable property changes.
+
+dragstart
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the user starts dragging the marker.
+
+flat\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's flat property changes.
+
+icon\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker icon property changes.
+
+mousedown
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired for a mousedown on the marker.
+
+mouseout
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the mouse leaves the area of the marker icon.
+
+mouseover
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired when the mouse enters the area of the marker icon.
+
+mouseup
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired for a mouseup on the marker.
+
+position\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker position property changes.
+
+rightclick
+
+**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+
+This event is fired for a rightclick on the marker.
+
+shape\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's shape property changes.
+
+title\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker title property changes.
+
+visible\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's visible property changes.
+
+zindex\_changed
+
+**Arguments:**  None
+
+This event is fired when the marker's zIndex property changes.

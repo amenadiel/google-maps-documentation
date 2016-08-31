@@ -1,50 +1,57 @@
-<h2 id="event"> event namespace </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">event</span></code>
-namespace
-</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="namespace event - Static Methods">
-<thead>
-<tr><th colspan="2">Methods</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>addDomListener(<wbr>instance:Object,<wbr> eventName:string,<wbr> handler:Function,<wbr> capture?:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md">MapsEventListener</a></code></div>
-<div class="desc">Cross browser event handler registration. This listener is removed by calling removeListener(handle) for the handle that is returned by this function.</div></td>
-</tr>
-<tr>
-<td><code><span>addDomListenerOnce(<wbr>instance:Object,<wbr> eventName:string,<wbr> handler:Function,<wbr> capture?:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md">MapsEventListener</a></code></div>
-<div class="desc">Wrapper around addDomListener that removes the listener after the first event.</div></td>
-</tr>
-<tr>
-<td><code><span>addListener(<wbr>instance:Object,<wbr> eventName:string,<wbr> handler:Function)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md">MapsEventListener</a></code></div>
-<div class="desc">Adds the given listener function to the given event name for the given object instance. Returns an identifier for this listener that can be used with removeListener().</div></td>
-</tr>
-<tr>
-<td><code><span>addListenerOnce(<wbr>instance:Object,<wbr> eventName:string,<wbr> handler:Function)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md">MapsEventListener</a></code></div>
-<div class="desc">Like addListener, but the handler removes itself after handling the first event.</div></td>
-</tr>
-<tr>
-<td><code><span>clearInstanceListeners(<wbr>instance:Object)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Removes all listeners for all events for the given instance.</div></td>
-</tr>
-<tr>
-<td><code><span>clearListeners(<wbr>instance:Object,<wbr> eventName:string)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Removes all listeners for the given event for the given instance.</div></td>
-</tr>
-<tr>
-<td><code><span>removeListener(<wbr>listener:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md"><em><span>MapsEventListener</span></em></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Removes the given listener, which should have been returned by addListener above. Equivalent to calling <code>listener.remove()</code>.</div></td>
-</tr>
-<tr>
-<td><code><span>trigger(<wbr>instance:Object,<wbr> eventName:string,<wbr> var_args:.<wbr>.<wbr>.)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Triggers the given event. All arguments after eventName are passed as arguments to the listeners.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/event.html)
+
+
+event namespace
+---------------
+
+google.maps.event namespace
+
+Methods
+
+addDomListener(instance:Object, eventName:string, handler:Function, capture?:boolean)
+
+**Return Value:**  [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
+
+Cross browser event handler registration. This listener is removed by calling removeListener(handle) for the handle that is returned by this function.
+
+addDomListenerOnce(instance:Object, eventName:string, handler:Function, capture?:boolean)
+
+**Return Value:**  [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
+
+Wrapper around addDomListener that removes the listener after the first event.
+
+addListener(instance:Object, eventName:string, handler:Function)
+
+**Return Value:**  [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
+
+Adds the given listener function to the given event name for the given object instance. Returns an identifier for this listener that can be used with removeListener().
+
+addListenerOnce(instance:Object, eventName:string, handler:Function)
+
+**Return Value:**  [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
+
+Like addListener, but the handler removes itself after handling the first event.
+
+clearInstanceListeners(instance:Object)
+
+**Return Value:**  None
+
+Removes all listeners for all events for the given instance.
+
+clearListeners(instance:Object, eventName:string)
+
+**Return Value:**  None
+
+Removes all listeners for the given event for the given instance.
+
+removeListener(listener:[_MapsEventListener_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md))
+
+**Return Value:**  None
+
+Removes the given listener, which should have been returned by addListener above. Equivalent to calling listener.remove().
+
+trigger(instance:Object, eventName:string, var\_args:...)
+
+**Return Value:**  None
+
+Triggers the given event. All arguments after eventName are passed as arguments to the listeners.

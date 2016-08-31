@@ -1,15 +1,17 @@
-<h2 id="LocationElevationRequest"> LocationElevationRequest object specification </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">LocationElevationRequest</span></code>
-object specification
-</p><p>An elevation request sent by the <code>ElevationService</code> containing the list of discrete coordinates (<code>LatLng</code>s) for which to return elevation data.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface LocationElevationRequest - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>locations</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;</code></div>
-<div class="desc">The discrete locations for which to retrieve elevations.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/LocationElevationRequest.html)
+
+
+LocationElevationRequest object specification
+---------------------------------------------
+
+google.maps.LocationElevationRequest object specification
+
+An elevation request sent by the ElevationService containing the list of discrete coordinates (LatLngs) for which to return elevation data.
+
+Properties
+
+locations
+
+**Type:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+
+The discrete locations for which to retrieve elevations.

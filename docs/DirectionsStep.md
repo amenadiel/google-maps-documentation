@@ -1,55 +1,65 @@
-<h2 id="DirectionsStep"> DirectionsStep object specification </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsStep</span></code>
-object specification
-</p><p>A single <code>DirectionsStep</code> in a <code>DirectionsResult</code>. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsStep - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>distance</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md">Distance</a></code></div>
-<div class="desc">The distance covered by this step. This property may be undefined as the distance may be unknown.</div></td>
-</tr>
-<tr>
-<td><code><span>duration</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></code></div>
-<div class="desc">The typical time required to perform this step in seconds and in text form. This property may be undefined as the duration may be unknown.</div></td>
-</tr>
-<tr>
-<td><code><span>end_location</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
-<div class="desc">The ending location of this step.</div></td>
-</tr>
-<tr>
-<td><code><span>instructions</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Instructions for this step.</div></td>
-</tr>
-<tr>
-<td><code><span>path</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;</code></div>
-<div class="desc">A sequence of <code>LatLng</code>s describing the course of this step.</div></td>
-</tr>
-<tr>
-<td><code><span>start_location</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
-<div class="desc">The starting location of this step.</div></td>
-</tr>
-<tr>
-<td><code><span>steps</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md">DirectionsStep</a>&gt;</code></div>
-<div class="desc">Sub-steps of this step. Specified for non-transit sections of transit routes.</div></td>
-</tr>
-<tr>
-<td><code><span>transit</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md">TransitDetails</a></code></div>
-<div class="desc">Transit-specific details about this step. This property will be undefined unless the travel mode of this step is <code>TRANSIT</code>.</div></td>
-</tr>
-<tr>
-<td><code><span>travel_mode</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md">TravelMode</a></code></div>
-<div class="desc">The mode of travel used in this step.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsStep.html)
+
+
+DirectionsStep object specification
+-----------------------------------
+
+google.maps.DirectionsStep object specification
+
+A single DirectionsStep in a DirectionsResult. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes LatLng objects.
+
+Properties
+
+distance
+
+**Type:**  [Distance](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md)
+
+The distance covered by this step. This property may be undefined as the distance may be unknown.
+
+duration
+
+**Type:**  [Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md)
+
+The typical time required to perform this step in seconds and in text form. This property may be undefined as the duration may be unknown.
+
+end\_location
+
+**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+
+The ending location of this step.
+
+instructions
+
+**Type:**  string
+
+Instructions for this step.
+
+path
+
+**Type:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+
+A sequence of LatLngs describing the course of this step.
+
+start\_location
+
+**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+
+The starting location of this step.
+
+steps
+
+**Type:**  Array<[DirectionsStep](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md)\>
+
+Sub-steps of this step. Specified for non-transit sections of transit routes.
+
+transit
+
+**Type:**  [TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md)
+
+Transit-specific details about this step. This property will be undefined unless the travel mode of this step is TRANSIT.
+
+travel\_mode
+
+**Type:**  [TravelMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md)
+
+The mode of travel used in this step.

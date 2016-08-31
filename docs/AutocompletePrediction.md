@@ -1,35 +1,43 @@
-<h2 id="AutocompletePrediction"> AutocompletePrediction object specification </h2><p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompletePrediction</span></code>
-object specification
-</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompletePrediction - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>description</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">This is the unformatted version of the query suggested by the Places service.</div></td>
-</tr>
-<tr>
-<td><code><span>matched_substrings</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md">PredictionSubstring</a>&gt;</code></div>
-<div class="desc">A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.</div></td>
-</tr>
-<tr>
-<td><code><span>place_id</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md"> PlacesService</a>.getDetails()</code>).</div></td>
-</tr>
-<tr>
-<td><code><span>terms</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md">PredictionTerm</a>&gt;</code></div>
-<div class="desc">Information about individual terms in the above description, from most to least specific. For example, "Taco Bell", "Willitis", and "CA".</div></td>
-</tr>
-<tr>
-<td><code><span>types</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">An array of types that the prediction belongs to, for example <code>'establishment'</code> or <code>'geocode'</code>.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompletePrediction.html)
+
+
+AutocompletePrediction object specification
+-------------------------------------------
+
+google.maps.places.AutocompletePrediction object specification
+
+#### Library
+
+places
+
+Properties
+
+description
+
+**Type:**  string
+
+This is the unformatted version of the query suggested by the Places service.
+
+matched\_substrings
+
+**Type:**  Array<[PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md)\>
+
+A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.
+
+place\_id
+
+**Type:**  string
+
+A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).getDetails()).
+
+terms
+
+**Type:**  Array<[PredictionTerm](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md)\>
+
+Information about individual terms in the above description, from most to least specific. For example, "Taco Bell", "Willitis", and "CA".
+
+types
+
+**Type:**  Array<string>
+
+An array of types that the prediction belongs to, for example 'establishment' or 'geocode'.

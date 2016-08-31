@@ -1,20 +1,27 @@
-<h2 id="OverlayCompleteEvent"> OverlayCompleteEvent object specification </h2><p>
-<code><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">OverlayCompleteEvent</span></code>
-object specification
-</p><p>The properties of an overlaycomplete event on a <code>DrawingManager</code>.</p><h4>Library</h4><p>drawing</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object OverlayCompleteEvent - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>overlay</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md">Marker</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md">Polygon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md">Polyline</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md">Rectangle</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Circle.md">Circle</a></code></div>
-<div class="desc">The completed overlay.</div></td>
-</tr>
-<tr>
-<td><code><span>type</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md">OverlayType</a></code></div>
-<div class="desc">The completed overlay's type.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/OverlayCompleteEvent.html)
+
+
+OverlayCompleteEvent object specification
+-----------------------------------------
+
+google.maps.drawing.OverlayCompleteEvent object specification
+
+The properties of an overlaycomplete event on a DrawingManager.
+
+#### Library
+
+drawing
+
+Properties
+
+overlay
+
+**Type:**  [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)|[Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)|[Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md)|[Rectangle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md)|[Circle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Circle.md)
+
+The completed overlay.
+
+type
+
+**Type:**  [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
+
+The completed overlay's type.

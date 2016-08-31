@@ -1,0 +1,49 @@
+{
+  "name": "google-maps-documentation",
+  "version": "1.1.0",
+  "description": "In sync, versioned copy of Google Maps API documentation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run crawl && npm run push_master ",
+    "crawl": "DEBUG=gmd:* node index.js",
+    "push_master": "git checkout master && rm  docs/*.md && mv html/*.md docs/ && npm run add_script_to_docs && npm run commit_master && git checkout develop",
+    "dry_run": "DEBUG=gmd:* DRY_RUN=true node index.js",
+    "add_script_to_docs": "for f in ./docs/*.md; do echo '<script src=\"replace_links.js\"></script>' >> \"$f\" ; done",
+    "commit_master": "git add --all && git commit -am \"docs for `git log --format=%B -n 1 develop | head -1`\" && git push -f",
+    "to_markdown": "DEBUG=gmd:* node html2md.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuasoFoundries/google-maps-documentation.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "documentation"
+  ],
+  "author": "amenadiel@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HuasoFoundries/google-maps-documentation/issues"
+  },
+  "homepage": "https://github.com/HuasoFoundries/google-maps-documentation#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "exec-sh": "^0.3.0",
+    "find": "^0.2.9",
+    "lodash": "^4.17.10",
+    "puppeteer": "^1.7.0",
+    "turndown": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0"
+  }
+}

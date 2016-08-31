@@ -1,20 +1,25 @@
-<h2 id="PredictionTerm"> PredictionTerm object specification </h2><p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PredictionTerm</span></code>
-object specification
-</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PredictionTerm - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>offset</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The offset, in unicode characters, of the start of this term in the description of the place.</div></td>
-</tr>
-<tr>
-<td><code><span>value</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The value of this term, e.g. "Taco Bell".</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PredictionTerm.html)
+
+
+PredictionTerm object specification
+-----------------------------------
+
+google.maps.places.PredictionTerm object specification
+
+#### Library
+
+places
+
+Properties
+
+offset
+
+**Type:**  number
+
+The offset, in unicode characters, of the start of this term in the description of the place.
+
+value
+
+**Type:**  string
+
+The value of this term, e.g. "Taco Bell".

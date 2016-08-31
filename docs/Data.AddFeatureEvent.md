@@ -1,15 +1,17 @@
-<h2 id="Data.AddFeatureEvent"> Data.AddFeatureEvent object specification </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.AddFeatureEvent</span></code>
-object specification
-</p><p>The properties of a <code>addfeature</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.AddFeatureEvent - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>feature</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></code></div>
-<div class="desc">The feature that was added to the <code>FeatureCollection</code>.</div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.AddFeatureEvent.html)
+
+
+Data.AddFeatureEvent object specification
+-----------------------------------------
+
+google.maps.Data.AddFeatureEvent object specification
+
+The properties of a addfeature event.
+
+Properties
+
+feature
+
+**Type:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
+
+The feature that was added to the FeatureCollection.

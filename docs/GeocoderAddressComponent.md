@@ -1,25 +1,29 @@
-<h2 id="GeocoderAddressComponent"> GeocoderAddressComponent object specification </h2><p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderAddressComponent</span></code>
-object specification
-</p><p>A single address component within a <code>GeocoderResult</code>. A full address may consist of multiple address components.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object GeocoderAddressComponent - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><span>long_name</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The full text of the address component</div></td>
-</tr>
-<tr>
-<td><code><span>short_name</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The abbreviated, short text of the given address component</div></td>
-</tr>
-<tr>
-<td><code><span>types</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">An array of strings denoting the type of this address component. A list of valid types can be found <a href="https://developers.google.com/maps/documentation/geocoding/#Types">here</a></div></td>
-</tr>
-</tbody>
-</table></div>
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderAddressComponent.html)
+
+
+GeocoderAddressComponent object specification
+---------------------------------------------
+
+google.maps.GeocoderAddressComponent object specification
+
+A single address component within a GeocoderResult. A full address may consist of multiple address components.
+
+Properties
+
+long\_name
+
+**Type:**  string
+
+The full text of the address component
+
+short\_name
+
+**Type:**  string
+
+The abbreviated, short text of the given address component
+
+types
+
+**Type:**  Array<string>
+
+An array of strings denoting the type of this address component. A list of valid types can be found [here](https://developers.google.com/maps/documentation/geocoding/#Types)
