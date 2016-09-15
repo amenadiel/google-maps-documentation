@@ -30,12 +30,6 @@ bindTo(key:string, target:[MVCObject](https://github.com/amenadiel/google-maps-d
 
 Binds a View to a Model.
 
-changed(key:string)
-
-**Return Value:**  None
-
-Generic handler for state changes. Override this in derived classes to handle arbitrary state changes.
-
 get(key:string)
 
 **Return Value:**  \*

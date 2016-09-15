@@ -176,9 +176,9 @@ This event is fired when the map center property changes.
 
 click
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)|[IconMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md)
 
-This event is fired when the user clicks on the map (but not when they click on a marker or infowindow).
+This event is fired when the user clicks on the map (but not when they click on a marker or infowindow). IconMouseEvent and ApiMouseEvent are identical except IconMouseEvent has a placeid. When this even is used and the placeid is set, the user clicked on a place. If it is not set the fields of ApiMouseEvent and IconMouseEvent are identical.
 
 dblclick
 
