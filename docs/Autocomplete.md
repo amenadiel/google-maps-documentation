@@ -16,7 +16,7 @@ places
 
 Constructor
 
-Autocomplete(inputField:HTMLInputElement, opts?:[_AutocompleteOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md))
+Autocomplete(inputField:HTMLInputElement, opts?:[AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md))
 
 Creates a new instance of Autocomplete that attaches to the specified input text field with the given options.
 

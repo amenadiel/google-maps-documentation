@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-GroundOverlay(url:string, bounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md), opts?:[_GroundOverlayOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GroundOverlayOptions.md))
+GroundOverlay(url:string, bounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md), opts?:[GroundOverlayOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GroundOverlayOptions.md))
 
 Creates a ground overlay from the provided image URL and its LatLngBounds. The image is scaled to fit the current bounds, and projected using the current map projection.
 

@@ -10,7 +10,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-Marker(opts?:[_MarkerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md))
+Marker(opts?:[MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md))
 
 Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.
 

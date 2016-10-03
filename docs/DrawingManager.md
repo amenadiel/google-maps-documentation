@@ -16,7 +16,7 @@ drawing
 
 Constructor
 
-DrawingManager(options?:[_DrawingManagerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md))
+DrawingManager(options?:[DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md))
 
 Creates a DrawingManager that allows users to draw overlays on the map, and switch between the type of overlay to be drawn with a drawing control.
 

@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-Rectangle(opts?:[_RectangleOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md))
+Rectangle(opts?:[RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md))
 
 Create a rectangle using the passed _[RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md)_, which specify the bounds and style.
 

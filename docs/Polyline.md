@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-Polyline(opts?:[_PolylineOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md))
+Polyline(opts?:[PolylineOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md))
 
 Create a polyline using the passed _[PolylineOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md)_, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of LatLngs or an [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md) of LatLngs when constructing a polyline, though simple arrays are converted to MVCArrays within the polyline upon instantiation.
 

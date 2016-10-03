@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-Circle(opts?:[_CircleOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md))
+Circle(opts?:[CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md))
 
 Create a circle using the passed _[CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md)_, which specify the center, radius, and style.
 

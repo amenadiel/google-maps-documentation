@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-StreetViewPanorama(container:Element, opts?:[_StreetViewPanoramaOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md))
+StreetViewPanorama(container:Element, opts?:[StreetViewPanoramaOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md))
 
 Creates a panorama with the passed StreetViewPanoramaOptions.
 

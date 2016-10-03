@@ -16,7 +16,7 @@ visualization
 
 Constructor
 
-HeatmapLayer(opts?:[_HeatmapLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md))
+HeatmapLayer(opts?:[HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md))
 
 Creates a new instance of HeatmapLayer.
 

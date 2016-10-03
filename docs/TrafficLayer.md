@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-TrafficLayer(opts?:[_TrafficLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md))
+TrafficLayer(opts?:[TrafficLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md))
 
 A layer that displays current road traffic.
 

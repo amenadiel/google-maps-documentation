@@ -14,7 +14,7 @@ places
 
 Methods
 
-getUrl(opts:[_PhotoOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md))
+getUrl(opts:[PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md))
 
 **Return Value:**  string
 

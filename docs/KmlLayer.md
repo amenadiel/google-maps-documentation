@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-KmlLayer(opts?:[_KmlLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md))
+KmlLayer(opts?:[KmlLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md))
 
 Creates a KmlLayer which renders the contents of the specified KML/KMZ file ([https://developers.google.com/kml/documentation/kmlreference](https://developers.google.com/kml/documentation/kmlreference)) or GeoRSS file ([http://www.georss.org](http://www.georss.org)).
 

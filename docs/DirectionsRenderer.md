@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-DirectionsRenderer(opts?:[_DirectionsRendererOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md))
+DirectionsRenderer(opts?:[DirectionsRendererOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md))
 
 Creates the renderer with the given options. Directions can be rendered on a map (as visual overlays) or additionally on a <div> panel (as textual instructions).
 

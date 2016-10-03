@@ -178,7 +178,7 @@ click
 
 **Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)|[IconMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md)
 
-This event is fired when the user clicks on the map (but not when they click on a marker or infowindow). IconMouseEvent and ApiMouseEvent are identical except IconMouseEvent has a placeid. When this even is used and the placeid is set, the user clicked on a place. If it is not set the fields of ApiMouseEvent and IconMouseEvent are identical.
+This event is fired when the user clicks on the map. An ApiMouseEvent with properties for the clicked location is returned unless a place icon was clicked, in which case an IconMouseEvent with a placeid is returned. IconMouseEvent and ApiMouseEvent are identical, except that IconMouseEvent has the placeid field. The event can always be treated as an ApiMouseEvent when the placeid is not important. The click event is not fired if a marker or infowindow was clicked.
 
 dblclick
 

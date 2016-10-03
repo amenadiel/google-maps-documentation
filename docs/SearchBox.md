@@ -16,7 +16,7 @@ places
 
 Constructor
 
-SearchBox(inputField:HTMLInputElement, opts?:[_SearchBoxOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md))
+SearchBox(inputField:HTMLInputElement, opts?:[SearchBoxOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md))
 
 Creates a new instance of SearchBox that attaches to the specified input text field with the given options.
 

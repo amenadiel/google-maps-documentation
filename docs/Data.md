@@ -26,7 +26,7 @@ Creates an empty collection, with the given DataOptions.
 
 Methods
 
-add(feature:[Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)|[Data.FeatureOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md))
+add(feature?:[Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)|[Data.FeatureOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md))
 
 **Return Value:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
 
@@ -74,7 +74,7 @@ Returns the current drawing mode of the given Data layer. A drawing mode of null
 
 getFeatureById(id:number|string)
 
-**Return Value:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)|undefined
+**Return Value:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
 
 Returns the feature with the given ID, if it exists in the collection. Otherwise returns undefined.
 
