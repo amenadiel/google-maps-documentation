@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-StyledMapType(styles:Array<[MapTypeStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md)\>, options?:[_StyledMapTypeOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StyledMapTypeOptions.md))
+StyledMapType(styles:Array<[MapTypeStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md)\>, options?:[StyledMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StyledMapTypeOptions.md))
 
 Creates a styled MapType with the specified options. The StyledMapType takes an array of MapTypeStyles, where each MapTypeStyle is applied to the map consecutively. A later MapTypeStyle that applies the same MapTypeStylers to the same selectors as an earlier MapTypeStyle will override the earlier MapTypeStyle.
 

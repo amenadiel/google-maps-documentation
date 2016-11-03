@@ -30,7 +30,7 @@ Returns the feature's geometry.
 
 getId()
 
-**Return Value:**  number|string
+**Return Value:**  number|string|undefined
 
 Returns the feature ID.
 

@@ -30,7 +30,7 @@ If true, instructs the Directions service to avoid toll roads where possible. Op
 
 destination
 
-**Type:**  string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)
+**Type:**  string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 Location of destination. This can be specified as either a string to be geocoded, or a LatLng, or a Place. Required.
 
@@ -48,7 +48,7 @@ If set to true, the DirectionService will attempt to re-order the supplied inter
 
 origin
 
-**Type:**  string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)
+**Type:**  string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 Location of origin. This can be specified as either a string to be geocoded, or a LatLng, or a Place. Required.
 

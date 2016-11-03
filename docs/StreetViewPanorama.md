@@ -78,7 +78,7 @@ getZoom()
 
 Returns the zoom level of the panorama. Fully zoomed-out is level 0, where the field of view is 180 degrees. Zooming in increases the zoom level.
 
-registerPanoProvider(provider:function(string):[StreetViewPanoramaData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md))
+registerPanoProvider(provider:function(string):[StreetViewPanoramaData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md), opt\_options?:[PanoProviderOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoProviderOptions.md))
 
 **Return Value:**  None
 

@@ -1,16 +1,16 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PanoProviderOptions.html)
 
 
-PanoProviderOptions interface
------------------------------
+PanoProviderOptions object specification
+----------------------------------------
 
-google.maps.PanoProviderOptions interface
+google.maps.PanoProviderOptions object specification
 
 Options for the Custom Pano Provider.
 
 Properties
 
-[cors](#PanoProviderOptions.cors)
+cors
 
 **Type:**  boolean
 

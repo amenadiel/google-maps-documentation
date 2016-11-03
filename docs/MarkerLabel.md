@@ -38,4 +38,4 @@ text
 
 **Type:**  string
 
-The text to be displayed in the label. Only the first character of this string will be shown.
+The text to be displayed in the label.

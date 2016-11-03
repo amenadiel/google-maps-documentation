@@ -10,6 +10,8 @@ A control that users can use to save a place to Google Maps from your website. I
 
 The SaveWidget is only available when signed\_in=true has been passed as a URL parameter in the bootstrap request.
 
+**Note:** The signed-in maps feature is **deprecated**. Versions 3.27 and earlier of the Google Maps JavaScript API continue to support signed-in maps. A future version will no longer support signed-in maps, and will not support saving a place directly from within your website. Read more about [signed-in maps](https://developers.google.com/maps/documentation/javascript/signedin).
+
 This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
 
 Constructor
