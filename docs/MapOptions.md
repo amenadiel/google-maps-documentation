@@ -68,6 +68,17 @@ fullscreenControlOptions
 
 The display options for the Fullscreen control.
 
+gestureHandling
+
+**Type:**  string
+
+This setting controls how gestures on the map are handled. Allowed values:
+
+*   "cooperative": Two-finger touch gestures pan and zoom the map, as do all mouse gestures. One-finger touch gestures are not handled by the map. In this mode, the map _cooperates_ with the page, so that one-finger touch gestures can pan the page.
+*   "greedy": All touch gestures pan or zoom the map.
+*   "none": The map cannot be panned or zoomed by user gestures.
+*   "auto": (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable or not.
+
 heading
 
 **Type:**  number
