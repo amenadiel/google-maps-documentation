@@ -16,7 +16,7 @@ The DirectionsRequest provided was invalid.
 
 MAX\_WAYPOINTS\_EXCEEDED
 
-Too many DirectionsWaypoints were provided in the DirectionsRequest. The total allowed waypoints is 8, plus the origin and destination. Premium Plan customers are allowed 23 waypoints, plus the origin, and destination.
+Too many DirectionsWaypoints were provided in the DirectionsRequest. See the [developer's guide](https://developers.google.com/maps/documentation/javascript/directions#UsageLimits) for the maximum number of waypoints allowed.
 
 NOT\_FOUND
 

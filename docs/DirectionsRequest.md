@@ -86,4 +86,4 @@ waypoints
 
 **Type:**  Array<[DirectionsWaypoint](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsWaypoint.md)\>
 
-Array of intermediate waypoints. Directions will be calculated from the origin to the destination by way of each waypoint in this array. The maximum allowed waypoints is 8, plus the origin, and destination. Premium Plan customers are allowed 23 waypoints, plus the origin, and destination. Waypoints are not supported for transit directions. Optional.
+Array of intermediate waypoints. Directions are calculated from the origin to the destination by way of each waypoint in this array. See the [developer's guide](https://developers.google.com/maps/documentation/javascript/directions#UsageLimits) for the maximum number of waypoints allowed. Waypoints are not supported for transit directions. Optional.
