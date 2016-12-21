@@ -42,7 +42,7 @@ notify(key:string)
 
 Notify all observers of a change on this property. This notifies both objects that are bound to the object's property as well as the object that it is bound to.
 
-set(key:string, value?:\*)
+set(key:string, value:\*)
 
 **Return Value:**  None
 

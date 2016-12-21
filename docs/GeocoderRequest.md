@@ -34,6 +34,12 @@ location
 
 LatLng (or LatLngLiteral) for which to search. The geocoder performs a reverse geocode. See [Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding) for more information. One, and only one, of address, location and placeId must be supplied.
 
+newForwardGeocoder
+
+**Type:**  boolean
+
+Use the new forward geocoder scorer. Optional.
+
 placeId
 
 **Type:**  string

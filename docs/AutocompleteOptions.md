@@ -18,13 +18,25 @@ bounds
 
 **Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
 
-The area in which to search for places. Results are biased towards, but not restricted to, places contained within these bounds.
+The area in which to search for places.
 
 componentRestrictions
 
 **Type:**  [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
 
 The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.
+
+placeIdOnly
+
+**Type:**  boolean
+
+Whether to retrieve only Place IDs. The PlaceResult made available when the place\_changed event is fired will only have the place\_id, types and name fields, with the place\_id, types and description returned by the Autocomplete service. Disabled by default.
+
+strictBounds
+
+**Type:**  boolean
+
+A boolean value, indicating that the Autocomplete widget should only return those places that are inside the bounds of the Autocomplete widget at the time the query is sent. Setting strictBounds to false (which is the default) will make the results biased towards, but not restricted to, places contained within the bounds.
 
 types
 
