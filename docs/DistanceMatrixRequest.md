@@ -40,6 +40,12 @@ drivingOptions
 
 Settings that apply only to requests where travelMode is DRIVING. This object will have no effect for other travel modes.
 
+newForwardGeocoder
+
+**Type:**  boolean
+
+Use the new forward geocoder scorer. Optional.
+
 origins
 
 **Type:**  Array<(string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md))>
