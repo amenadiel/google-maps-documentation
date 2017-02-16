@@ -16,7 +16,7 @@ The MapTypeRegistry holds the collection of custom map types available to the ma
 
 Methods
 
-set(id:string, mapType:[MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md))
+set(id:string, mapType:[MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md)|\*)
 
 **Return Value:**  None
 

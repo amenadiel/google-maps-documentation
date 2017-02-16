@@ -46,7 +46,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Attaches the DrawingManager object to the specified Map.
 
-setOptions(options:[_DrawingManagerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md))
+setOptions(options:[DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md))
 
 **Return Value:**  None
 
@@ -68,7 +68,7 @@ This event is fired when the user has finished drawing a marker.
 
 overlaycomplete
 
-**Arguments:**  [_OverlayCompleteEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md)
+**Arguments:**  [OverlayCompleteEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md)
 
 This event is fired when the user has finished drawing an overlay of any type.
 

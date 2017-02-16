@@ -173,12 +173,6 @@ scrollwheel
 
 If false, disables scrollwheel zooming on the map. The scrollwheel is enabled by default.
 
-signInControl
-
-**Type:**  boolean
-
-The enabled/disabled state of the sign in control. This option only applies if signed\_in=true has been passed as a URL parameter in the bootstrap request. You may want to use this option to hide the map's sign in control if you have provided another way for your users to sign in, such as the [Google Sign-In button](https://developers.google.com/identity/sign-in/web/sign-in). This option does not affect the visibility of the Google avatar shown when the user is already signed in.
-
 streetView
 
 **Type:**  [StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)

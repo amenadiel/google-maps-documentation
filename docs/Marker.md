@@ -20,10 +20,6 @@ getAnimation()
 
 **Return Value:**  [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
 
-getAttribution()
-
-**Return Value:**  [Attribution](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md)
-
 getClickable()
 
 **Return Value:**  boolean
@@ -82,10 +78,6 @@ setAnimation(animation:[Animation](https://github.com/amenadiel/google-maps-docu
 
 Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in null will cause any animation to stop.
 
-setAttribution(attribution:[_Attribution_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md))
-
-**Return Value:**  None
-
 setClickable(flag:boolean)
 
 **Return Value:**  None
@@ -116,11 +108,11 @@ setOpacity(opacity:number)
 
 **Return Value:**  None
 
-setOptions(options:[_MarkerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md))
+setOptions(options:[MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md))
 
 **Return Value:**  None
 
-setPlace(place:[_MarkerPlace_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md))
+setPlace(place:[MarkerPlace](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md))
 
 **Return Value:**  None
 
@@ -128,7 +120,7 @@ setPosition(latlng:[LatLng](https://github.com/amenadiel/google-maps-documentati
 
 **Return Value:**  None
 
-setShape(shape:[_MarkerShape_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md))
+setShape(shape:[MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md))
 
 **Return Value:**  None
 
@@ -160,7 +152,7 @@ This event is fired when the marker's animation property changes.
 
 click
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the marker icon was clicked.
 
@@ -178,19 +170,19 @@ This event is fired when the marker's cursor property changes.
 
 dblclick
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the marker icon was double clicked.
 
 drag
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is repeatedly fired while the user drags the marker.
 
 dragend
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user stops dragging the marker.
 
@@ -202,7 +194,7 @@ This event is fired when the marker's draggable property changes.
 
 dragstart
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user starts dragging the marker.
 
@@ -220,25 +212,25 @@ This event is fired when the marker icon property changes.
 
 mousedown
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired for a mousedown on the marker.
 
 mouseout
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the mouse leaves the area of the marker icon.
 
 mouseover
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the mouse enters the area of the marker icon.
 
 mouseup
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired for a mouseup on the marker.
 
@@ -250,7 +242,7 @@ This event is fired when the marker position property changes.
 
 rightclick
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired for a rightclick on the marker.
 

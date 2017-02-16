@@ -44,7 +44,7 @@ clearListeners(instance:Object, eventName:string)
 
 Removes all listeners for the given event for the given instance.
 
-removeListener(listener:[_MapsEventListener_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md))
+removeListener(listener:[MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md))
 
 **Return Value:**  None
 

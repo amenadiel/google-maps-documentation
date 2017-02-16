@@ -44,6 +44,6 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.
 
-setOptions(options:[_HeatmapLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md))
+setOptions(options:[HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md))
 
 **Return Value:**  None

@@ -114,7 +114,7 @@ setMapTypeId(mapTypeId:[MapTypeId](https://github.com/amenadiel/google-maps-docu
 
 **Return Value:**  None
 
-setOptions(options:[_MapOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md))
+setOptions(options:[MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md))
 
 **Return Value:**  None
 
@@ -182,7 +182,7 @@ This event is fired when the user clicks on the map. An ApiMouseEvent with prope
 
 dblclick
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user double-clicks on the map. Note that the click event will also fire, right before this one.
 
@@ -224,19 +224,19 @@ This event is fired when the mapTypeId property changes.
 
 mousemove
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired whenever the user's mouse moves over the map container.
 
 mouseout
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user's mouse exits the map container.
 
 mouseover
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user's mouse enters the map container.
 
@@ -254,7 +254,7 @@ Developers should trigger this event on the map when the div changes size: [goog
 
 rightclick
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM contextmenu event is fired on the map container.
 

@@ -16,7 +16,7 @@ Creates a new instance of a DirectionsService that sends directions queries to G
 
 Methods
 
-route(request:[_DirectionsRequest_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md), callback:function([DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md), [DirectionsStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md)))
+route(request:[DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md), callback:function([DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md), [DirectionsStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md)))
 
 **Return Value:**  None
 

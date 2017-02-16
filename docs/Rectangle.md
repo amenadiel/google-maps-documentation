@@ -72,7 +72,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders the rectangle on the specified map. If map is set to null, the rectangle will be removed.
 
-setOptions(options:[_RectangleOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md))
+setOptions(options:[RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md))
 
 **Return Value:**  None
 
@@ -92,66 +92,66 @@ This event is fired when the rectangle's bounds are changed.
 
 click
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM click event is fired on the rectangle.
 
 dblclick
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM dblclick event is fired on the rectangle.
 
 drag
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is repeatedly fired while the user drags the rectangle.
 
 dragend
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user stops dragging the rectangle.
 
 dragstart
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user starts dragging the rectangle.
 
 mousedown
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM mousedown event is fired on the rectangle.
 
 mousemove
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM mousemove event is fired on the rectangle.
 
 mouseout
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired on rectangle mouseout.
 
 mouseover
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired on rectangle mouseover.
 
 mouseup
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM mouseup event is fired on the rectangle.
 
 rightclick
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the rectangle is right-clicked on.

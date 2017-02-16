@@ -42,7 +42,7 @@ getRouteIndex()
 
 Returns the current (zero-based) route index in use by this DirectionsRenderer object.
 
-setDirections(directions:[_DirectionsResult_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md))
+setDirections(directions:[DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md))
 
 **Return Value:**  None
 
@@ -54,7 +54,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 This method specifies the map on which directions will be rendered. Pass null to remove the directions from the map.
 
-setOptions(options:[_DirectionsRendererOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md))
+setOptions(options:[DirectionsRendererOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md))
 
 **Return Value:**  None
 

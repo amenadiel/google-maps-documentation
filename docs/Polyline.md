@@ -66,7 +66,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders this shape on the specified map. If map is set to null, the shape will be removed.
 
-setOptions(options:[_PolylineOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md))
+setOptions(options:[PolylineOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md))
 
 **Return Value:**  None
 
@@ -86,66 +86,66 @@ Events
 
 click
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM click event is fired on the Polyline.
 
 dblclick
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM dblclick event is fired on the Polyline.
 
 drag
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is repeatedly fired while the user drags the polyline.
 
 dragend
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user stops dragging the polyline.
 
 dragstart
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user starts dragging the polyline.
 
 mousedown
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM mousedown event is fired on the Polyline.
 
 mousemove
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM mousemove event is fired on the Polyline.
 
 mouseout
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired on Polyline mouseout.
 
 mouseover
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired on Polyline mouseover.
 
 mouseup
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM mouseup event is fired on the Polyline.
 
 rightclick
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the Polyline is right-clicked on.

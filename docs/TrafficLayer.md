@@ -30,6 +30,6 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders the layer on the specified map. If map is set to null, the layer will be removed.
 
-setOptions(options:[_TrafficLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md))
+setOptions(options:[TrafficLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md))
 
 **Return Value:**  None

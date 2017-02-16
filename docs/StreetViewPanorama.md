@@ -96,7 +96,7 @@ setMotionTracking(motionTracking:boolean)
 
 Sets the state of motion tracker. If true when the user physically moves the device and the browser supports it, the Street View Panorama tracks the physical movements.
 
-setOptions(options:[_StreetViewPanoramaOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md))
+setOptions(options:[StreetViewPanoramaOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md))
 
 **Return Value:**  None
 
@@ -114,7 +114,7 @@ setPosition(latLng:[LatLng](https://github.com/amenadiel/google-maps-documentati
 
 Sets the current LatLng position for the Street View panorama.
 
-setPov(pov:[_StreetViewPov_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md))
+setPov(pov:[StreetViewPov](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md))
 
 **Return Value:**  None
 

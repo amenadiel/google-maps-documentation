@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-ImageMapType(opts:[_ImageMapTypeOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md))
+ImageMapType(opts:[ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md))
 
 Constructs an ImageMapType using the provided ImageMapTypeOptions
 

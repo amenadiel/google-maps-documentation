@@ -36,7 +36,7 @@ getZIndex()
 
 **Return Value:**  number
 
-open(map?:[Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md), anchor?:[MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md))
+open(map?:[Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md), anchor?:\*)
 
 **Return Value:**  None
 
@@ -46,7 +46,7 @@ setContent(content:string|Node)
 
 **Return Value:**  None
 
-setOptions(options:[_InfoWindowOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md))
+setOptions(options:[InfoWindowOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md))
 
 **Return Value:**  None
 

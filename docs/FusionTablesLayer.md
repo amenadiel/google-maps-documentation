@@ -12,7 +12,7 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-FusionTablesLayer(options:[_FusionTablesLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md))
+FusionTablesLayer(options:[FusionTablesLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md))
 
 A layer that displays data from a Fusion Table.
 
@@ -30,7 +30,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders the layer on the specified map. If map is set to null, the layer will be removed.
 
-setOptions(options:[_FusionTablesLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md))
+setOptions(options:[FusionTablesLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md))
 
 **Return Value:**  None
 
@@ -38,6 +38,6 @@ Events
 
 click
 
-**Arguments:**  [_FusionTablesMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMouseEvent.md)
+**Arguments:**  [FusionTablesMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMouseEvent.md)
 
 This event is fired when a feature in the layer is clicked.

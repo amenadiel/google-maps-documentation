@@ -72,7 +72,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders this shape on the specified map. If map is set to null, the shape will be removed.
 
-setOptions(options:[_PolygonOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md))
+setOptions(options:[PolygonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md))
 
 **Return Value:**  None
 
@@ -98,66 +98,66 @@ Events
 
 click
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM click event is fired on the Polygon.
 
 dblclick
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM dblclick event is fired on the Polygon.
 
 drag
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is repeatedly fired while the user drags the polygon.
 
 dragend
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user stops dragging the polygon.
 
 dragstart
 
-**Arguments:**  [_MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user starts dragging the polygon.
 
 mousedown
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM mousedown event is fired on the Polygon.
 
 mousemove
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM mousemove event is fired on the Polygon.
 
 mouseout
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired on Polygon mouseout.
 
 mouseover
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired on Polygon mouseover.
 
 mouseup
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the DOM mouseup event is fired on the Polygon.
 
 rightclick
 
-**Arguments:**  [_PolyMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
+**Arguments:**  [PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md)
 
 This event is fired when the Polygon is right-clicked on.

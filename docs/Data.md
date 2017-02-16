@@ -160,72 +160,72 @@ Events
 
 addfeature
 
-**Arguments:**  [_Data.AddFeatureEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.AddFeatureEvent.md)
+**Arguments:**  [Data.AddFeatureEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.AddFeatureEvent.md)
 
 This event is fired when a feature is added to the collection.
 
 click
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired for a click on the geometry.
 
 dblclick
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired for a double click on the geometry.
 
 mousedown
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired for a mousedown on the geometry.
 
 mouseout
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired when the mouse leaves the area of the geometry.
 
 mouseover
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired when the mouse enters the area of the geometry.
 
 mouseup
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired for a mouseup on the geometry.
 
 removefeature
 
-**Arguments:**  [_Data.RemoveFeatureEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemoveFeatureEvent.md)
+**Arguments:**  [Data.RemoveFeatureEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemoveFeatureEvent.md)
 
 This event is fired when a feature is removed from the collection.
 
 removeproperty
 
-**Arguments:**  [_Data.RemovePropertyEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md)
+**Arguments:**  [Data.RemovePropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md)
 
 This event is fired when a feature's property is removed.
 
 rightclick
 
-**Arguments:**  [_Data.MouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
+**Arguments:**  [Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md)
 
 This event is fired for a rightclick on the geometry.
 
 setgeometry
 
-**Arguments:**  [_Data.SetGeometryEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md)
+**Arguments:**  [Data.SetGeometryEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md)
 
 This event is fired when a feature's geometry is set.
 
 setproperty
 
-**Arguments:**  [_Data.SetPropertyEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md)
+**Arguments:**  [Data.SetPropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md)
 
 This event is fired when a feature's property is set.

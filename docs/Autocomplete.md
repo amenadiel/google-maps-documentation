@@ -40,7 +40,7 @@ setBounds(bounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documen
 
 Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.
 
-setComponentRestrictions(restrictions:[_ComponentRestrictions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md))
+setComponentRestrictions(restrictions:[ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md))
 
 **Return Value:**  None
 

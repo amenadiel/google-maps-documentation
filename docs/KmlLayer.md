@@ -60,7 +60,7 @@ setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/mas
 
 Renders the KML Layer on the specified map. If map is set to null, the layer is removed.
 
-setOptions(options:[_KmlLayerOptions_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md))
+setOptions(options:[KmlLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md))
 
 **Return Value:**  None
 
@@ -80,7 +80,7 @@ Events
 
 click
 
-**Arguments:**  [_KmlMouseEvent_](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlMouseEvent.md)
+**Arguments:**  [KmlMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlMouseEvent.md)
 
 This event is fired when a feature in the layer is clicked.
 

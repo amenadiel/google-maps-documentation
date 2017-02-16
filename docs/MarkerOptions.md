@@ -20,14 +20,6 @@ animation
 
 Which animation to play when marker is added to a map.
 
-attribution
-
-**Type:**  [Attribution](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md)
-
-Contains all the information needed to identify your application as the source of a save. In this context, 'place' means a business, point of interest or geographic location. attribution must be specified with a place in order to enable a save.
-
-**Note:** The signed-in maps feature is **deprecated**. Versions 3.27 and earlier of the Google Maps JavaScript API continue to support signed-in maps. A future version will no longer support signed-in maps, and will not support the attribution property to save a place.
-
 clickable
 
 **Type:**  boolean
