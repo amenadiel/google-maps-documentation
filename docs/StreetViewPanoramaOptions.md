@@ -82,6 +82,12 @@ motionTrackingControl
 
 The enabled/disabled state of the motion tracking control. Enabled by default when the device has motion data, so that the control appears on the map. This is primarily applicable to mobile devices.
 
+motionTrackingControlOptions
+
+**Type:**  [MotionTrackingControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MotionTrackingControlOptions.md)
+
+The display options for the motion tracking control.
+
 panControl
 
 **Type:**  boolean
