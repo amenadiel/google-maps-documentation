@@ -46,6 +46,10 @@ setComponentRestrictions(restrictions:[ComponentRestrictions](https://github.com
 
 Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.
 
+setOptions(options:[AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md))
+
+**Return Value:**  None
+
 setTypes(types:Array<string>)
 
 **Return Value:**  None

@@ -16,11 +16,12 @@ Creates a new map inside of the given HTML container, which is typically a DIV e
 
 Methods
 
-fitBounds(bounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md))
+fitBounds(bounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md), padding?:number)
 
 **Return Value:**  None
 
-Sets the viewport to contain the given bounds.
+Sets the viewport to contain the given bounds.  
+**Note:** When the map is set to display: none, the fitBounds function reads the map's size as 0x0, and therefore does not do anything. To change the viewport while the map is hidden, set the map to visibility: hidden, thereby ensuring the map div has an actual size.
 
 getBounds()
 

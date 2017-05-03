@@ -44,6 +44,8 @@ draggable
 
 If false, prevents the map from being dragged. Dragging is enabled by default.
 
+**Note**: This property is **deprecated**. To disable dragging on the map, you can use the gestureHandling property, and set it to "none".
+
 draggableCursor
 
 **Type:**  string
@@ -105,7 +107,7 @@ The initial display options for the Map type control.
 
 mapTypeId
 
-**Type:**  [MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)
+**Type:**  [MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)|string
 
 The initial Map mapTypeId. Defaults to ROADMAP.
 

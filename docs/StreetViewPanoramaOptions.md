@@ -136,6 +136,12 @@ visible
 
 If true, the Street View panorama is visible on load.
 
+zoom
+
+**Type:**  number
+
+The zoom of the panorama, specified as a number. A zoom of 0 gives a 180 degrees Field of View.
+
 zoomControl
 
 **Type:**  boolean

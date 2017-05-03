@@ -6,8 +6,6 @@ MapPanes object specification
 
 google.maps.MapPanes object specification
 
-This object contains the DOM elements in which overlays are rendered. They are listed below with 'Pane 0' at the bottom and 'Pane 4' at the top.
-
 Properties
 
 floatPane

@@ -15,11 +15,12 @@ getTileUrl(pano:string, tileZoom:number, tileX:number, tileY:number)
 **Return Value:**  string
 
 Gets the tile image URL for the specified tile.  
+This is a custom method which you must implement, to supply your custom tiles. The API calls this method, supplying the following parameters:  
 pano is the panorama ID of the Street View tile.  
 tileZoom is the zoom level of the tile.  
 tileX is the x-coordinate of the tile.  
 tileY is the y-coordinate of the tile.  
-Returns the URL for the tile image.  
+Your custom method must return the URL for the tile image.  
 
 Properties
 

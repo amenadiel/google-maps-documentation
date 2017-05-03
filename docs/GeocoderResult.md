@@ -44,7 +44,7 @@ postcode\_localities
 
 **Type:**  Array<string>
 
-An array of strings denoting all the localities contained in a postal code. This is only present when the result is a postal code that contains multiple localities.
+An array of strings denoting all the localities contained in a postal code. This is only present when the result is a postal code that contains multiple localities. This array can contain up to 10 localities.
 
 types
 
