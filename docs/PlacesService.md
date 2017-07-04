@@ -36,7 +36,7 @@ radarSearch(request:[RadarSearchRequest](https://github.com/amenadiel/google-map
 
 **Return Value:**  None
 
-Similar to the nearbySearch function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and place\_id.
+Similar to the nearbySearch function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and place\_id. Note: Radar Search is **deprecated** as of June 30, 2018. After that time, this feature will no longer be available.
 
 textSearch(request:[TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md), callback:function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md), [PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md)))
 
