@@ -8,8 +8,6 @@ google.maps.PolyMouseEvent object specification
 
 This object is returned from mouse events on polylines and polygons.
 
-This object extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
-
 Properties
 
 edge

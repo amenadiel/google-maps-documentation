@@ -6,7 +6,7 @@ RadarSearchRequest object specification
 
 google.maps.places.RadarSearchRequest object specification
 
-A Radar Search request to be sent to the PlacesService. Note: Radar Search is **deprecated** as of June 30, 2018. After that time, this feature will no longer be available.
+A Radar Search request to be sent to the PlacesService. Notice: Radar Search is **deprecated** as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.
 
 #### Library
 
