@@ -38,6 +38,8 @@ disableDoubleClickZoom
 
 Enables/disables zoom and center on double click. Enabled by default.
 
+**Note**: This property is **not recommended**. To disable zooming on double click, you can use the gestureHandling property, and set it to "none".
+
 draggable
 
 **Type:**  boolean
@@ -76,10 +78,11 @@ gestureHandling
 
 This setting controls how gestures on the map are handled. Allowed values:
 
-*   "cooperative": Two-finger touch gestures pan and zoom the map, as do all mouse gestures. One-finger touch gestures are not handled by the map. In this mode, the map _cooperates_ with the page, so that one-finger touch gestures can pan the page.
-*   "greedy": All touch gestures pan or zoom the map.
+*   "cooperative": Scroll events and one-finger touch gestures scroll the page, and do not zoom or pan the map. Two-finger touch gestures pan and zoom the map. Scroll events with a ctrl key or ⌘ key pressed zoom the map.  
+    In this mode the map _cooperates_ with the page.
+*   "greedy": All touch gestures and scroll events pan or zoom the map.
 *   "none": The map cannot be panned or zoomed by user gestures.
-*   "auto": (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable or not.
+*   "auto": (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable.
 
 heading
 
@@ -173,7 +176,9 @@ scrollwheel
 
 **Type:**  boolean
 
-If false, disables scrollwheel zooming on the map. The scrollwheel is enabled by default.
+If false, disables zooming on the map using a mouse scroll wheel. The scrollwheel is enabled by default.
+
+**Note**: This property is **not recommended**. To disable zooming using scrollwheel, you can use the gestureHandling property, and set it to either "cooperative" or "none".
 
 streetView
 
@@ -203,7 +208,7 @@ tilt
 
 **Type:**  number
 
-Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are 0 and 45. The value 0 causes the map to always use a 0� overhead view regardless of the zoom level and viewport. The value 45 causes the tilt angle to automatically switch to 45 whenever 45� imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45� imagery is not available (this is the default behavior). 45� imagery is only available for satellite and hybrid map types, within some locations, and at some zoom levels. **Note:** getTilt returns the current tilt angle, not the value specified by this option. Because getTilt and this option refer to different things, do not bind() the tilt property; doing so may yield unpredictable effects.
+Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are 0 and 45. The value 0 causes the map to always use a 0° overhead view regardless of the zoom level and viewport. The value 45 causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for satellite and hybrid map types, within some locations, and at some zoom levels. **Note:** getTilt returns the current tilt angle, not the value specified by this option. Because getTilt and this option refer to different things, do not bind() the tilt property; doing so may yield unpredictable effects.
 
 zoom
 

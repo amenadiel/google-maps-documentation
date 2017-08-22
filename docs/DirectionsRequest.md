@@ -40,12 +40,6 @@ drivingOptions
 
 Settings that apply only to requests where travelMode is DRIVING. This object will have no effect for other travel modes.
 
-newForwardGeocoder
-
-**Type:**  boolean
-
-Use the new forward geocoder scorer. Optional.
-
 optimizeWaypoints
 
 **Type:**  boolean

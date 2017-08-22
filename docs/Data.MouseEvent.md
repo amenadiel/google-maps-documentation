@@ -8,6 +8,8 @@ google.maps.Data.MouseEvent object specification
 
 This object is passed to mouse event handlers on a Data object.
 
+This object extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
+
 Properties
 
 feature
