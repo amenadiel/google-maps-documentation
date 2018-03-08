@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewLink.html)
 
 
-StreetViewLink object specification
------------------------------------
+StreetViewLink interface
+------------------------
 
-google.maps.StreetViewLink object specification
+google.maps.StreetViewLink interface
 
 A collection of references to adjacent Street View panos.
 

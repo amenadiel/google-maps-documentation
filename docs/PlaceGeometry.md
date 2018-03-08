@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceGeometry.html)
 
 
-PlaceGeometry object specification
-----------------------------------
+PlaceGeometry interface
+-----------------------
 
-google.maps.places.PlaceGeometry object specification
+google.maps.places.PlaceGeometry interface
 
 Defines information about the geometry of a Place.
 

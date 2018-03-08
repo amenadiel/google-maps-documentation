@@ -8,7 +8,7 @@ google.maps.GeocoderStatus constants
 
 The status returned by the Geocoder on the completion of a call to geocode(). Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.GeocoderStatus.OK.
 
-Constant
+Constants
 
 ERROR
 

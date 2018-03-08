@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitOptions.html)
 
 
-TransitOptions object specification
------------------------------------
+TransitOptions interface
+------------------------
 
-google.maps.TransitOptions object specification
+google.maps.TransitOptions interface
 
 The TransitOptions object to be included in a [DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md) when the travel mode is set to TRANSIT.
 

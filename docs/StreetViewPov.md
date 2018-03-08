@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPov.html)
 
 
-StreetViewPov object specification
-----------------------------------
+StreetViewPov interface
+-----------------------
 
-google.maps.StreetViewPov object specification
+google.maps.StreetViewPov interface
 
 A point of view object which specifies the camera's orientation at the Street View panorama's position. The point of view is defined as heading and pitch.
 

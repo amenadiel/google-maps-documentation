@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Place.html)
 
 
-Place object specification
---------------------------
+Place interface
+---------------
 
-google.maps.Place object specification
+google.maps.Place interface
+
+Contains all the information needed to locate, identify and describe the place that the user can save from within your application. In this context, 'place' means a business, point of interest or geographic location.
 
 Properties
 

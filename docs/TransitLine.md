@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitLine.html)
 
 
-TransitLine object specification
---------------------------------
+TransitLine interface
+---------------------
 
-google.maps.TransitLine object specification
+google.maps.TransitLine interface
+
+Information about the transit line that operates this transit step.
 
 Properties
 

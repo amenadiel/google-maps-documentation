@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DistanceMatrixResponseElement.html)
 
 
-DistanceMatrixResponseElement object specification
---------------------------------------------------
+DistanceMatrixResponseElement interface
+---------------------------------------
 
-google.maps.DistanceMatrixResponseElement object specification
+google.maps.DistanceMatrixResponseElement interface
 
 A single element of a response to a DistanceMatrixService request, which contains the duration and distance from one origin to one destination.
 

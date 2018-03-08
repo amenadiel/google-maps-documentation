@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FullscreenControlOptions.html)
 
 
-FullscreenControlOptions object specification
----------------------------------------------
+FullscreenControlOptions interface
+----------------------------------
 
-google.maps.FullscreenControlOptions object specification
+google.maps.FullscreenControlOptions interface
 
 Options for the rendering of the fullscreen control.
 

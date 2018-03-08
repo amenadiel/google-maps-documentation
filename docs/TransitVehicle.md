@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitVehicle.html)
 
 
-TransitVehicle object specification
------------------------------------
+TransitVehicle interface
+------------------------
 
-google.maps.TransitVehicle object specification
+google.maps.TransitVehicle interface
+
+Information about the vehicle that operates on a transit line.
 
 Properties
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsRendererOptions.html)
 
 
-DirectionsRendererOptions object specification
-----------------------------------------------
+DirectionsRendererOptions interface
+-----------------------------------
 
-google.maps.DirectionsRendererOptions object specification
+google.maps.DirectionsRendererOptions interface
 
 This object defines the properties that can be set on a DirectionsRenderer object.
 

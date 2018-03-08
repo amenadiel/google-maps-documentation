@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.FeatureOptions.html)
 
 
-Data.FeatureOptions object specification
-----------------------------------------
+Data.FeatureOptions interface
+-----------------------------
 
-google.maps.Data.FeatureOptions object specification
+google.maps.Data.FeatureOptions interface
 
 Optional parameters for creating Data.Feature objects.
 

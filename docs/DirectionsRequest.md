@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsRequest.html)
 
 
-DirectionsRequest object specification
---------------------------------------
+DirectionsRequest interface
+---------------------------
 
-google.maps.DirectionsRequest object specification
+google.maps.DirectionsRequest interface
 
 A directions query to be sent to the [DirectionsService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md).
 

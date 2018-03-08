@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.RemoveFeatureEvent.html)
 
 
-Data.RemoveFeatureEvent object specification
---------------------------------------------
+Data.RemoveFeatureEvent interface
+---------------------------------
 
-google.maps.Data.RemoveFeatureEvent object specification
+google.maps.Data.RemoveFeatureEvent interface
 
 The properties of a removefeature event.
 

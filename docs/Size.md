@@ -8,19 +8,38 @@ google.maps.Size class
 
 Constructor
 
-Size(width:number, height:number, widthUnit?:string, heightUnit?:string)
+Size
 
-Two-dimensonal size, where width is the distance on the x-axis, and height is the distance on the y-axis.
+Size(width, height\[, widthUnit, heightUnit\])
+
+**Parameters:** 
+
+*   width:  number
+*   height:  number
+*   widthUnit (optional):  string
+*   heightUnit (optional):  string
+
+Two-dimensional size, where width is the distance on the x-axis, and height is the distance on the y-axis.
 
 Methods
 
-equals(other:[Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md))
+equals
+
+equals(other)
+
+**Parameters:** 
+
+*   other:  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
 
 **Return Value:**  boolean
 
 Compares two Sizes.
 
+toString
+
 toString()
+
+**Parameters:**  None
 
 **Return Value:**  string
 

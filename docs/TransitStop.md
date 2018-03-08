@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitStop.html)
 
 
-TransitStop object specification
---------------------------------
+TransitStop interface
+---------------------
 
-google.maps.TransitStop object specification
+google.maps.TransitStop interface
+
+Details about a transit stop or station.
 
 Properties
 

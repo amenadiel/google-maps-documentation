@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesHeatmap.html)
 
 
-FusionTablesHeatmap object specification
-----------------------------------------
+FusionTablesHeatmap interface
+-----------------------------
 
-google.maps.FusionTablesHeatmap object specification
+google.maps.FusionTablesHeatmap interface
 
 Specifies the appearance for a FusionTablesLayer when rendered as a heatmap.
 

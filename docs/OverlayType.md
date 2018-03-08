@@ -12,7 +12,7 @@ The types of overlay that may be created by the DrawingManager. Specify these by
 
 drawing
 
-Constant
+Constants
 
 CIRCLE
 

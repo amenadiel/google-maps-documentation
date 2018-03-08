@@ -8,7 +8,7 @@ google.maps.ElevationStatus constants
 
 The status returned by the ElevationService upon completion of an elevation request. Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.ElevationStatus.OK.
 
-Constant
+Constants
 
 INVALID\_REQUEST
 

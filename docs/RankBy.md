@@ -12,7 +12,7 @@ Ranking options for a PlaceSearchRequest.
 
 places
 
-Constant
+Constants
 
 DISTANCE
 

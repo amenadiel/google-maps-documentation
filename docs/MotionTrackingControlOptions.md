@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MotionTrackingControlOptions.html)
 
 
-MotionTrackingControlOptions object specification
--------------------------------------------------
+MotionTrackingControlOptions interface
+--------------------------------------
 
-google.maps.MotionTrackingControlOptions object specification
+google.maps.MotionTrackingControlOptions interface
 
 Options for the rendering of the motion tracking control.
 

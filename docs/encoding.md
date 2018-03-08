@@ -12,15 +12,27 @@ Utilities for polyline encoding and decoding.
 
 geometry
 
-Methods
+Static Methods
 
-decodePath(encodedPath:string)
+decodePath
+
+decodePath(encodedPath)
+
+**Parameters:** 
+
+*   encodedPath:  string
 
 **Return Value:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
 
 Decodes an encoded path string into a sequence of LatLngs.
 
-encodePath(path:Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>)
+encodePath
+
+encodePath(path)
+
+**Parameters:** 
+
+*   path:  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
 
 **Return Value:**  string
 

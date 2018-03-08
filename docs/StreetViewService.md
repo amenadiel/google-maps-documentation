@@ -10,13 +10,24 @@ A StreetViewService object performs searches for Street View data.
 
 Constructor
 
+StreetViewService
+
 StreetViewService()
+
+**Parameters:**  None
 
 Creates a StreetViewService, which provides an interface to the data stored in the Street View service.
 
 Methods
 
-getPanorama(request:[StreetViewLocationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLocationRequest.md)|[StreetViewPanoRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoRequest.md), callback:function([StreetViewPanoramaData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md), [StreetViewStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewStatus.md)))
+getPanorama
+
+getPanorama(request, callback)
+
+**Parameters:** 
+
+*   request:  [StreetViewLocationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLocationRequest.md)|[StreetViewPanoRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoRequest.md)
+*   callback:  function([StreetViewPanoramaData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md), [StreetViewStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewStatus.md))
 
 **Return Value:**  None
 

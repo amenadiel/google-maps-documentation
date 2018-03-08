@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewLocation.html)
 
 
-StreetViewLocation object specification
----------------------------------------
+StreetViewLocation interface
+----------------------------
 
-google.maps.StreetViewLocation object specification
+google.maps.StreetViewLocation interface
 
 A representation of a location in the Street View panorama.
 

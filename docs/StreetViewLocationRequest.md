@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewLocationRequest.html)
 
 
-StreetViewLocationRequest object specification
-----------------------------------------------
+StreetViewLocationRequest interface
+-----------------------------------
 
-google.maps.StreetViewLocationRequest object specification
+google.maps.StreetViewLocationRequest interface
 
 A Street View request to be sent with getPanorama. StreetViewLocationRequest lets you search for a Street View panoroma at a specified location.
 

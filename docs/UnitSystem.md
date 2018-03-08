@@ -8,7 +8,7 @@ google.maps.UnitSystem constants
 
 The valid unit systems that can be specified in a _[DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md)_.
 
-Constant
+Constants
 
 IMPERIAL
 

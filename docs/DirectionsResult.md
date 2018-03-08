@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsResult.html)
 
 
-DirectionsResult object specification
--------------------------------------
+DirectionsResult interface
+--------------------------
 
-google.maps.DirectionsResult object specification
+google.maps.DirectionsResult interface
 
 The directions response retrieved from the directions server. You can render these using a [DirectionsRenderer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRenderer.md) or parse this object and render it yourself. You must display the warnings and copyrights as noted in the [Google Maps APIs Terms of Service](https://developers.google.com/maps/terms). Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes LatLng objects.
 

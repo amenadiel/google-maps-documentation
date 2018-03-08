@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitFare.html)
 
 
-TransitFare object specification
---------------------------------
+TransitFare interface
+---------------------
 
-google.maps.TransitFare object specification
+google.maps.TransitFare interface
 
 A fare of a [DirectionsRoute](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md) consisting of value and currency.
 

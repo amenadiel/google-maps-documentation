@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PhotoOptions.html)
 
 
-PhotoOptions object specification
----------------------------------
+PhotoOptions interface
+----------------------
 
-google.maps.places.PhotoOptions object specification
+google.maps.places.PhotoOptions interface
 
 Defines photo-requesting options.
 

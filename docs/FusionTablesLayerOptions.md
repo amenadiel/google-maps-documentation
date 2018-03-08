@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesLayerOptions.html)
 
 
-FusionTablesLayerOptions object specification
----------------------------------------------
+FusionTablesLayerOptions interface
+----------------------------------
 
-google.maps.FusionTablesLayerOptions object specification
+google.maps.FusionTablesLayerOptions interface
 
 This object defines the properties that can be set on a FusionTablesLayer object.
 

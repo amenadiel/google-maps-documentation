@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DistanceMatrixResponseRow.html)
 
 
-DistanceMatrixResponseRow object specification
-----------------------------------------------
+DistanceMatrixResponseRow interface
+-----------------------------------
 
-google.maps.DistanceMatrixResponseRow object specification
+google.maps.DistanceMatrixResponseRow interface
 
 A row of the response to a DistanceMatrixService request, consisting of a sequence of DistanceMatrixResponseElements, one for each corresponding destination address.
 

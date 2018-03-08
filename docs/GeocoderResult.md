@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderResult.html)
 
 
-GeocoderResult object specification
------------------------------------
+GeocoderResult interface
+------------------------
 
-google.maps.GeocoderResult object specification
+google.maps.GeocoderResult interface
 
 A single geocoder result retrieved from the geocode server. A geocode request may return multiple result objects. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes a LatLng object.
 

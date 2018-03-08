@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapOptions.html)
 
 
-MapOptions object specification
--------------------------------
+MapOptions interface
+--------------------
 
-google.maps.MapOptions object specification
+google.maps.MapOptions interface
+
+MapOptions object used to define the properties that can be set on a Map.
 
 Properties
 
@@ -16,7 +18,7 @@ Color used for the background of the Map div. This color will be visible when ti
 
 center
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 The initial Map center. Required.
 

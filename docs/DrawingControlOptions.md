@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DrawingControlOptions.html)
 
 
-DrawingControlOptions object specification
-------------------------------------------
+DrawingControlOptions interface
+-------------------------------
 
-google.maps.drawing.DrawingControlOptions object specification
+google.maps.drawing.DrawingControlOptions interface
 
 Options for the rendering of the drawing control.
 

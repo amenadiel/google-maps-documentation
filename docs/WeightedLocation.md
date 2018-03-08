@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/WeightedLocation.html)
 
 
-WeightedLocation object specification
--------------------------------------
+WeightedLocation interface
+--------------------------
 
-google.maps.visualization.WeightedLocation object specification
+google.maps.visualization.WeightedLocation interface
 
 A data point entry for a heatmap. This is a geographical data point with a weight attribute.
 

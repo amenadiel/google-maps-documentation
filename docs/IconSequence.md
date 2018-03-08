@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/IconSequence.html)
 
 
-IconSequence object specification
----------------------------------
+IconSequence interface
+----------------------
 
-google.maps.IconSequence object specification
+google.maps.IconSequence interface
 
 Describes how icons are to be rendered on a line.  
   

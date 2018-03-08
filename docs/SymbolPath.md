@@ -8,7 +8,7 @@ google.maps.SymbolPath constants
 
 Built-in symbol paths.
 
-Constant
+Constants
 
 BACKWARD\_CLOSED\_ARROW
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/OverlayCompleteEvent.html)
 
 
-OverlayCompleteEvent object specification
------------------------------------------
+OverlayCompleteEvent interface
+------------------------------
 
-google.maps.drawing.OverlayCompleteEvent object specification
+google.maps.drawing.OverlayCompleteEvent interface
 
 The properties of an overlaycomplete event on a DrawingManager.
 

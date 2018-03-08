@@ -8,7 +8,7 @@ google.maps.TransitMode constants
 
 The valid transit mode e.g. bus that can be specified in a _[TransitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md)_. Specify these by value, or by using the constant's name. For example, 'BUS' or google.maps.TransitMode.BUS.
 
-Constant
+Constants
 
 BUS
 

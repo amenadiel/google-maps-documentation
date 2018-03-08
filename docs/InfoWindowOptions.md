@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/InfoWindowOptions.html)
 
 
-InfoWindowOptions object specification
---------------------------------------
+InfoWindowOptions interface
+---------------------------
 
-google.maps.InfoWindowOptions object specification
+google.maps.InfoWindowOptions interface
+
+InfoWindowOptions object used to define the properties that can be set on a InfoWindow.
 
 Properties
 

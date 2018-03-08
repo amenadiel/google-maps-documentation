@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/RotateControlOptions.html)
 
 
-RotateControlOptions object specification
------------------------------------------
+RotateControlOptions interface
+------------------------------
 
-google.maps.RotateControlOptions object specification
+google.maps.RotateControlOptions interface
 
 Options for the rendering of the rotate control.
 

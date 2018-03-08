@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ElevationResult.html)
 
 
-ElevationResult object specification
-------------------------------------
+ElevationResult interface
+-------------------------
 
-google.maps.ElevationResult object specification
+google.maps.ElevationResult interface
 
 The result of an ElevationService request, consisting of the set of elevation coordinates and their elevation values. Note that a single request may produce multiple ElevationResults.
 

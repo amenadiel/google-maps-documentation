@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/RectangleOptions.html)
 
 
-RectangleOptions object specification
--------------------------------------
+RectangleOptions interface
+--------------------------
 
-google.maps.RectangleOptions object specification
+google.maps.RectangleOptions interface
+
+RectangleOptions object used to define the properties that can be set on a Rectangle.
 
 Properties
 

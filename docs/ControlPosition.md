@@ -18,7 +18,7 @@ Identifiers used to specify the placement of controls on the map. Controls are p
   +----------------+  
 Elements in the top or bottom row flow towards the middle of the row. Elements in the left or right column flow towards the middle of the column.
 
-Constant
+Constants
 
 BOTTOM\_CENTER
 

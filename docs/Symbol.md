@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Symbol.html)
 
 
-Symbol object specification
----------------------------
+Symbol interface
+----------------
 
-google.maps.Symbol object specification
+google.maps.Symbol interface
+
+Describes a symbol, which consists of a vector path with styling. A symbol can be used as the icon of a marker, or placed on a polyline.
 
 Properties
 

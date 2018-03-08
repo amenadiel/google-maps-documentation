@@ -1,14 +1,14 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/VehicleType.html)
 
 
-VehicleType object specification
---------------------------------
+VehicleType constants
+---------------------
 
-google.maps.VehicleType object specification
+google.maps.VehicleType constants
 
 Possible values for vehicle types. These values are specifed as strings, i.e. 'BUS' or 'TRAIN'.
 
-Constant
+Constants
 
 BUS
 

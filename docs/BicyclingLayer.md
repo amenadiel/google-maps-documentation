@@ -12,19 +12,33 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
+BicyclingLayer
+
 BicyclingLayer()
+
+**Parameters:**  None
 
 A layer that displays bike lanes and paths and demotes large roads.
 
 Methods
 
+getMap
+
 getMap()
+
+**Parameters:**  None
 
 **Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
 
 Returns the map on which this layer is displayed.
 
-setMap(map:[Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md))
+setMap
+
+setMap(map)
+
+**Parameters:** 
+
+*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
 
 **Return Value:**  None
 

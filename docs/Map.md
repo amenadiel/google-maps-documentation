@@ -10,128 +10,249 @@ This class extends [MVCObject](https://github.com/amenadiel/google-maps-document
 
 Constructor
 
-Map(mapDiv:Element, opts?:[MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md))
+Map
+
+Map(mapDiv\[, opts\])
+
+**Parameters:** 
+
+*   mapDiv:  Element
+*   opts (optional):  [MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md)
 
 Creates a new map inside of the given HTML container, which is typically a DIV element.
 
 Methods
 
-fitBounds(bounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md), padding?:number)
+fitBounds
+
+fitBounds(bounds\[, padding\])
+
+**Parameters:** 
+
+*   bounds:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+*   padding (optional):  number|[Padding](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Padding.md)
 
 **Return Value:**  None
 
 Sets the viewport to contain the given bounds.  
 **Note:** When the map is set to display: none, the fitBounds function reads the map's size as 0x0, and therefore does not do anything. To change the viewport while the map is hidden, set the map to visibility: hidden, thereby ensuring the map div has an actual size.
 
+getBounds
+
 getBounds()
+
+**Parameters:**  None
 
 **Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
 
 Returns the lat/lng bounds of the current viewport. If more than one copy of the world is visible, the bounds range in longitude from -180 to 180 degrees inclusive. If the map is not yet initialized (i.e. the mapType is still null), or center and zoom have not been set then the result is null or undefined.
 
+getCenter
+
 getCenter()
+
+**Parameters:**  None
 
 **Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
 
 Returns the position displayed at the center of the map. Note that this LatLng object is _not_ wrapped. See [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md) for more information.
 
+getClickableIcons
+
 getClickableIcons()
+
+**Parameters:**  None
 
 **Return Value:**  boolean
 
 Returns the clickability of the map icons. A map icon represents a point of interest, also known as a POI. If the returned value is true, then the icons are clickable on the map.
 
+getDiv
+
 getDiv()
+
+**Parameters:**  None
 
 **Return Value:**  Element
 
+getHeading
+
 getHeading()
+
+**Parameters:**  None
 
 **Return Value:**  number
 
 Returns the compass heading of aerial imagery. The heading value is measured in degrees (clockwise) from cardinal direction North.
 
+getMapTypeId
+
 getMapTypeId()
+
+**Parameters:**  None
 
 **Return Value:**  [MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)|string
 
+getProjection
+
 getProjection()
+
+**Parameters:**  None
 
 **Return Value:**  [Projection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md)
 
 Returns the current Projection. If the map is not yet initialized (i.e. the mapType is still null) then the result is null. Listen to projection\_changed and check its value to ensure it is not null.
 
+getStreetView
+
 getStreetView()
+
+**Parameters:**  None
 
 **Return Value:**  [StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
 
 Returns the default StreetViewPanorama bound to the map, which may be a default panorama embedded within the map, or the panorama set using setStreetView(). Changes to the map's streetViewControl will be reflected in the display of such a bound panorama.
 
+getTilt
+
 getTilt()
+
+**Parameters:**  None
 
 **Return Value:**  number
 
 Returns the current angle of incidence of the map, in degrees from the viewport plane to the map plane. The result will be 0 for imagery taken directly overhead or 45 for 45° imagery. 45° imagery is only available for satellite and hybrid map types, within some locations, and at some zoom levels. **Note:** This method does not return the value set by setTilt. See setTilt for details.
 
+getZoom
+
 getZoom()
+
+**Parameters:**  None
 
 **Return Value:**  number
 
-panBy(x:number, y:number)
+panBy
+
+panBy(x, y)
+
+**Parameters:** 
+
+*   x:  number
+*   y:  number
 
 **Return Value:**  None
 
 Changes the center of the map by the given distance in pixels. If the distance is less than both the width and height of the map, the transition will be smoothly animated. Note that the map coordinate system increases from west to east (for x values) and north to south (for y values).
 
-panTo(latLng:[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md))
+panTo
+
+panTo(latLng)
+
+**Parameters:** 
+
+*   latLng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 **Return Value:**  None
 
 Changes the center of the map to the given LatLng. If the change is less than both the width and height of the map, the transition will be smoothly animated.
 
-panToBounds(latLngBounds:[LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md))
+panToBounds
+
+panToBounds(latLngBounds)
+
+**Parameters:** 
+
+*   latLngBounds:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
 
 **Return Value:**  None
 
 Pans the map by the minimum amount necessary to contain the given LatLngBounds. It makes no guarantee where on the map the bounds will be, except that as much of the bounds as possible will be visible. The bounds will be positioned inside the area bounded by the map type and navigation (pan, zoom, and Street View) controls, if they are present on the map. If the bounds is larger than the map, the map will be shifted to include the northwest corner of the bounds. If the change in the map's position is less than both the width and height of the map, the transition will be smoothly animated.
 
-setCenter(latlng:[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md))
+setCenter
+
+setCenter(latlng)
+
+**Parameters:** 
+
+*   latlng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 **Return Value:**  None
 
-setClickableIcons(value:boolean)
+setClickableIcons
+
+setClickableIcons(value)
+
+**Parameters:** 
+
+*   value:  boolean
 
 **Return Value:**  None
 
 Controls whether the map icons are clickable or not. A map icon represents a point of interest, also known as a POI. To disable the clickability of map icons, pass a value of false to this method.
 
-setHeading(heading:number)
+setHeading
+
+setHeading(heading)
+
+**Parameters:** 
+
+*   heading:  number
 
 **Return Value:**  None
 
 Sets the compass heading for aerial imagery measured in degrees from cardinal direction North.
 
-setMapTypeId(mapTypeId:[MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)|string)
+setMapTypeId
+
+setMapTypeId(mapTypeId)
+
+**Parameters:** 
+
+*   mapTypeId:  [MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)|string
 
 **Return Value:**  None
 
-setOptions(options:[MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md))
+setOptions
+
+setOptions(options)
+
+**Parameters:** 
+
+*   options:  [MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md)
 
 **Return Value:**  None
 
-setStreetView(panorama:[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md))
+setStreetView
+
+setStreetView(panorama)
+
+**Parameters:** 
+
+*   panorama:  [StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
 
 **Return Value:**  None
 
 Binds a StreetViewPanorama to the map. This panorama overrides the default StreetViewPanorama, allowing the map to bind to an external panorama outside of the map. Setting the panorama to null binds the default embedded panorama back to the map.
 
-setTilt(tilt:number)
+setTilt
+
+setTilt(tilt)
+
+**Parameters:** 
+
+*   tilt:  number
 
 **Return Value:**  None
 
 Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are 0 and 45. setTilt(0) causes the map to always use a 0° overhead view regardless of the zoom level and viewport. setTilt(45) causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for satellite and hybrid map types, within some locations, and at some zoom levels. **Note:** getTilt returns the current tilt angle, not the value set by setTilt. Because getTilt and setTilt refer to different things, do not bind() the tilt property; doing so may yield unpredictable effects.
 
-setZoom(zoom:number)
+setZoom
+
+setZoom(zoom)
+
+**Parameters:** 
+
+*   zoom:  number
 
 **Return Value:**  None
 
@@ -159,11 +280,13 @@ overlayMapTypes
 
 **Type:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md)\>
 
-Additional map types to overlay.
+Additional map types to overlay. Overlay map types will display on top of the base map they are attached to, in the order in which they appear in the overlayMapTypes array (overlays with higher index values are displayed in front of overlays with lower index values).
 
 Events
 
 bounds\_changed
+
+function()
 
 **Arguments:**  None
 
@@ -171,23 +294,35 @@ This event is fired when the viewport bounds have changed.
 
 center\_changed
 
+function()
+
 **Arguments:**  None
 
 This event is fired when the map center property changes.
 
 click
 
-**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)|[IconMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md)
+function(event)
+
+**Arguments:** 
+
+*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)|[IconMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md)
 
 This event is fired when the user clicks on the map. An ApiMouseEvent with properties for the clicked location is returned unless a place icon was clicked, in which case an IconMouseEvent with a placeid is returned. IconMouseEvent and ApiMouseEvent are identical, except that IconMouseEvent has the placeid field. The event can always be treated as an ApiMouseEvent when the placeid is not important. The click event is not fired if a marker or infowindow was clicked.
 
 dblclick
 
-**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+function(event)
+
+**Arguments:** 
+
+*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user double-clicks on the map. Note that the click event will also fire, right before this one.
 
 drag
+
+function()
 
 **Arguments:**  None
 
@@ -195,11 +330,15 @@ This event is repeatedly fired while the user drags the map.
 
 dragend
 
+function()
+
 **Arguments:**  None
 
 This event is fired when the user stops dragging the map.
 
 dragstart
+
+function()
 
 **Arguments:**  None
 
@@ -207,11 +346,15 @@ This event is fired when the user starts dragging the map.
 
 heading\_changed
 
+function()
+
 **Arguments:**  None
 
 This event is fired when the map heading property changes.
 
 idle
+
+function()
 
 **Arguments:**  None
 
@@ -219,29 +362,45 @@ This event is fired when the map becomes idle after panning or zooming.
 
 maptypeid\_changed
 
+function()
+
 **Arguments:**  None
 
 This event is fired when the mapTypeId property changes.
 
 mousemove
 
-**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+function(event)
+
+**Arguments:** 
+
+*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired whenever the user's mouse moves over the map container.
 
 mouseout
 
-**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+function(event)
+
+**Arguments:** 
+
+*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user's mouse exits the map container.
 
 mouseover
 
-**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+function(event)
+
+**Arguments:** 
+
+*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the user's mouse enters the map container.
 
 projection\_changed
+
+function()
 
 **Arguments:**  None
 
@@ -249,17 +408,25 @@ This event is fired when the projection has changed.
 
 resize
 
+function()
+
 **Arguments:**  None
 
 Developers should trigger this event on the map when the div changes size: [google.maps.event.trigger](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md)(map, 'resize') .
 
 rightclick
 
-**Arguments:**  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+function(event)
+
+**Arguments:** 
+
+*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
 
 This event is fired when the DOM contextmenu event is fired on the map container.
 
 tilesloaded
+
+function()
 
 **Arguments:**  None
 
@@ -267,11 +434,15 @@ This event is fired when the visible tiles have finished loading.
 
 tilt\_changed
 
+function()
+
 **Arguments:**  None
 
 This event is fired when the map tilt property changes.
 
 zoom\_changed
+
+function()
 
 **Arguments:**  None
 

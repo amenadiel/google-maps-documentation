@@ -8,7 +8,7 @@ google.maps.MapTypeControlStyle constants
 
 Identifiers for common MapTypesControls.
 
-Constant
+Constants
 
 DEFAULT
 

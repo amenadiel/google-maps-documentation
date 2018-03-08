@@ -10,29 +10,61 @@ This class implements the MapType interface and is provided for rendering image 
 
 This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
 
+This class implements [MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md).
+
 Constructor
 
-ImageMapType(opts:[ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md))
+ImageMapType
+
+ImageMapType(opts)
+
+**Parameters:** 
+
+*   opts:  [ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md)
 
 Constructs an ImageMapType using the provided ImageMapTypeOptions
 
 Methods
 
+getOpacity
+
 getOpacity()
+
+**Parameters:**  None
 
 **Return Value:**  number
 
 Returns the opacity level (0 (transparent) to 1.0) of the ImageMapType tiles.
 
-getTile(tileCoord:[Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md), zoom:number, ownerDocument:Document)
+getTile
+
+getTile(tileCoord, zoom, ownerDocument)
+
+**Parameters:** 
+
+*   tileCoord:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+*   zoom:  number
+*   ownerDocument:  Document
 
 **Return Value:**  Node
 
-releaseTile(tileDiv:Node)
+releaseTile
+
+releaseTile(tileDiv)
+
+**Parameters:** 
+
+*   tileDiv:  Node
 
 **Return Value:**  None
 
-setOpacity(opacity:number)
+setOpacity
+
+setOpacity(opacity)
+
+**Parameters:** 
+
+*   opacity:  number
 
 **Return Value:**  None
 
@@ -71,6 +103,8 @@ tileSize
 Events
 
 tilesloaded
+
+function()
 
 **Arguments:**  None
 

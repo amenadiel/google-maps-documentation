@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlacePhoto.html)
 
 
-PlacePhoto object specification
--------------------------------
+PlacePhoto interface
+--------------------
 
-google.maps.places.PlacePhoto object specification
+google.maps.places.PlacePhoto interface
 
 Represents a photo element of a Place.
 
@@ -14,7 +14,13 @@ places
 
 Methods
 
-getUrl(opts:[PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md))
+getUrl
+
+getUrl(opts)
+
+**Parameters:** 
+
+*   opts:  [PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md)
 
 **Return Value:**  string
 

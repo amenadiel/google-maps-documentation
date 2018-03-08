@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PanoProviderOptions.html)
 
 
-PanoProviderOptions object specification
-----------------------------------------
+PanoProviderOptions interface
+-----------------------------
 
-google.maps.PanoProviderOptions object specification
+google.maps.PanoProviderOptions interface
 
 Options for the Custom Pano Provider.
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Duration.html)
 
 
-Duration object specification
------------------------------
+Duration interface
+------------------
 
-google.maps.Duration object specification
+google.maps.Duration interface
 
 A representation of duration as a numeric value and a display string.
 

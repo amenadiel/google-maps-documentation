@@ -8,25 +8,25 @@ google.maps.Padding interface
 
 Properties
 
-[bottom](#Padding.bottom)
+bottom
 
 **Type:**  number
 
 Padding for the bottom, in pixels.
 
-[left](#Padding.left)
+left
 
 **Type:**  number
 
 Padding for the left, in pixels.
 
-[right](#Padding.right)
+right
 
 **Type:**  number
 
 Padding for the right, in pixels.
 
-[top](#Padding.top)
+top
 
 **Type:**  number
 

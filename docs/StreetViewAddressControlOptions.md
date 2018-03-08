@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewAddressControlOptions.html)
 
 
-StreetViewAddressControlOptions object specification
-----------------------------------------------------
+StreetViewAddressControlOptions interface
+-----------------------------------------
 
-google.maps.StreetViewAddressControlOptions object specification
+google.maps.StreetViewAddressControlOptions interface
 
 Options for the rendering of the Street View address control.
 

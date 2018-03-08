@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapTypeControlOptions.html)
 
 
-MapTypeControlOptions object specification
-------------------------------------------
+MapTypeControlOptions interface
+-------------------------------
 
-google.maps.MapTypeControlOptions object specification
+google.maps.MapTypeControlOptions interface
 
 Options for the rendering of the map type control.
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderRequest.html)
 
 
-GeocoderRequest object specification
-------------------------------------
+GeocoderRequest interface
+-------------------------
 
-google.maps.GeocoderRequest object specification
+google.maps.GeocoderRequest interface
 
 The specification for a geocoding request to be sent to the Geocoder.
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.AddFeatureEvent.html)
 
 
-Data.AddFeatureEvent object specification
------------------------------------------
+Data.AddFeatureEvent interface
+------------------------------
 
-google.maps.Data.AddFeatureEvent object specification
+google.maps.Data.AddFeatureEvent interface
 
 The properties of a addfeature event.
 

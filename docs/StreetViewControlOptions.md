@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewControlOptions.html)
 
 
-StreetViewControlOptions object specification
----------------------------------------------
+StreetViewControlOptions interface
+----------------------------------
 
-google.maps.StreetViewControlOptions object specification
+google.maps.StreetViewControlOptions interface
 
 Options for the rendering of the Street View pegman control on the map.
 

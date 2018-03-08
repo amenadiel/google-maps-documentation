@@ -12,15 +12,30 @@ Utility functions for computations involving polygons and polylines.
 
 geometry
 
-Methods
+Static Methods
 
-containsLocation(point:[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md), polygon:[Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md))
+containsLocation
+
+containsLocation(point, polygon)
+
+**Parameters:** 
+
+*   point:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+*   polygon:  [Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)
 
 **Return Value:**  boolean
 
 Computes whether the given point lies inside the specified polygon.
 
-isLocationOnEdge(point:[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md), poly:[Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)|[Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md), tolerance?:number)
+isLocationOnEdge
+
+isLocationOnEdge(point, poly\[, tolerance\])
+
+**Parameters:** 
+
+*   point:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+*   poly:  [Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)|[Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md)
+*   tolerance (optional):  number
 
 **Return Value:**  boolean
 

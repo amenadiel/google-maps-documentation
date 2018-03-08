@@ -8,7 +8,7 @@ google.maps.GeocoderLocationType constants
 
 Describes the type of location returned from a geocode. Specify these by value, or by using the constant's name. For example, 'ROOFTOP' or google.maps.GeocoderLocationType.ROOFTOP.
 
-Constant
+Constants
 
 APPROXIMATE
 

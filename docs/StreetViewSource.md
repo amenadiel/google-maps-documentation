@@ -8,7 +8,7 @@ google.maps.StreetViewSource constants
 
 Identifiers to limit Street View searches to selected sources. These values are specified as strings. For example, 'outdoor'.
 
-Constant
+Constants
 
 DEFAULT
 

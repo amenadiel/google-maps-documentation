@@ -1,14 +1,14 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PolyMouseEvent.html)
 
 
-PolyMouseEvent object specification
------------------------------------
+PolyMouseEvent interface
+------------------------
 
-google.maps.PolyMouseEvent object specification
+google.maps.PolyMouseEvent interface
 
 This object is returned from mouse events on polylines and polygons.
 
-This object extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
+This interface extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
 
 Properties
 

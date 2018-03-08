@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompletionRequest.html)
 
 
-AutocompletionRequest object specification
-------------------------------------------
+AutocompletionRequest interface
+-------------------------------
 
-google.maps.places.AutocompletionRequest object specification
+google.maps.places.AutocompletionRequest interface
 
 An Autocompletion request to be sent to the AutocompleteService.
 

@@ -1,16 +1,20 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MouseEvent.html)
 
 
-MouseEvent object specification
--------------------------------
+MouseEvent interface
+--------------------
 
-google.maps.MouseEvent object specification
+google.maps.MouseEvent interface
 
 This object is returned from various mouse events on the map and overlays, and contains all the fields shown below.
 
 Methods
 
+stop
+
 stop()
+
+**Parameters:**  None
 
 **Return Value:**  None
 

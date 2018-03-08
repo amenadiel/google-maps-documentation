@@ -8,7 +8,7 @@ google.maps.KmlLayerStatus constants
 
 The status returned by KmlLayer on the completion of loading a document. Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.KmlLayerStatus.OK.
 
-Constant
+Constants
 
 DOCUMENT\_NOT\_FOUND
 

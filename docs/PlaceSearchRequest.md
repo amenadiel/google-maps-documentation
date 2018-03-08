@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceSearchRequest.html)
 
 
-PlaceSearchRequest object specification
----------------------------------------
+PlaceSearchRequest interface
+----------------------------
 
-google.maps.places.PlaceSearchRequest object specification
+google.maps.places.PlaceSearchRequest interface
 
 A Place search query to be sent to the PlacesService.
 

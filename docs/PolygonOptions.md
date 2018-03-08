@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PolygonOptions.html)
 
 
-PolygonOptions object specification
------------------------------------
+PolygonOptions interface
+------------------------
 
-google.maps.PolygonOptions object specification
+google.maps.PolygonOptions interface
+
+PolygonOptions object used to define the properties that can be set on a Polygon.
 
 Properties
 

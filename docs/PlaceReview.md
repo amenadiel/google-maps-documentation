@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceReview.html)
 
 
-PlaceReview object specification
---------------------------------
+PlaceReview interface
+---------------------
 
-google.maps.places.PlaceReview object specification
+google.maps.places.PlaceReview interface
 
 Represents a single review of a place.
 

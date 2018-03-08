@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceAspectRating.html)
 
 
-PlaceAspectRating object specification
---------------------------------------
+PlaceAspectRating interface
+---------------------------
 
-google.maps.places.PlaceAspectRating object specification
+google.maps.places.PlaceAspectRating interface
 
 Defines information about an aspect of the place that users have reviewed.
 

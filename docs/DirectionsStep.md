@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsStep.html)
 
 
-DirectionsStep object specification
------------------------------------
+DirectionsStep interface
+------------------------
 
-google.maps.DirectionsStep object specification
+google.maps.DirectionsStep interface
 
 A single DirectionsStep in a DirectionsResult. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes LatLng objects.
 

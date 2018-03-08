@@ -1,16 +1,25 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewTileData.html)
 
 
-StreetViewTileData object specification
----------------------------------------
+StreetViewTileData interface
+----------------------------
 
-google.maps.StreetViewTileData object specification
+google.maps.StreetViewTileData interface
 
 The properties of the tile set used in a Street View panorama.
 
 Methods
 
-getTileUrl(pano:string, tileZoom:number, tileX:number, tileY:number)
+getTileUrl
+
+getTileUrl(pano, tileZoom, tileX, tileY)
+
+**Parameters:** 
+
+*   pano:  string
+*   tileZoom:  number
+*   tileX:  number
+*   tileY:  number
 
 **Return Value:**  string
 

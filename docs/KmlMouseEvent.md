@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/KmlMouseEvent.html)
 
 
-KmlMouseEvent object specification
-----------------------------------
+KmlMouseEvent interface
+-----------------------
 
-google.maps.KmlMouseEvent object specification
+google.maps.KmlMouseEvent interface
 
 The properties of a click event on a KML/KMZ or GeoRSS document.
 

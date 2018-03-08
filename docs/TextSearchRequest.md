@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TextSearchRequest.html)
 
 
-TextSearchRequest object specification
---------------------------------------
+TextSearchRequest interface
+---------------------------
 
-google.maps.places.TextSearchRequest object specification
+google.maps.places.TextSearchRequest interface
 
 A text search request to be sent to the PlacesService.
 

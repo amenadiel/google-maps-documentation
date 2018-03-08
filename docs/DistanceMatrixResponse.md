@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DistanceMatrixResponse.html)
 
 
-DistanceMatrixResponse object specification
--------------------------------------------
+DistanceMatrixResponse interface
+--------------------------------
 
-google.maps.DistanceMatrixResponse object specification
+google.maps.DistanceMatrixResponse interface
 
 The response to a DistanceMatrixService request, consisting of the formatted origin and destination addresses, and a sequence of DistanceMatrixResponseRows, one for each corresponding origin address.
 

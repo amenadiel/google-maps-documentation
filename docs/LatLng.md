@@ -25,43 +25,79 @@ The constructor also accepts literal objects, and converts them to instances of 
 
 Constructor
 
-LatLng(lat:number, lng:number, noWrap?:boolean)
+LatLng
+
+LatLng(lat, lng\[, noWrap\])
+
+**Parameters:** 
+
+*   lat:  number
+*   lng:  number
+*   noWrap (optional):  boolean
 
 Creates a LatLng object representing a geographic point. Latitude is specified in degrees within the range \[-90, 90\]. Longitude is specified in degrees within the range \[-180, 180\]. Set noWrap to true to enable values outside of this range. Note the ordering of latitude and longitude.
 
 Methods
 
-equals(other:[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md))
+equals
+
+equals(other)
+
+**Parameters:** 
+
+*   other:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
 
 **Return Value:**  boolean
 
 Comparison function.
 
+lat
+
 lat()
+
+**Parameters:**  None
 
 **Return Value:**  number
 
 Returns the latitude in degrees.
 
+lng
+
 lng()
+
+**Parameters:**  None
 
 **Return Value:**  number
 
 Returns the longitude in degrees.
 
+toJSON
+
 toJSON()
+
+**Parameters:**  None
 
 **Return Value:**  [LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 Converts to JSON representation. This function is intended to be used via JSON.stringify.
 
+toString
+
 toString()
+
+**Parameters:**  None
 
 **Return Value:**  string
 
 Converts to string representation.
 
-toUrlValue(precision?:number)
+toUrlValue
+
+toUrlValue(\[precision\])
+
+**Parameters:** 
+
+*   precision (optional):  number
 
 **Return Value:**  string
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PathElevationRequest.html)
 
 
-PathElevationRequest object specification
------------------------------------------
+PathElevationRequest interface
+------------------------------
 
-google.maps.PathElevationRequest object specification
+google.maps.PathElevationRequest interface
 
 An elevation query sent by the ElevationService containing the path along which to return sampled data. This request defines a continuous path along the earth along which elevation samples should be taken at evenly-spaced distances. All paths from vertex to vertex use segments of the great circle between those two points.
 

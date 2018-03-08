@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/LatLngBoundsLiteral.html)
 
 
-LatLngBoundsLiteral object specification
-----------------------------------------
+LatLngBoundsLiteral interface
+-----------------------------
 
-google.maps.LatLngBoundsLiteral object specification
+google.maps.LatLngBoundsLiteral interface
 
 Object literals are accepted in place of LatLngBounds objects throughout the API. These are automatically converted to LatLngBounds objects. All south, west, north and east must be set, otherwise an exception is thrown.
 

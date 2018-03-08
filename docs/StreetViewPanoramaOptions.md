@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPanoramaOptions.html)
 
 
-StreetViewPanoramaOptions object specification
-----------------------------------------------
+StreetViewPanoramaOptions interface
+-----------------------------------
 
-google.maps.StreetViewPanoramaOptions object specification
+google.maps.StreetViewPanoramaOptions interface
 
 Options defining the properties of a StreetViewPanorama object.
 

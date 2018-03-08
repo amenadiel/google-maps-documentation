@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsGeocodedWaypoint.html)
 
 
-DirectionsGeocodedWaypoint object specification
------------------------------------------------
+DirectionsGeocodedWaypoint interface
+------------------------------------
 
-google.maps.DirectionsGeocodedWaypoint object specification
+google.maps.DirectionsGeocodedWaypoint interface
 
 A single geocoded waypoint.
 

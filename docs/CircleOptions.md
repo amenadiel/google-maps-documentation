@@ -1,16 +1,18 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/CircleOptions.html)
 
 
-CircleOptions object specification
-----------------------------------
+CircleOptions interface
+-----------------------
 
-google.maps.CircleOptions object specification
+google.maps.CircleOptions interface
+
+CircleOptions object used to define the properties that can be set on a Circle.
 
 Properties
 
 center
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 The center
 

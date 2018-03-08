@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapTypeStyle.html)
 
 
-MapTypeStyle object specification
----------------------------------
+MapTypeStyle interface
+----------------------
 
-google.maps.MapTypeStyle object specification
+google.maps.MapTypeStyle interface
 
 The MapTypeStyle is a collection of selectors and stylers that define how the map should be styled. Selectors specify the map features and/or elements that should be affected, and stylers specify how those features and elements should be modified. For details, see the [style reference](https://developers.google.com/maps/documentation/javascript/style-reference).
 

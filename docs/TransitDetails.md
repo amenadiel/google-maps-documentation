@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitDetails.html)
 
 
-TransitDetails object specification
------------------------------------
+TransitDetails interface
+------------------------
 
-google.maps.TransitDetails object specification
+google.maps.TransitDetails interface
+
+Details about the departure, arrival, and mode of transit used in this step.
 
 Properties
 

@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompletePrediction.html)
 
 
-AutocompletePrediction object specification
--------------------------------------------
+AutocompletePrediction interface
+--------------------------------
 
-google.maps.places.AutocompletePrediction object specification
+google.maps.places.AutocompletePrediction interface
+
+Represents a single autocomplete prediction.
 
 #### Library
 

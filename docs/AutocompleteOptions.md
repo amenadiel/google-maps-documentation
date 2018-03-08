@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompleteOptions.html)
 
 
-AutocompleteOptions object specification
-----------------------------------------
+AutocompleteOptions interface
+-----------------------------
 
-google.maps.places.AutocompleteOptions object specification
+google.maps.places.AutocompleteOptions interface
 
 The options that can be set on an Autocomplete object.
 

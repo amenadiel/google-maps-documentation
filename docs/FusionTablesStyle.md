@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesStyle.html)
 
 
-FusionTablesStyle object specification
---------------------------------------
+FusionTablesStyle interface
+---------------------------
 
-google.maps.FusionTablesStyle object specification
+google.maps.FusionTablesStyle interface
 
 Controls the appearance of a set of features within a FusionTablesLayer. Features which match the provided SQL predicate will be styled with the supplied options.
 

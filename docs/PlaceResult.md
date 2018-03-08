@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceResult.html)
 
 
-PlaceResult object specification
---------------------------------
+PlaceResult interface
+---------------------
 
-google.maps.places.PlaceResult object specification
+google.maps.places.PlaceResult interface
 
 Defines information about a Place.
 

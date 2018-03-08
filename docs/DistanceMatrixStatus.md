@@ -8,7 +8,7 @@ google.maps.DistanceMatrixStatus constants
 
 The top-level status about the request in general returned by the DistanceMatrixService upon completion of a distance matrix request. Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.DistanceMatrixStatus.OK.
 
-Constant
+Constants
 
 INVALID\_REQUEST
 

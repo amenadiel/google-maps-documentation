@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/QueryAutocompletionRequest.html)
 
 
-QueryAutocompletionRequest object specification
------------------------------------------------
+QueryAutocompletionRequest interface
+------------------------------------
 
-google.maps.places.QueryAutocompletionRequest object specification
+google.maps.places.QueryAutocompletionRequest interface
 
 An QueryAutocompletion request to be sent to the QueryAutocompleteService.
 

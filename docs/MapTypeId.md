@@ -8,7 +8,7 @@ google.maps.MapTypeId constants
 
 Identifiers for common MapTypes. Specify these by value, or by using the constant's name. For example, 'satellite' or google.maps.MapTypeId.SATELLITE.
 
-Constant
+Constants
 
 HYBRID
 

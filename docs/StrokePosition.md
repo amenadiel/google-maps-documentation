@@ -8,7 +8,7 @@ google.maps.StrokePosition constants
 
 The possible positions of the stroke on a polygon.
 
-Constant
+Constants
 
 CENTER
 

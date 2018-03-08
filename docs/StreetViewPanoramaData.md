@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPanoramaData.html)
 
 
-StreetViewPanoramaData object specification
--------------------------------------------
+StreetViewPanoramaData interface
+--------------------------------
 
-google.maps.StreetViewPanoramaData object specification
+google.maps.StreetViewPanoramaData interface
 
 The representation of a panorama returned from the provider defined using registerPanoProvider.
 

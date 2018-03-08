@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ScaleControlOptions.html)
 
 
-ScaleControlOptions object specification
-----------------------------------------
+ScaleControlOptions interface
+-----------------------------
 
-google.maps.ScaleControlOptions object specification
+google.maps.ScaleControlOptions interface
 
 Options for the rendering of the scale control.
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/LocationElevationRequest.html)
 
 
-LocationElevationRequest object specification
----------------------------------------------
+LocationElevationRequest interface
+----------------------------------
 
-google.maps.LocationElevationRequest object specification
+google.maps.LocationElevationRequest interface
 
 An elevation request sent by the ElevationService containing the list of discrete coordinates (LatLngs) for which to return elevation data.
 

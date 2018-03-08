@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesCell.html)
 
 
-FusionTablesCell object specification
--------------------------------------
+FusionTablesCell interface
+--------------------------
 
-google.maps.FusionTablesCell object specification
+google.maps.FusionTablesCell interface
 
 Describes a single cell from a Fusion Tables table.
 

@@ -8,19 +8,36 @@ google.maps.Point class
 
 Constructor
 
-Point(x:number, y:number)
+Point
+
+Point(x, y)
+
+**Parameters:** 
+
+*   x:  number
+*   y:  number
 
 A point on a two-dimensional plane.
 
 Methods
 
-equals(other:[Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md))
+equals
+
+equals(other)
+
+**Parameters:** 
+
+*   other:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
 
 **Return Value:**  boolean
 
 Compares two Points
 
+toString
+
 toString()
+
+**Parameters:**  None
 
 **Return Value:**  string
 

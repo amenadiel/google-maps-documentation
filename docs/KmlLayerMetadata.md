@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/KmlLayerMetadata.html)
 
 
-KmlLayerMetadata object specification
--------------------------------------
+KmlLayerMetadata interface
+--------------------------
 
-google.maps.KmlLayerMetadata object specification
+google.maps.KmlLayerMetadata interface
 
 Metadata for a single KML layer, in JSON format.
 

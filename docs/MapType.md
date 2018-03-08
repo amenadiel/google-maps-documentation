@@ -1,22 +1,36 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapType.html)
 
 
-MapType object specification
-----------------------------
+MapType interface
+-----------------
 
-google.maps.MapType object specification
+google.maps.MapType interface
 
 This interface defines the map type, and is typically used for custom map types. Immutable.
 
 Methods
 
-getTile(tileCoord:[Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md), zoom:number, ownerDocument:Document)
+getTile
+
+getTile(tileCoord, zoom, ownerDocument)
+
+**Parameters:** 
+
+*   tileCoord:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+*   zoom:  number
+*   ownerDocument:  Document
 
 **Return Value:**  Node
 
 Returns a tile for the given tile coordinate (x, y) and zoom level. This tile will be appended to the given ownerDocument. Not available for base map types.
 
-releaseTile(tile:Node)
+releaseTile
+
+releaseTile(tile)
+
+**Parameters:** 
+
+*   tile:  Node
 
 **Return Value:**  None
 
@@ -47,12 +61,6 @@ name
 **Type:**  string
 
 Name to display in the MapTypeControl. Optional.
-
-projection
-
-**Type:**  [Projection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md)
-
-The Projection used to render this MapType. Optional; defaults to Mercator.
 
 radius
 

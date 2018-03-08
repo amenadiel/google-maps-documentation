@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DrawingManagerOptions.html)
 
 
-DrawingManagerOptions object specification
-------------------------------------------
+DrawingManagerOptions interface
+-------------------------------
 
-google.maps.drawing.DrawingManagerOptions object specification
+google.maps.drawing.DrawingManagerOptions interface
 
 Options for the drawing manager.
 

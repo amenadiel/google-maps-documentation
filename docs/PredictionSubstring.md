@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PredictionSubstring.html)
 
 
-PredictionSubstring object specification
-----------------------------------------
+PredictionSubstring interface
+-----------------------------
 
-google.maps.places.PredictionSubstring object specification
+google.maps.places.PredictionSubstring interface
+
+Represents a prediction substring.
 
 #### Library
 

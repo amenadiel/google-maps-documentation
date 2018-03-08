@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Time.html)
 
 
-Time object specification
--------------------------
+Time interface
+--------------
 
-google.maps.Time object specification
+google.maps.Time interface
+
+A representation of time as a Date object, a localized string, and a time zone.
 
 Properties
 

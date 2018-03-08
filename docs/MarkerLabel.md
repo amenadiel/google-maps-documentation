@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MarkerLabel.html)
 
 
-MarkerLabel object specification
---------------------------------
+MarkerLabel interface
+---------------------
 
-google.maps.MarkerLabel object specification
+google.maps.MarkerLabel interface
 
 These options specify the appearance of a marker label. A marker label is a single character of text which will appear inside the marker. If you are using it with a custom marker, you can reposition it with the labelOrigin property in the Icon class.
 

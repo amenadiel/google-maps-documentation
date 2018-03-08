@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MarkerShape.html)
 
 
-MarkerShape object specification
---------------------------------
+MarkerShape interface
+---------------------
 
-google.maps.MarkerShape object specification
+google.maps.MarkerShape interface
 
 This object defines the clickable region of a marker image for browsers other than Internet Explorer. The shape consists of two properties - type and coord - which define the non-transparent region of an image. A MarkerShape object is not required on Internet Explorer since the browser does not fire events on the transparent region of an image by default.
 

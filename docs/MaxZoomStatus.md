@@ -8,7 +8,7 @@ google.maps.MaxZoomStatus constants
 
 The status returned by the MaxZoomService on the completion of a call to getMaxZoomAtLatLng(). Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.MaxZoomStatus.OK.
 
-Constant
+Constants
 
 ERROR
 

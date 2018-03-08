@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceDetailsRequest.html)
 
 
-PlaceDetailsRequest object specification
-----------------------------------------
+PlaceDetailsRequest interface
+-----------------------------
 
-google.maps.places.PlaceDetailsRequest object specification
+google.maps.places.PlaceDetailsRequest interface
 
 A Place details query to be sent to the PlacesService.
 

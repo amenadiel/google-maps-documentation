@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/KmlLayerOptions.html)
 
 
-KmlLayerOptions object specification
-------------------------------------
+KmlLayerOptions interface
+-------------------------
 
-google.maps.KmlLayerOptions object specification
+google.maps.KmlLayerOptions interface
 
 This object defines the properties that can be set on a KmlLayer object.
 

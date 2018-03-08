@@ -1,14 +1,14 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.MouseEvent.html)
 
 
-Data.MouseEvent object specification
-------------------------------------
+Data.MouseEvent interface
+-------------------------
 
-google.maps.Data.MouseEvent object specification
+google.maps.Data.MouseEvent interface
 
 This object is passed to mouse event handlers on a Data object.
 
-This object extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
+This interface extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
 
 Properties
 

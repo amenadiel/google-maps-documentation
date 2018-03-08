@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesPolylineOptions.html)
 
 
-FusionTablesPolylineOptions object specification
-------------------------------------------------
+FusionTablesPolylineOptions interface
+-------------------------------------
 
-google.maps.FusionTablesPolylineOptions object specification
+google.maps.FusionTablesPolylineOptions interface
 
 Options which control the appearance of polylines in a FusionTablesLayer.
 

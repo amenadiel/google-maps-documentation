@@ -12,11 +12,15 @@ The status returned by the PlacesService on the completion of its searches. Spec
 
 places
 
-Constant
+Constants
 
 INVALID\_REQUEST
 
 This request was invalid.
+
+NOT\_FOUND
+
+The place referenced was not found.
 
 OK
 

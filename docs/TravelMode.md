@@ -8,7 +8,7 @@ google.maps.TravelMode constants
 
 The valid travel modes that can be specified in a DirectionsRequest as well as the travel modes returned in a DirectionsStep. Specify these by value, or by using the constant's name. For example, 'BICYCLING' or google.maps.TravelMode.BICYCLING.
 
-Constant
+Constants
 
 BICYCLING
 

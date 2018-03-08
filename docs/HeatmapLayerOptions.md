@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/HeatmapLayerOptions.html)
 
 
-HeatmapLayerOptions object specification
-----------------------------------------
+HeatmapLayerOptions interface
+-----------------------------
 
-google.maps.visualization.HeatmapLayerOptions object specification
+google.maps.visualization.HeatmapLayerOptions interface
 
 This object defines the properties that can be set on a HeatmapLayer object.
 
@@ -16,7 +16,7 @@ Properties
 
 data
 
-**Type:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Type:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
 
 The data points to display. Required.
 

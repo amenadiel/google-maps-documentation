@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/KmlAuthor.html)
 
 
-KmlAuthor object specification
-------------------------------
+KmlAuthor interface
+-------------------
 
-google.maps.KmlAuthor object specification
+google.maps.KmlAuthor interface
 
 Contains details of the author of a KML document or feature.
 

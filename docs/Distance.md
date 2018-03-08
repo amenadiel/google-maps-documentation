@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Distance.html)
 
 
-Distance object specification
------------------------------
+Distance interface
+------------------
 
-google.maps.Distance object specification
+google.maps.Distance interface
 
 A representation of distance as a numeric value and a display string.
 

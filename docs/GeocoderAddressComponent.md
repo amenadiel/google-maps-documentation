@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderAddressComponent.html)
 
 
-GeocoderAddressComponent object specification
----------------------------------------------
+GeocoderAddressComponent interface
+----------------------------------
 
-google.maps.GeocoderAddressComponent object specification
+google.maps.GeocoderAddressComponent interface
 
 A single address component within a GeocoderResult. A full address may consist of multiple address components.
 

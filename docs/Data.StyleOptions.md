@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.StyleOptions.html)
 
 
-Data.StyleOptions object specification
---------------------------------------
+Data.StyleOptions interface
+---------------------------
 
-google.maps.Data.StyleOptions object specification
+google.maps.Data.StyleOptions interface
 
 These options specify the way a Feature should appear when displayed on a map.
 

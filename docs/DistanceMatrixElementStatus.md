@@ -8,7 +8,7 @@ google.maps.DistanceMatrixElementStatus constants
 
 The element-level status about a particular origin-destination pairing returned by the DistanceMatrixService upon completion of a distance matrix request. These values are specified as strings, for example, 'OK'.
 
-Constant
+Constants
 
 NOT\_FOUND
 

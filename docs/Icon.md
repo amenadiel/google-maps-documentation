@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Icon.html)
 
 
-Icon object specification
--------------------------
+Icon interface
+--------------
 
-google.maps.Icon object specification
+google.maps.Icon interface
+
+A structure representing a Marker icon image.
 
 Properties
 

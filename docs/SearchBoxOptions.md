@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/SearchBoxOptions.html)
 
 
-SearchBoxOptions object specification
--------------------------------------
+SearchBoxOptions interface
+--------------------------
 
-google.maps.places.SearchBoxOptions object specification
+google.maps.places.SearchBoxOptions interface
 
 The options that can be set on a SearchBox object.
 

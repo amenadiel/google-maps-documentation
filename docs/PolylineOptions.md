@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PolylineOptions.html)
 
 
-PolylineOptions object specification
-------------------------------------
+PolylineOptions interface
+-------------------------
 
-google.maps.PolylineOptions object specification
+google.maps.PolylineOptions interface
+
+PolylineOptions object used to define the properties that can be set on a Polyline.
 
 Properties
 

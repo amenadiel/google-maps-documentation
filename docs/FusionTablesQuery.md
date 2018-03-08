@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesQuery.html)
 
 
-FusionTablesQuery object specification
---------------------------------------
+FusionTablesQuery interface
+---------------------------
 
-google.maps.FusionTablesQuery object specification
+google.maps.FusionTablesQuery interface
 
 Specifies the data to retrieve from a Fusion Tables.
 

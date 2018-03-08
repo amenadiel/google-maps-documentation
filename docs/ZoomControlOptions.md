@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ZoomControlOptions.html)
 
 
-ZoomControlOptions object specification
----------------------------------------
+ZoomControlOptions interface
+----------------------------
 
-google.maps.ZoomControlOptions object specification
+google.maps.ZoomControlOptions interface
 
 Options for the rendering of the zoom control.
 

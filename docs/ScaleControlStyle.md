@@ -8,7 +8,7 @@ google.maps.ScaleControlStyle constants
 
 Identifiers for scale control ids.
 
-Constant
+Constants
 
 DEFAULT
 

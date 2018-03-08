@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TrafficLayerOptions.html)
 
 
-TrafficLayerOptions object specification
-----------------------------------------
+TrafficLayerOptions interface
+-----------------------------
 
-google.maps.TrafficLayerOptions object specification
+google.maps.TrafficLayerOptions interface
+
+TrafficLayerOptions object used to define the properties that can be set on a TrafficLayer.
 
 Properties
 

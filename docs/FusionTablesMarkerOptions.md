@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesMarkerOptions.html)
 
 
-FusionTablesMarkerOptions object specification
-----------------------------------------------
+FusionTablesMarkerOptions interface
+-----------------------------------
 
-google.maps.FusionTablesMarkerOptions object specification
+google.maps.FusionTablesMarkerOptions interface
 
 Options which control the appearance of point features in a FusionTablesLayer.
 

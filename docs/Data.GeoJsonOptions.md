@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.GeoJsonOptions.html)
 
 
-Data.GeoJsonOptions object specification
-----------------------------------------
+Data.GeoJsonOptions interface
+-----------------------------
 
-google.maps.Data.GeoJsonOptions object specification
+google.maps.Data.GeoJsonOptions interface
 
 Optional parameters for importing GeoJSON.
 

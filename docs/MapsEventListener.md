@@ -1,16 +1,20 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapsEventListener.html)
 
 
-MapsEventListener object specification
---------------------------------------
+MapsEventListener interface
+---------------------------
 
-google.maps.MapsEventListener object specification
+google.maps.MapsEventListener interface
 
 An event listener, created by [google.maps.event.addListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md)() and friends.
 
 Methods
 
+remove
+
 remove()
+
+**Parameters:**  None
 
 **Return Value:**  None
 

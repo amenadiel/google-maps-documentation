@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MarkerOptions.html)
 
 
-MarkerOptions object specification
-----------------------------------
+MarkerOptions interface
+-----------------------
 
-google.maps.MarkerOptions object specification
+google.maps.MarkerOptions interface
+
+MarkerOptions object used to define the properties that can be set on a Marker.
 
 Properties
 
@@ -74,17 +76,9 @@ optimized
 
 Optimization renders many markers as a single static element. Optimized rendering is enabled by default. Disable optimized rendering for animated GIFs or PNGs, or when each marker must be rendered as a separate DOM element (advanced usage only).
 
-place
-
-**Type:**  [MarkerPlace](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md)
-
-Place information, used to identify and describe the place associated with this Marker. In this context, 'place' means a business, point of interest or geographic location. To allow a user to save this place, open an info window anchored on this marker. The info window will contain information about the place and an option for the user to save it. Only one of position or place can be specified.
-
-**Note**: The signed-in maps feature is **deprecated**. Versions 3.27 and earlier of the Google Maps JavaScript API continue to support signed-in maps. A future version will no longer support signed-in maps, and will not support saving a place directly from within your application. Read more about [signed-in maps](https://developers.google.com/maps/documentation/javascript/signedin).
-
 position
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
 Marker position. Required.
 

@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsLeg.html)
 
 
-DirectionsLeg object specification
-----------------------------------
+DirectionsLeg interface
+-----------------------
 
-google.maps.DirectionsLeg object specification
+google.maps.DirectionsLeg interface
 
 A single leg consisting of a set of steps in a [DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md). Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes LatLng objects.
 

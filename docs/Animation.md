@@ -8,7 +8,7 @@ google.maps.Animation constants
 
 Animations that can be played on a marker. Use the setAnimation method on Marker or the animation option to play an animation.
 
-Constant
+Constants
 
 BOUNCE
 

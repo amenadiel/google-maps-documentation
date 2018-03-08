@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.SetGeometryEvent.html)
 
 
-Data.SetGeometryEvent object specification
-------------------------------------------
+Data.SetGeometryEvent interface
+-------------------------------
 
-google.maps.Data.SetGeometryEvent object specification
+google.maps.Data.SetGeometryEvent interface
 
 The properties of a setgeometry event.
 

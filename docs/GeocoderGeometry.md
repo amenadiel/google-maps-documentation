@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderGeometry.html)
 
 
-GeocoderGeometry object specification
--------------------------------------
+GeocoderGeometry interface
+--------------------------
 
-google.maps.GeocoderGeometry object specification
+google.maps.GeocoderGeometry interface
 
 Geometry information about this GeocoderResult
 

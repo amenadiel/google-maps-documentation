@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ComponentRestrictions.html)
 
 
-ComponentRestrictions object specification
-------------------------------------------
+ComponentRestrictions interface
+-------------------------------
 
-google.maps.places.ComponentRestrictions object specification
+google.maps.places.ComponentRestrictions interface
 
 Defines the component restrictions that can be used with the autocomplete service.
 

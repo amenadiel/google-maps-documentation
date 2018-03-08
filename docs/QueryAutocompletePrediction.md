@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/QueryAutocompletePrediction.html)
 
 
-QueryAutocompletePrediction object specification
-------------------------------------------------
+QueryAutocompletePrediction interface
+-------------------------------------
 
-google.maps.places.QueryAutocompletePrediction object specification
+google.maps.places.QueryAutocompletePrediction interface
 
 Represents a single Query Autocomplete prediction.
 

@@ -8,7 +8,7 @@ google.maps.StreetViewPreference constants
 
 Options that bias a search result towards returning a Street View panorama that is nearest to the request location, or a panorama that is considered most likely to be what the user wants to see. Specify these by value, or by using the constant's name. For example, 'best' or google.maps.StreetViewPreference.BEST.
 
-Constant
+Constants
 
 BEST
 

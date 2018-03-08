@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesMouseEvent.html)
 
 
-FusionTablesMouseEvent object specification
--------------------------------------------
+FusionTablesMouseEvent interface
+--------------------------------
 
-google.maps.FusionTablesMouseEvent object specification
+google.maps.FusionTablesMouseEvent interface
 
 The properties of a mouse event on a FusionTablesLayer.
 

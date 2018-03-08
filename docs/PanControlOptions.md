@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PanControlOptions.html)
 
 
-PanControlOptions object specification
---------------------------------------
+PanControlOptions interface
+---------------------------
 
-google.maps.PanControlOptions object specification
+google.maps.PanControlOptions interface
 
 Options for the rendering of the pan control.
 

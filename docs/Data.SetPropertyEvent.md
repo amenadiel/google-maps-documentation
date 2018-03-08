@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.SetPropertyEvent.html)
 
 
-Data.SetPropertyEvent object specification
-------------------------------------------
+Data.SetPropertyEvent interface
+-------------------------------
 
-google.maps.Data.SetPropertyEvent object specification
+google.maps.Data.SetPropertyEvent interface
 
 The properties of a setproperty event.
 

@@ -8,7 +8,7 @@ google.maps.DirectionsStatus constants
 
 The status returned by the DirectionsService on the completion of a call to route(). Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.DirectionsStatus.OK.
 
-Constant
+Constants
 
 INVALID\_REQUEST
 

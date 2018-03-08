@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceSearchPagination.html)
 
 
-PlaceSearchPagination object specification
-------------------------------------------
+PlaceSearchPagination interface
+-------------------------------
 
-google.maps.places.PlaceSearchPagination object specification
+google.maps.places.PlaceSearchPagination interface
 
 An object used to fetch additional pages of Places results.
 
@@ -14,7 +14,11 @@ places
 
 Methods
 
+nextPage
+
 nextPage()
+
+**Parameters:**  None
 
 **Return Value:**  None
 

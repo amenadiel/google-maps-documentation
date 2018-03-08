@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StyledMapTypeOptions.html)
 
 
-StyledMapTypeOptions object specification
------------------------------------------
+StyledMapTypeOptions interface
+------------------------------
 
-google.maps.StyledMapTypeOptions object specification
+google.maps.StyledMapTypeOptions interface
 
 This class is used to specify options when creating a StyledMapType. These options cannot be changed after the StyledMapType is instantiated.
 

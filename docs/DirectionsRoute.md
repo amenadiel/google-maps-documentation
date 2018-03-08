@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsRoute.html)
 
 
-DirectionsRoute object specification
-------------------------------------
+DirectionsRoute interface
+-------------------------
 
-google.maps.DirectionsRoute object specification
+google.maps.DirectionsRoute interface
 
 A single route containing a set of legs in a [DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md). Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes LatLng objects.
 

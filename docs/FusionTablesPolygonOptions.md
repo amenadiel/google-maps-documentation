@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesPolygonOptions.html)
 
 
-FusionTablesPolygonOptions object specification
------------------------------------------------
+FusionTablesPolygonOptions interface
+------------------------------------
 
-google.maps.FusionTablesPolygonOptions object specification
+google.maps.FusionTablesPolygonOptions interface
 
 Options which control the appearance of polygons in a FusionTablesLayer.
 

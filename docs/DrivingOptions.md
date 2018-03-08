@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DrivingOptions.html)
 
 
-DrivingOptions object specification
------------------------------------
+DrivingOptions interface
+------------------------
 
-google.maps.DrivingOptions object specification
+google.maps.DrivingOptions interface
 
 Configures the [DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md) when the travel mode is set to DRIVING.
 

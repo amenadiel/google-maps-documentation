@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GroundOverlayOptions.html)
 
 
-GroundOverlayOptions object specification
------------------------------------------
+GroundOverlayOptions interface
+------------------------------
 
-google.maps.GroundOverlayOptions object specification
+google.maps.GroundOverlayOptions interface
 
 This object defines the properties that can be set on a GroundOverlay object.
 

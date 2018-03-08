@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsWaypoint.html)
 
 
-DirectionsWaypoint object specification
----------------------------------------
+DirectionsWaypoint interface
+----------------------------
 
-google.maps.DirectionsWaypoint object specification
+google.maps.DirectionsWaypoint interface
 
 A DirectionsWaypoint represents a location between origin and destination through which the trip should be routed.
 

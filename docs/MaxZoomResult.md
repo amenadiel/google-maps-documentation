@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MaxZoomResult.html)
 
 
-MaxZoomResult object specification
-----------------------------------
+MaxZoomResult interface
+-----------------------
 
-google.maps.MaxZoomResult object specification
+google.maps.MaxZoomResult interface
 
 A MaxZoom result in JSON format retrieved from the MaxZoomService.
 

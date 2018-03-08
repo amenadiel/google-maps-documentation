@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PredictionTerm.html)
 
 
-PredictionTerm object specification
------------------------------------
+PredictionTerm interface
+------------------------
 
-google.maps.places.PredictionTerm object specification
+google.maps.places.PredictionTerm interface
+
+Represents a prediction term.
 
 #### Library
 

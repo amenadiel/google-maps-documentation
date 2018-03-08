@@ -8,7 +8,7 @@ google.maps.StreetViewStatus constants
 
 The status returned by the StreetViewService on completion of a Street View request. These can be specified by value, or by using the constant's name. For example, 'OK' or google.maps.StreetViewStatus.OK.
 
-Constant
+Constants
 
 OK
 

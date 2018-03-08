@@ -1,10 +1,12 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitAgency.html)
 
 
-TransitAgency object specification
-----------------------------------
+TransitAgency interface
+-----------------------
 
-google.maps.TransitAgency object specification
+google.maps.TransitAgency interface
+
+Information about an agency that operates a transit line.
 
 Properties
 

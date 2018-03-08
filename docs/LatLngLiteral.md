@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/LatLngLiteral.html)
 
 
-LatLngLiteral object specification
-----------------------------------
+LatLngLiteral interface
+-----------------------
 
-google.maps.LatLngLiteral object specification
+google.maps.LatLngLiteral interface
 
 Object literals are accepted in place of LatLng objects, as a convenience, in many places. These are converted to LatLng objects when the Maps API encounters them.
 

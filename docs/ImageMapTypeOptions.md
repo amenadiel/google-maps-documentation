@@ -1,10 +1,10 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ImageMapTypeOptions.html)
 
 
-ImageMapTypeOptions object specification
-----------------------------------------
+ImageMapTypeOptions interface
+-----------------------------
 
-google.maps.ImageMapTypeOptions object specification
+google.maps.ImageMapTypeOptions interface
 
 This class is used to create a MapType that renders image tiles.
 
