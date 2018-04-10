@@ -44,7 +44,7 @@ optimizeWaypoints
 
 **Type:**  boolean
 
-If set to true, the DirectionService will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect DirectionsRoute.waypoint\_order in the response to determine the new ordering.
+If set to true, the DirectionsService will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect DirectionsRoute.waypoint\_order in the response to determine the new ordering.
 
 origin
 

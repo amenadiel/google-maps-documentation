@@ -54,6 +54,8 @@ Retrieves a list of places near a particular location, based on keyword or type.
 
 radarSearch
 
+**Notice:** Radar Search is **deprecated** as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.
+
 radarSearch(request, callback)
 
 **Parameters:** 
@@ -63,7 +65,7 @@ radarSearch(request, callback)
 
 **Return Value:**  None
 
-Similar to the nearbySearch function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and place\_id. Notice: Radar Search is **deprecated** as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.
+Similar to the nearbySearch function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and place\_id.
 
 textSearch
 

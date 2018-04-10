@@ -6,7 +6,9 @@ RadarSearchRequest interface
 
 google.maps.places.RadarSearchRequest interface
 
-A Radar Search request to be sent to the PlacesService. Notice: Radar Search is **deprecated** as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.
+**Notice:** Radar Search is **deprecated** as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.
+
+A Radar Search request to be sent to the PlacesService.
 
 #### Library
 

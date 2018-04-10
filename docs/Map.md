@@ -158,15 +158,16 @@ Changes the center of the map to the given LatLng. If the change is less than bo
 
 panToBounds
 
-panToBounds(latLngBounds)
+panToBounds(latLngBounds\[, padding\])
 
 **Parameters:** 
 
 *   latLngBounds:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+*   padding (optional):  number|[Padding](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Padding.md)
 
 **Return Value:**  None
 
-Pans the map by the minimum amount necessary to contain the given LatLngBounds. It makes no guarantee where on the map the bounds will be, except that as much of the bounds as possible will be visible. The bounds will be positioned inside the area bounded by the map type and navigation (pan, zoom, and Street View) controls, if they are present on the map. If the bounds is larger than the map, the map will be shifted to include the northwest corner of the bounds. If the change in the map's position is less than both the width and height of the map, the transition will be smoothly animated.
+Pans the map by the minimum amount necessary to contain the given LatLngBounds. It makes no guarantee where on the map the bounds will be, except that the map will be panned to show as much of the bounds as possible inside {currentMapSizeInPx} - {padding}.
 
 setCenter
 
@@ -405,14 +406,6 @@ function()
 **Arguments:**  None
 
 This event is fired when the projection has changed.
-
-resize
-
-function()
-
-**Arguments:**  None
-
-Developers should trigger this event on the map when the div changes size: [google.maps.event.trigger](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md)(map, 'resize') .
 
 rightclick
 
