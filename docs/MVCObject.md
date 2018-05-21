@@ -42,7 +42,7 @@ bindTo(key, target\[, targetKey, noNotify\])
 **Parameters:** 
 
 *   key:  string
-*   target:  [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md)
+*   target:  [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md#user-content-MVCObject)
 *   targetKey (optional):  string
 *   noNotify (optional):  boolean
 

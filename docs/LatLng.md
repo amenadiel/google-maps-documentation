@@ -45,7 +45,7 @@ equals(other)
 
 **Parameters:** 
 
-*   other:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+*   other:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md#user-content-LatLng)
 
 **Return Value:**  boolean
 

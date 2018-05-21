@@ -62,6 +62,12 @@ name
 
 Name to display in the MapTypeControl. Optional.
 
+projection
+
+**Type:**  [Projection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md)
+
+The Projection used to render this MapType. Optional; defaults to Mercator.
+
 radius
 
 **Type:**  number

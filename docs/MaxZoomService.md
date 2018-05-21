@@ -31,4 +31,4 @@ getMaxZoomAtLatLng(latlng, callback)
 
 **Return Value:**  None
 
-Returns the maximum zoom level available at a particular LatLng for the Satellite map type. As this request is asynchronous, you must pass a callback function which will be executed upon completion of the request, being passed a MaxZoomResult.
+Returns the maximum zoom level for which detailed imagery is available at a particular LatLng for the satellite map type. As this request is asynchronous, you must pass a callback function which will be executed upon completion of the request, being passed a MaxZoomResult.

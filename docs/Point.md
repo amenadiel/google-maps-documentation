@@ -27,7 +27,7 @@ equals(other)
 
 **Parameters:** 
 
-*   other:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+*   other:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md#user-content-Point)
 
 **Return Value:**  boolean
 

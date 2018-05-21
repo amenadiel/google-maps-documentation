@@ -20,7 +20,7 @@ Circle(\[opts\])
 
 *   opts (optional):  [CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md)
 
-Create a circle using the passed _[CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md)_, which specify the center, radius, and style.
+Create a circle using the passed [CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md), which specify the center, radius, and style.
 
 Methods
 

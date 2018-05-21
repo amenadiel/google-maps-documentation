@@ -6,7 +6,7 @@ LatLngBounds class
 
 google.maps.LatLngBounds class
 
-A [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md) instance represents a rectangle in geographical coordinates, including one that crosses the 180 degrees longitudinal meridian.
+A [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds) instance represents a rectangle in geographical coordinates, including one that crosses the 180 degrees longitudinal meridian.
 
 Constructor
 
@@ -41,7 +41,7 @@ equals(other)
 
 **Parameters:** 
 
-*   other:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+*   other:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
 
 **Return Value:**  boolean
 
@@ -55,7 +55,7 @@ extend(point)
 
 *   point:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
-**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds)
 
 Extends this bounds to contain the given point.
 
@@ -95,7 +95,7 @@ intersects(other)
 
 **Parameters:** 
 
-*   other:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+*   other:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
 
 **Return Value:**  boolean
 
@@ -159,8 +159,8 @@ union(other)
 
 **Parameters:** 
 
-*   other:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+*   other:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
 
-**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds)
 
 Extends this bounds to contain the union of this and the given bounds.

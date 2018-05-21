@@ -14,7 +14,7 @@ center
 
 **Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 
-The center
+The center of the Circle.
 
 clickable
 
@@ -44,19 +44,19 @@ fillOpacity
 
 **Type:**  number
 
-The fill opacity between 0.0 and 1.0
+The fill opacity between 0.0 and 1.0.
 
 map
 
 **Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
 
-Map on which to display Circle.
+Map on which to display the Circle.
 
 radius
 
 **Type:**  number
 
-The radius in meters on the Earth's surface
+The radius in meters on the Earth's surface.
 
 strokeColor
 
@@ -68,7 +68,7 @@ strokeOpacity
 
 **Type:**  number
 
-The stroke opacity between 0.0 and 1.0
+The stroke opacity between 0.0 and 1.0.
 
 strokePosition
 

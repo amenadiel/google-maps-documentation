@@ -29,7 +29,7 @@ equals(other)
 
 **Parameters:** 
 
-*   other:  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
+*   other:  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md#user-content-Size)
 
 **Return Value:**  boolean
 

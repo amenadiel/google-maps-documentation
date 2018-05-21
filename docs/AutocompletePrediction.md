@@ -30,7 +30,13 @@ place\_id
 
 **Type:**  string
 
-A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).getDetails()).
+A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md)).
+
+structured\_formatting
+
+**Type:**  [StructuredFormatting](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StructuredFormatting.md)
+
+Structured information about the place's description, divided into a main text and a secondary text, including an array of matched substrings from the autocomplete input, identified by an offset and a length, expressed in unicode characters.
 
 terms
 

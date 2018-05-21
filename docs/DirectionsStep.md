@@ -48,7 +48,7 @@ The starting location of this step.
 
 steps
 
-**Type:**  Array<[DirectionsStep](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md)\>
+**Type:**  Array<[DirectionsStep](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md#user-content-DirectionsStep)\>
 
 Sub-steps of this step. Specified for non-transit sections of transit routes.
 

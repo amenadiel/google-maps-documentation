@@ -30,7 +30,7 @@ place\_id
 
 **Type:**  string
 
-Only available if prediction is a place. A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).getDetails()).
+Only available if prediction is a place. A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md)).
 
 terms
 
