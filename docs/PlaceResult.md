@@ -18,7 +18,13 @@ address\_components
 
 **Type:**  Array<[GeocoderAddressComponent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderAddressComponent.md)\>
 
-The collection of address components for this Place's location.
+The collection of address components for this Place's location. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+
+adr\_address
+
+**Type:**  string
+
+The representation of the place's address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 aspects
 
@@ -36,7 +42,7 @@ formatted\_phone\_number
 
 **Type:**  string
 
-The Place's phone number, formatted according to the [number's regional convention](http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers).
+The Place's phone number, formatted according to the [number's regional convention](http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers). Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 geometry
 
@@ -48,7 +54,7 @@ html\_attributions
 
 **Type:**  Array<string>
 
-Attribution text to be displayed for this Place result.
+Attribution text to be displayed for this Place result. Available html\_attributions are always returned regardless of what fields have been requested, and must be displayed.
 
 icon
 
@@ -60,7 +66,7 @@ international\_phone\_number
 
 **Type:**  string
 
-The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign.
+The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 name
 
@@ -78,7 +84,7 @@ photos
 
 **Type:**  Array<[PlacePhoto](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePhoto.md)\>
 
-Photos of this Place. The collection will contain up to ten PlacePhoto objects.
+Photos of this Place. The collection will contain up to ten [PlacePhoto](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePhoto.md) objects.
 
 place\_id
 
@@ -108,34 +114,34 @@ reviews
 
 **Type:**  Array<[PlaceReview](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceReview.md)\>
 
-A list of reviews of this Place.
+A list of reviews of this Place. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 types
 
 **Type:**  Array<string>
 
-An array of [types for this Place](https://developers.google.com/places/supported_types) (e.g., \["political", "locality"\] or \["restaurant", "establishment"\]).
+An array of [types for this Place](https://developers.google.com/places/supported_types) (for example, \["political", "locality"\] or \["restaurant", "establishment"\]).
 
 url
 
 **Type:**  string
 
-URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the place.
+URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the place. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 utc\_offset
 
 **Type:**  number
 
-The offset from UTC of the Place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, utc\_offest is -60 for Cape Verde.
+The offset from UTC of the Place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, the is \-60 for Cape Verde. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 vicinity
 
 **Type:**  string
 
-A fragment of the Place's address for disambiguation (usually street name and locality).
+The simplified address for the place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of "48 Pirrama Road, Pyrmont". Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 website
 
 **Type:**  string
 
-The authoritative website for this Place, such as a business' homepage.
+The authoritative website for this Place, such as a business' homepage. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).

@@ -18,4 +18,4 @@ country
 
 **Type:**  string|Array<string>
 
-Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). E.g., us, br, au. You can provide a single one, or an array of up to 5 country code strings.
+Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). For example, 'us', 'br', or 'au'. You can provide a single one, or an array of up to five country code strings.

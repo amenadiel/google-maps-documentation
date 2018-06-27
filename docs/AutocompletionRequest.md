@@ -24,7 +24,7 @@ componentRestrictions
 
 **Type:**  [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
 
-The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.
+The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
 
 input
 
@@ -49,6 +49,12 @@ radius
 **Type:**  number
 
 The radius of the area used for prediction biasing. The radius is specified in meters, and must always be accompanied by a location property. Alternatively, bounds can be used.
+
+sessionToken
+
+**Type:**  [AutocompleteSessionToken](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteSessionToken.md)
+
+Unique reference used to bundle individual requests into sessions.
 
 types
 

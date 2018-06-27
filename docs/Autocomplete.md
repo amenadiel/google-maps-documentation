@@ -39,6 +39,16 @@ getBounds()
 
 Returns the bounds to which predictions are biased.
 
+getFields
+
+getFields()
+
+**Parameters:**  None
+
+**Return Value:**  Array<string>|undefined
+
+Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md).
+
 getPlace
 
 getPlace()
@@ -71,7 +81,19 @@ setComponentRestrictions(restrictions)
 
 **Return Value:**  None
 
-Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.
+Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
+
+setFields
+
+setFields(fields)
+
+**Parameters:** 
+
+*   fields:  Array<string>|undefined
+
+**Return Value:**  None
+
+Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md).
 
 setOptions
 

@@ -24,7 +24,13 @@ componentRestrictions
 
 **Type:**  [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
 
-The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.
+The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
+
+fields
+
+**Type:**  Array<string>
+
+Fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
 
 placeIdOnly
 

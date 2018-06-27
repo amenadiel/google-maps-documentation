@@ -24,4 +24,4 @@ value
 
 **Type:**  string
 
-The value of this term, e.g. "Taco Bell".
+The value of this term, for example, "Taco Bell".

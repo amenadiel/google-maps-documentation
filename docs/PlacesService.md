@@ -26,6 +26,32 @@ Creates a new instance of the PlacesService that renders attributions in the spe
 
 Methods
 
+findPlaceFromPhoneNumber
+
+findPlaceFromPhoneNumber(request, callback)
+
+**Parameters:** 
+
+*   request:  [FindPlaceFromPhoneNumberRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FindPlaceFromPhoneNumberRequest.md)
+*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+
+**Return Value:**  None
+
+Retrieves a list of places based on a phone number. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Your app can get a more detailed [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for each place by calling [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md) and passing the [PlaceResult.place\_id](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for the desired place.
+
+findPlaceFromQuery
+
+findPlaceFromQuery(request, callback)
+
+**Parameters:** 
+
+*   request:  [FindPlaceFromQueryRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FindPlaceFromQueryRequest.md)
+*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+
+**Return Value:**  None
+
+Retrieves a list of places based on a query string. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Your app can get a more detailed [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for each place by calling [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md) and passing the [PlaceResult.place\_id](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for the desired place.
+
 getDetails
 
 getDetails(request, callback)
@@ -50,7 +76,7 @@ nearbySearch(request, callback)
 
 **Return Value:**  None
 
-Retrieves a list of places near a particular location, based on keyword or type. Location must always be specified, either by passing a LatLngBounds, or location and radius parameters. The PlaceResults passed to the callback are subsets of the full PlaceResult. Your app can get a more detailed PlaceResult for each place by sending a [Place Details request](https://developers.google.com/maps/documentation/javascript/places#place_details_requests) passing the reference value for the desired place. The PlaceSearchPagination object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
+Retrieves a list of places near a particular location, based on keyword or type. Location must always be specified, either by passing a LatLngBounds, or location and radius parameters. The [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)s passed to the callback are subsets of the full [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Your app can get a more detailed [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for each place by sending a [Place Details request](https://developers.google.com/maps/documentation/javascript/places#place_details_requests) passing the [PlaceResult.place\_id](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for the desired place. The [PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md) object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
 
 radarSearch
 
@@ -78,4 +104,4 @@ textSearch(request, callback)
 
 **Return Value:**  None
 
-Retrieves a list of places based on a query string (for example, "pizza in New York", or "shoe stores near Ottawa"). Location parameters are optional; when the region is specified, results are only biased toward nearby results rather than restricted to places inside the area. Use textSearch when you want to search for places using an arbitrary string, and in cases where you may not want to restrict search results to a particular location. The PlaceSearchPagination object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
+Retrieves a list of places based on a query string (for example, "pizza in New York", or "shoe stores near Ottawa"). Location parameters are optional; when the location is specified, results are only biased toward nearby results rather than restricted to places inside the area. Use textSearch when you want to search for places using an arbitrary string, and in cases where you may not want to restrict search results to a particular location. The PlaceSearchPagination object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).

@@ -36,4 +36,4 @@ terms
 
 **Type:**  Array<[PredictionTerm](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md)\>
 
-Information about individual terms in the above description. Categorical terms come first (e.g., "restaurant"). Address terms appear from most to least specific. For example, "San Francisco", and "CA".
+Information about individual terms in the above description. Categorical terms come first (for example, "restaurant"). Address terms appear from most to least specific. For example, "San Francisco", and "CA".

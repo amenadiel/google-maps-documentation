@@ -24,4 +24,4 @@ viewport
 
 **Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
 
-The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known.
+The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).

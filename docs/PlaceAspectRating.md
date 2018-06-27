@@ -24,4 +24,4 @@ type
 
 **Type:**  string
 
-The aspect type, e.g. "food", "decor", "service", "overall".
+The aspect type. For example, "food", "decor", "service", or "overall".
