@@ -6,7 +6,7 @@ PlaceOpeningHoursPeriod interface
 
 google.maps.places.PlaceOpeningHoursPeriod interface
 
-Defines structured information about the opening hours of a Place. **Note:** If a place is **always open**, the close section will be missing from the response. Clients can rely on always-open being represented as an open period containing day with value 0 and time with value "0000", and no close.
+Defines structured information about the opening hours of a Place. **Note:** If a Place is **always open**, the close section will be missing from the response. Clients can rely on always-open being represented as an open period containing day with value 0 and time with value "0000", and no close.
 
 #### Library
 

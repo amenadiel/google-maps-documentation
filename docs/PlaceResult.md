@@ -24,7 +24,7 @@ adr\_address
 
 **Type:**  string
 
-The representation of the place's address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+The representation of the Place's address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 aspects
 
@@ -74,11 +74,17 @@ name
 
 The Place's name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See [http://en.wikipedia.org/wiki/Code\_injection](http://en.wikipedia.org/wiki/Code_injection)).
 
+opening\_hours
+
+**Type:**  [PlaceOpeningHours](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHours.md)
+
+Defines when the Place opens or closes.
+
 permanently\_closed
 
 **Type:**  boolean
 
-A flag indicating whether the Place is permanently closed. If the place is not permanently closed, the flag is not present in search or details responses.
+A flag indicating whether the Place is permanently closed. If the Place is not permanently closed, the flag is not present in search or details responses.
 
 photos
 
@@ -90,7 +96,13 @@ place\_id
 
 **Type:**  string
 
-A unique identifier for a place.
+A unique identifier for the Place.
+
+plus\_code
+
+**Type:**  [PlacePlusCode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePlusCode.md)
+
+Defines Open Location Codes or "[plus codes](https://plus.codes/)" for the Place.
 
 price\_level
 
@@ -126,7 +138,7 @@ url
 
 **Type:**  string
 
-URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the place. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 utc\_offset
 
@@ -138,7 +150,7 @@ vicinity
 
 **Type:**  string
 
-The simplified address for the place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of "48 Pirrama Road, Pyrmont". Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+The simplified address for the Place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of "48 Pirrama Road, Pyrmont". Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
 
 website
 
