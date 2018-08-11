@@ -10,13 +10,13 @@ A representation of duration as a numeric value and a display string.
 
 Properties
 
-text
+[text](#Duration.text)
 
 **Type:**  string
 
 A string representation of the duration value.
 
-value
+[value](#Duration.value)
 
 **Type:**  number
 

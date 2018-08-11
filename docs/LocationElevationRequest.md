@@ -10,8 +10,8 @@ An elevation request sent by the ElevationService containing the list of discret
 
 Properties
 
-locations
+[locations](#LocationElevationRequest.locations)
 
-**Type:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Type:**  Array<[LatLng](LatLng.md)\>
 
 The discrete locations for which to retrieve elevations.

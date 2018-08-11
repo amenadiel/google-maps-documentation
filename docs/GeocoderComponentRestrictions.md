@@ -10,31 +10,31 @@ GeocoderComponentRestrictions represents a set of filters that resolve to a spec
 
 Properties
 
-administrativeArea
+[administrativeArea](#GeocoderComponentRestrictions.administrativeArea)
 
 **Type:**  string
 
 Matches all the administrative\_area levels. Optional.
 
-country
+[country](#GeocoderComponentRestrictions.country)
 
 **Type:**  string
 
 Matches a country name or a two letter ISO 3166-1 country code. Optional.
 
-locality
+[locality](#GeocoderComponentRestrictions.locality)
 
 **Type:**  string
 
 Matches against both locality and sublocality types. Optional.
 
-postalCode
+[postalCode](#GeocoderComponentRestrictions.postalCode)
 
 **Type:**  string
 
 Matches postal\_code and postal\_code\_prefix. Optional.
 
-route
+[route](#GeocoderComponentRestrictions.route)
 
 **Type:**  string
 

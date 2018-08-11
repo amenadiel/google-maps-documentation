@@ -10,31 +10,31 @@ Metadata for a single KML layer, in JSON format.
 
 Properties
 
-author
+[author](#KmlLayerMetadata.author)
 
-**Type:**  [KmlAuthor](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlAuthor.md)
+**Type:**  [KmlAuthor](KmlAuthor.md)
 
 The layer's <atom:author>, extracted from the layer markup.
 
-description
+[description](#KmlLayerMetadata.description)
 
 **Type:**  string
 
 The layer's <description>, extracted from the layer markup.
 
-hasScreenOverlays
+[hasScreenOverlays](#KmlLayerMetadata.hasScreenOverlays)
 
 **Type:**  boolean
 
 Whether the layer has any screen overlays.
 
-name
+[name](#KmlLayerMetadata.name)
 
 **Type:**  string
 
 The layer's <name>, extracted from the layer markup.
 
-snippet
+[snippet](#KmlLayerMetadata.snippet)
 
 **Type:**  string
 

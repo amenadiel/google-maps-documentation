@@ -8,23 +8,23 @@ google.maps.InfoWindow class
 
 An overlay that looks like a bubble and is often connected to a marker.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-InfoWindow
+[InfoWindow](#InfoWindow.constructor)
 
 InfoWindow(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [InfoWindowOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md)
+*   opts (optional):  [InfoWindowOptions](InfoWindowOptions.md)
 
 Creates an info window with the given options. An InfoWindow can be placed on a map at a particular position or above a marker, depending on what is specified in the options. Unless auto-pan is disabled, an InfoWindow will pan the map to make itself visible when it is opened. After constructing an InfoWindow, you must call open to display it on the map. The user can click the close button on the InfoWindow to remove it from the map, or the developer can call close() for the same effect.
 
 Methods
 
-close
+[close](#InfoWindow.close)
 
 close()
 
@@ -34,7 +34,7 @@ close()
 
 Closes this InfoWindow by removing it from the DOM structure.
 
-getContent
+[getContent](#InfoWindow.getContent)
 
 getContent()
 
@@ -42,15 +42,15 @@ getContent()
 
 **Return Value:**  string|Node
 
-getPosition
+[getPosition](#InfoWindow.getPosition)
 
 getPosition()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
-getZIndex
+[getZIndex](#InfoWindow.getZIndex)
 
 getZIndex()
 
@@ -58,20 +58,20 @@ getZIndex()
 
 **Return Value:**  number
 
-open
+[open](#InfoWindow.open)
 
 open(\[map, anchor\])
 
 **Parameters:** 
 
-*   map (optional):  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
-*   anchor (optional):  [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md)
+*   map (optional):  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
+*   anchor (optional):  [MVCObject](MVCObject.md)
 
 **Return Value:**  None
 
 Opens this InfoWindow on the given map. Optionally, an InfoWindow can be associated with an anchor. In the core API, the only anchor is the Marker class. However, an anchor can be any MVCObject that exposes a LatLng position property and optionally a Point anchorPoint property for calculating the pixelOffset (see InfoWindowOptions). The anchorPoint is the offset from the anchor's position to the tip of the InfoWindow.
 
-setContent
+[setContent](#InfoWindow.setContent)
 
 setContent(content)
 
@@ -81,27 +81,27 @@ setContent(content)
 
 **Return Value:**  None
 
-setOptions
+[setOptions](#InfoWindow.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [InfoWindowOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md)
+*   options:  [InfoWindowOptions](InfoWindowOptions.md)
 
 **Return Value:**  None
 
-setPosition
+[setPosition](#InfoWindow.setPosition)
 
 setPosition(position)
 
 **Parameters:** 
 
-*   position:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+*   position:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 **Return Value:**  None
 
-setZIndex
+[setZIndex](#InfoWindow.setZIndex)
 
 setZIndex(zIndex)
 
@@ -113,7 +113,7 @@ setZIndex(zIndex)
 
 Events
 
-closeclick
+[closeclick](#InfoWindow.closeclick)
 
 function()
 
@@ -121,7 +121,7 @@ function()
 
 This event is fired when the close button was clicked.
 
-content\_changed
+[content\_changed](#InfoWindow.content_changed)
 
 function()
 
@@ -129,7 +129,7 @@ function()
 
 This event is fired when the content property changes.
 
-domready
+[domready](#InfoWindow.domready)
 
 function()
 
@@ -137,7 +137,7 @@ function()
 
 This event is fired when the <div> containing the **InfoWindow**'s content is attached to the DOM. You may wish to monitor this event if you are building out your info window content dynamically.
 
-position\_changed
+[position\_changed](#InfoWindow.position_changed)
 
 function()
 
@@ -145,7 +145,7 @@ function()
 
 This event is fired when the position property changes.
 
-zindex\_changed
+[zindex\_changed](#InfoWindow.zindex_changed)
 
 function()
 

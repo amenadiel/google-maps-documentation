@@ -10,8 +10,8 @@ A row of the response to a DistanceMatrixService request, consisting of a sequen
 
 Properties
 
-elements
+[elements](#DistanceMatrixResponseRow.elements)
 
-**Type:**  Array<[DistanceMatrixResponseElement](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponseElement.md)\>
+**Type:**  Array<[DistanceMatrixResponseElement](DistanceMatrixResponseElement.md)\>
 
 The row's elements, corresponding to the destination addresses.

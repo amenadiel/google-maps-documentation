@@ -10,19 +10,19 @@ A single address component within a GeocoderResult. A full address may consist o
 
 Properties
 
-long\_name
+[long\_name](#GeocoderAddressComponent.long_name)
 
 **Type:**  string
 
 The full text of the address component
 
-short\_name
+[short\_name](#GeocoderAddressComponent.short_name)
 
 **Type:**  string
 
 The abbreviated, short text of the given address component
 
-types
+[types](#GeocoderAddressComponent.types)
 
 **Type:**  Array<string>
 

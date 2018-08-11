@@ -6,53 +6,53 @@ DirectionsRoute interface
 
 google.maps.DirectionsRoute interface
 
-A single route containing a set of legs in a [DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md). Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes LatLng objects.
+A single route containing a set of legs in a [DirectionsResult](DirectionsResult.md). Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes LatLng objects.
 
 Properties
 
-bounds
+[bounds](#DirectionsRoute.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)
 
 The bounds for this route.
 
-copyrights
+[copyrights](#DirectionsRoute.copyrights)
 
 **Type:**  string
 
 Copyrights text to be displayed for this route.
 
-fare
+[fare](#DirectionsRoute.fare)
 
-**Type:**  [TransitFare](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md)
+**Type:**  [TransitFare](TransitFare.md)
 
 The total fare for the whole transit trip. Only applicable to transit requests.
 
-legs
+[legs](#DirectionsRoute.legs)
 
-**Type:**  Array<[DirectionsLeg](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsLeg.md)\>
+**Type:**  Array<[DirectionsLeg](DirectionsLeg.md)\>
 
 An array of DirectionsLegs, each of which contains information about the steps of which it is composed. There will be one leg for each stopover waypoint or destination specified. So a route with no stopover waypoints will contain one DirectionsLeg and a route with one stopover waypoint will contain two.
 
-overview\_path
+[overview\_path](#DirectionsRoute.overview_path)
 
-**Type:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Type:**  Array<[LatLng](LatLng.md)\>
 
 An array of LatLngs representing the entire course of this route. The path is simplified in order to make it suitable in contexts where a small number of vertices is required (such as Static Maps API URLs).
 
-overview\_polyline
+[overview\_polyline](#DirectionsRoute.overview_polyline)
 
 **Type:**  string
 
 An [encoded polyline representation](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) of the route in overview\_path. This polyline is an approximate (smoothed) path of the resulting directions.
 
-warnings
+[warnings](#DirectionsRoute.warnings)
 
 **Type:**  Array<string>
 
 Warnings to be displayed when showing these directions.
 
-waypoint\_order
+[waypoint\_order](#DirectionsRoute.waypoint_order)
 
 **Type:**  Array<number>
 

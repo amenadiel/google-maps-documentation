@@ -6,7 +6,7 @@ AutocompleteSessionToken class
 
 google.maps.places.AutocompleteSessionToken class
 
-Represents a session token used for tracking an autocomplete session, which can be a series of [AutocompleteService.getPlacePredictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteService.md) calls followed by a single [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md) call.
+Represents a session token used for tracking an autocomplete session, which can be a series of [AutocompleteService.getPlacePredictions](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-autocomplete-service#AutocompleteService.getPlacePredictions) calls followed by a single [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails) call.
 
 #### Library
 
@@ -14,7 +14,7 @@ places
 
 Constructor
 
-AutocompleteSessionToken
+[AutocompleteSessionToken](#AutocompleteSessionToken.constructor)
 
 AutocompleteSessionToken()
 

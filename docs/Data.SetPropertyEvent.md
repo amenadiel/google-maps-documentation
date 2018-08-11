@@ -10,25 +10,25 @@ The properties of a setproperty event.
 
 Properties
 
-feature
+[feature](#Data.SetPropertyEvent.feature)
 
-**Type:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
+**Type:**  [Data.Feature](Data.Feature.md)
 
 The feature whose property was set.
 
-name
+[name](#Data.SetPropertyEvent.name)
 
 **Type:**  string
 
 The property name.
 
-newValue
+[newValue](#Data.SetPropertyEvent.newValue)
 
 **Type:**  \*
 
 The new value.
 
-oldValue
+[oldValue](#Data.SetPropertyEvent.oldValue)
 
 **Type:**  \*
 

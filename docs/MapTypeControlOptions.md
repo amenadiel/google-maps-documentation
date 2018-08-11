@@ -10,20 +10,20 @@ Options for the rendering of the map type control.
 
 Properties
 
-mapTypeIds
+[mapTypeIds](#MapTypeControlOptions.mapTypeIds)
 
-**Type:**  Array<[MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)|string>
+**Type:**  Array<[MapTypeId](MapTypeId.md)|string>
 
 IDs of map types to show in the control.
 
-position
+[position](#MapTypeControlOptions.position)
 
-**Type:**  [ControlPosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md)
 
 Position id. Used to specify the position of the control on the map. The default position is TOP\_RIGHT.
 
-style
+[style](#MapTypeControlOptions.style)
 
-**Type:**  [MapTypeControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeControlStyle.md)
+**Type:**  [MapTypeControlStyle](MapTypeControlStyle.md)
 
 Style id. Used to select what style of map type control to display.

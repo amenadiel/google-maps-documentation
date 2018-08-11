@@ -8,7 +8,7 @@ google.maps.places.Autocomplete class
 
 A widget that provides Place predictions based on a user's text input. It attaches to an input element of type text, and listens for text entry in that field. The list of predictions is presented as a drop-down list, and is updated as text is entered.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 #### Library
 
@@ -16,30 +16,30 @@ places
 
 Constructor
 
-Autocomplete
+[Autocomplete](#Autocomplete.constructor)
 
 Autocomplete(inputField\[, opts\])
 
 **Parameters:** 
 
 *   inputField:  HTMLInputElement
-*   opts (optional):  [AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md)
+*   opts (optional):  [AutocompleteOptions](AutocompleteOptions.md)
 
 Creates a new instance of Autocomplete that attaches to the specified input text field with the given options.
 
 Methods
 
-getBounds
+[getBounds](#Autocomplete.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|undefined
+**Return Value:**  [LatLngBounds](LatLngBounds.md)|undefined
 
 Returns the bounds to which predictions are biased.
 
-getFields
+[getFields](#Autocomplete.getFields)
 
 getFields()
 
@@ -47,43 +47,43 @@ getFields()
 
 **Return Value:**  Array<string>|undefined
 
-Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md).
+Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](PlaceResult.md).
 
-getPlace
+[getPlace](#Autocomplete.getPlace)
 
 getPlace()
 
 **Parameters:**  None
 
-**Return Value:**  [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)
+**Return Value:**  [PlaceResult](PlaceResult.md)
 
 Returns the details of the Place selected by user if the details were successfully retrieved. Otherwise returns a stub Place object, with the name property set to the current value of the input field.
 
-setBounds
+[setBounds](#Autocomplete.setBounds)
 
 setBounds(bounds)
 
 **Parameters:** 
 
-*   bounds:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)|undefined
+*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)|undefined
 
 **Return Value:**  None
 
 Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.
 
-setComponentRestrictions
+[setComponentRestrictions](#Autocomplete.setComponentRestrictions)
 
 setComponentRestrictions(restrictions)
 
 **Parameters:** 
 
-*   restrictions:  [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
+*   restrictions:  [ComponentRestrictions](ComponentRestrictions.md)
 
 **Return Value:**  None
 
 Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
 
-setFields
+[setFields](#Autocomplete.setFields)
 
 setFields(fields)
 
@@ -93,19 +93,19 @@ setFields(fields)
 
 **Return Value:**  None
 
-Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md).
+Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](PlaceResult.md).
 
-setOptions
+[setOptions](#Autocomplete.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md)
+*   options:  [AutocompleteOptions](AutocompleteOptions.md)
 
 **Return Value:**  None
 
-setTypes
+[setTypes](#Autocomplete.setTypes)
 
 setTypes(types)
 
@@ -119,7 +119,7 @@ Sets the types of predictions to be returned. For a list of supported types, see
 
 Events
 
-place\_changed
+[place\_changed](#Autocomplete.place_changed)
 
 function()
 

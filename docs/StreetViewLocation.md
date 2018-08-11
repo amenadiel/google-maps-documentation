@@ -10,25 +10,25 @@ A representation of a location in the Street View panorama.
 
 Properties
 
-description
+[description](#StreetViewLocation.description)
 
 **Type:**  string
 
 A localized string describing the location.
 
-latLng
+[latLng](#StreetViewLocation.latLng)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The latlng of the panorama.
 
-pano
+[pano](#StreetViewLocation.pano)
 
 **Type:**  string
 
 A unique identifier for the panorama. This is stable within a session but unstable across sessions.
 
-shortDescription
+[shortDescription](#StreetViewLocation.shortDescription)
 
 **Type:**  string
 

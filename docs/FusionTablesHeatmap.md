@@ -10,7 +10,7 @@ Specifies the appearance for a FusionTablesLayer when rendered as a heatmap.
 
 Properties
 
-enabled
+[enabled](#FusionTablesHeatmap.enabled)
 
 **Type:**  boolean
 

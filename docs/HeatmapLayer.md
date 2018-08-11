@@ -8,7 +8,7 @@ google.maps.visualization.HeatmapLayer class
 
 A layer that provides a client-side rendered heatmap, depicting the intensity of data at geographical points.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 #### Library
 
@@ -16,66 +16,66 @@ visualization
 
 Constructor
 
-HeatmapLayer
+[HeatmapLayer](#HeatmapLayer.constructor)
 
 HeatmapLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md)
+*   opts (optional):  [HeatmapLayerOptions](HeatmapLayerOptions.md)
 
 Creates a new instance of HeatmapLayer.
 
 Methods
 
-getData
+[getData](#HeatmapLayer.getData)
 
 getData()
 
 **Parameters:**  None
 
-**Return Value:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[WeightedLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md)\>
+**Return Value:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>
 
 Returns the data points currently displayed by this heatmap.
 
-getMap
+[getMap](#HeatmapLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
-setData
+[setData](#HeatmapLayer.setData)
 
 setData(data)
 
 **Parameters:** 
 
-*   data:  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[WeightedLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md)\>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[WeightedLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md)\>
+*   data:  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>|Array<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>
 
 **Return Value:**  None
 
 Sets the data points to be displayed by this heatmap.
 
-setMap
+[setMap](#HeatmapLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 
 Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.
 
-setOptions
+[setOptions](#HeatmapLayer.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md)
+*   options:  [HeatmapLayerOptions](HeatmapLayerOptions.md)
 
 **Return Value:**  None

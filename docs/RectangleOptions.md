@@ -10,79 +10,79 @@ RectangleOptions object used to define the properties that can be set on a Recta
 
 Properties
 
-bounds
+[bounds](#RectangleOptions.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 The bounds.
 
-clickable
+[clickable](#RectangleOptions.clickable)
 
 **Type:**  boolean
 
 Indicates whether this Rectangle handles mouse events. Defaults to true.
 
-draggable
+[draggable](#RectangleOptions.draggable)
 
 **Type:**  boolean
 
 If set to true, the user can drag this rectangle over the map. Defaults to false.
 
-editable
+[editable](#RectangleOptions.editable)
 
 **Type:**  boolean
 
 If set to true, the user can edit this rectangle by dragging the control points shown at the corners and on each edge. Defaults to false.
 
-fillColor
+[fillColor](#RectangleOptions.fillColor)
 
 **Type:**  string
 
 The fill color. All CSS3 colors are supported except for extended named colors.
 
-fillOpacity
+[fillOpacity](#RectangleOptions.fillOpacity)
 
 **Type:**  number
 
 The fill opacity between 0.0 and 1.0
 
-map
+[map](#RectangleOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Type:**  [Map](Map.md)
 
 Map on which to display Rectangle.
 
-strokeColor
+[strokeColor](#RectangleOptions.strokeColor)
 
 **Type:**  string
 
 The stroke color. All CSS3 colors are supported except for extended named colors.
 
-strokeOpacity
+[strokeOpacity](#RectangleOptions.strokeOpacity)
 
 **Type:**  number
 
 The stroke opacity between 0.0 and 1.0
 
-strokePosition
+[strokePosition](#RectangleOptions.strokePosition)
 
-**Type:**  [StrokePosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StrokePosition.md)
+**Type:**  [StrokePosition](StrokePosition.md)
 
 The stroke position. Defaults to CENTER. This property is not supported on Internet Explorer 8 and earlier.
 
-strokeWeight
+[strokeWeight](#RectangleOptions.strokeWeight)
 
 **Type:**  number
 
 The stroke width in pixels.
 
-visible
+[visible](#RectangleOptions.visible)
 
 **Type:**  boolean
 
 Whether this rectangle is visible on the map. Defaults to true.
 
-zIndex
+[zIndex](#RectangleOptions.zIndex)
 
 **Type:**  number
 

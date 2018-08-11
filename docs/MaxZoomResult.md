@@ -10,13 +10,13 @@ A MaxZoom result in JSON format retrieved from the MaxZoomService.
 
 Properties
 
-status
+[status](#MaxZoomResult.status)
 
-**Type:**  [MaxZoomStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomStatus.md)
+**Type:**  [MaxZoomStatus](MaxZoomStatus.md)
 
 Status of the request.
 
-zoom
+[zoom](#MaxZoomResult.zoom)
 
 **Type:**  number
 

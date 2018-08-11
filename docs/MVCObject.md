@@ -12,7 +12,7 @@ The MVCObject constructor is guaranteed to be an empty function, and so you may 
 
 Constructor
 
-MVCObject
+[MVCObject](#MVCObject.constructor)
 
 MVCObject()
 
@@ -22,7 +22,7 @@ Creates an MVCObject.
 
 Methods
 
-addListener
+[addListener](#MVCObject.addListener)
 
 addListener(eventName, handler)
 
@@ -31,18 +31,18 @@ addListener(eventName, handler)
 *   eventName:  string
 *   handler:  Function
 
-**Return Value:**  [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
+**Return Value:**  [MapsEventListener](MapsEventListener.md)
 
 Adds the given listener function to the given event name. Returns an identifier for this listener that can be used with google.maps.event.removeListener.
 
-bindTo
+[bindTo](#MVCObject.bindTo)
 
 bindTo(key, target\[, targetKey, noNotify\])
 
 **Parameters:** 
 
 *   key:  string
-*   target:  [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md#user-content-MVCObject)
+*   target:  [MVCObject](MVCObject.md)
 *   targetKey (optional):  string
 *   noNotify (optional):  boolean
 
@@ -50,7 +50,7 @@ bindTo(key, target\[, targetKey, noNotify\])
 
 Binds a View to a Model.
 
-get
+[get](#MVCObject.get)
 
 get(key)
 
@@ -62,7 +62,7 @@ get(key)
 
 Gets a value.
 
-notify
+[notify](#MVCObject.notify)
 
 notify(key)
 
@@ -74,7 +74,7 @@ notify(key)
 
 Notify all observers of a change on this property. This notifies both objects that are bound to the object's property as well as the object that it is bound to.
 
-set
+[set](#MVCObject.set)
 
 set(key, value)
 
@@ -87,7 +87,7 @@ set(key, value)
 
 Sets a value.
 
-setValues
+[setValues](#MVCObject.setValues)
 
 setValues(\[values\])
 
@@ -99,7 +99,7 @@ setValues(\[values\])
 
 Sets a collection of key-value pairs.
 
-unbind
+[unbind](#MVCObject.unbind)
 
 unbind(key)
 
@@ -111,7 +111,7 @@ unbind(key)
 
 Removes a binding. Unbinding will set the unbound property to the current value. The object will not be notified, as the value has not changed.
 
-unbindAll
+[unbindAll](#MVCObject.unbindAll)
 
 unbindAll()
 

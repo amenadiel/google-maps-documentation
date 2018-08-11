@@ -10,30 +10,30 @@ The status returned by the Geocoder on the completion of a call to geocode(). Sp
 
 Constants
 
-ERROR
+[ERROR](#GeocoderStatus.ERROR)
 
 There was a problem contacting the Google servers.
 
-INVALID\_REQUEST
+[INVALID\_REQUEST](#GeocoderStatus.INVALID_REQUEST)
 
 This GeocoderRequest was invalid.
 
-OK
+[OK](#GeocoderStatus.OK)
 
 The response contains a valid GeocoderResponse.
 
-OVER\_QUERY\_LIMIT
+[OVER\_QUERY\_LIMIT](#GeocoderStatus.OVER_QUERY_LIMIT)
 
 The webpage has gone over the requests limit in too short a period of time.
 
-REQUEST\_DENIED
+[REQUEST\_DENIED](#GeocoderStatus.REQUEST_DENIED)
 
 The webpage is not allowed to use the geocoder.
 
-UNKNOWN\_ERROR
+[UNKNOWN\_ERROR](#GeocoderStatus.UNKNOWN_ERROR)
 
 A geocoding request could not be processed due to a server error. The request may succeed if you try again.
 
-ZERO\_RESULTS
+[ZERO\_RESULTS](#GeocoderStatus.ZERO_RESULTS)
 
 No result was found for this GeocoderRequest.

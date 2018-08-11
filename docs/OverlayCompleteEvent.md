@@ -14,14 +14,14 @@ drawing
 
 Properties
 
-overlay
+[overlay](#OverlayCompleteEvent.overlay)
 
-**Type:**  [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)|[Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)|[Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md)|[Rectangle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md)|[Circle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Circle.md)
+**Type:**  [Marker](Marker.md)|[Polygon](Polygon.md)|[Polyline](Polyline.md)|[Rectangle](Rectangle.md)|[Circle](Circle.md)
 
 The completed overlay.
 
-type
+[type](#OverlayCompleteEvent.type)
 
-**Type:**  [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
+**Type:**  [OverlayType](OverlayType.md)
 
 The completed overlay's type.

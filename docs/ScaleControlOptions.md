@@ -10,8 +10,8 @@ Options for the rendering of the scale control.
 
 Properties
 
-style
+[style](#ScaleControlOptions.style)
 
-**Type:**  [ScaleControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ScaleControlStyle.md)
+**Type:**  [ScaleControlStyle](ScaleControlStyle.md)
 
 Style id. Used to select what style of scale control to display.

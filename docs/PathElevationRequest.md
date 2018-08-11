@@ -10,13 +10,13 @@ An elevation query sent by the ElevationService containing the path along which 
 
 Properties
 
-path
+[path](#PathElevationRequest.path)
 
-**Type:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Type:**  Array<[LatLng](LatLng.md)\>
 
 The path along which to collect elevation values.
 
-samples
+[samples](#PathElevationRequest.samples)
 
 **Type:**  number
 

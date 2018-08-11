@@ -10,26 +10,26 @@ The properties of a mouse event on a FusionTablesLayer.
 
 Properties
 
-infoWindowHtml
+[infoWindowHtml](#FusionTablesMouseEvent.infoWindowHtml)
 
 **Type:**  string
 
 Pre-rendered HTML content, as placed in the infowindow by the default UI.
 
-latLng
+[latLng](#FusionTablesMouseEvent.latLng)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The position at which to anchor an infowindow on the clicked feature.
 
-pixelOffset
+[pixelOffset](#FusionTablesMouseEvent.pixelOffset)
 
-**Type:**  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
+**Type:**  [Size](Size.md)
 
 The offset to apply to an infowindow anchored on the clicked feature.
 
-row
+[row](#FusionTablesMouseEvent.row)
 
-**Type:**  Object<[FusionTablesCell](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesCell.md)\>
+**Type:**  Object<[FusionTablesCell](FusionTablesCell.md)\>
 
 A collection of FusionTablesCell objects, indexed by column name, representing the contents of the table row which included the clicked feature.

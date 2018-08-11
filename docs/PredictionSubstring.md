@@ -14,13 +14,13 @@ places
 
 Properties
 
-length
+[length](#PredictionSubstring.length)
 
 **Type:**  number
 
 The length of the substring.
 
-offset
+[offset](#PredictionSubstring.offset)
 
 **Type:**  number
 

@@ -14,13 +14,13 @@ visualization
 
 Properties
 
-location
+[location](#WeightedLocation.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The location of the data point.
 
-weight
+[weight](#WeightedLocation.weight)
 
 **Type:**  number
 

@@ -8,11 +8,11 @@ google.maps.MapTypeRegistry class
 
 A registry for MapType instances, keyed by MapType id.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-MapTypeRegistry
+[MapTypeRegistry](#MapTypeRegistry.constructor)
 
 MapTypeRegistry()
 
@@ -22,14 +22,14 @@ The MapTypeRegistry holds the collection of custom map types available to the ma
 
 Methods
 
-set
+[set](#MapTypeRegistry.set)
 
 set(id, mapType)
 
 **Parameters:** 
 
 *   id:  string
-*   mapType:  [MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md)|\*
+*   mapType:  [MapType](MapType.md)|\*
 
 **Return Value:**  None
 

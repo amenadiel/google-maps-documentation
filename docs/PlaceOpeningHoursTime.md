@@ -14,13 +14,13 @@ places
 
 Properties
 
-day
+[day](#PlaceOpeningHoursTime.day)
 
 **Type:**  number
 
 The days of the week, as a number in the range \[0, 6\], starting on Sunday. For example, 2 means Tuesday.
 
-time
+[time](#PlaceOpeningHoursTime.time)
 
 **Type:**  string
 

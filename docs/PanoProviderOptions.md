@@ -10,7 +10,7 @@ Options for the Custom Pano Provider.
 
 Properties
 
-cors
+[cors](#PanoProviderOptions.cors)
 
 **Type:**  boolean
 

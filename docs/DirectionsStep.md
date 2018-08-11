@@ -10,56 +10,56 @@ A single DirectionsStep in a DirectionsResult. Some fields may be undefined. Not
 
 Properties
 
-distance
+[distance](#DirectionsStep.distance)
 
-**Type:**  [Distance](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md)
+**Type:**  [Distance](Distance.md)
 
 The distance covered by this step. This property may be undefined as the distance may be unknown.
 
-duration
+[duration](#DirectionsStep.duration)
 
-**Type:**  [Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md)
+**Type:**  [Duration](Duration.md)
 
 The typical time required to perform this step in seconds and in text form. This property may be undefined as the duration may be unknown.
 
-end\_location
+[end\_location](#DirectionsStep.end_location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The ending location of this step.
 
-instructions
+[instructions](#DirectionsStep.instructions)
 
 **Type:**  string
 
 Instructions for this step.
 
-path
+[path](#DirectionsStep.path)
 
-**Type:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Type:**  Array<[LatLng](LatLng.md)\>
 
 A sequence of LatLngs describing the course of this step.
 
-start\_location
+[start\_location](#DirectionsStep.start_location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The starting location of this step.
 
-steps
+[steps](#DirectionsStep.steps)
 
-**Type:**  Array<[DirectionsStep](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md#user-content-DirectionsStep)\>
+**Type:**  Array<[DirectionsStep](DirectionsStep.md)\>
 
 Sub-steps of this step. Specified for non-transit sections of transit routes.
 
-transit
+[transit](#DirectionsStep.transit)
 
-**Type:**  [TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md)
+**Type:**  [TransitDetails](TransitDetails.md)
 
 Transit-specific details about this step. This property will be undefined unless the travel mode of this step is TRANSIT.
 
-travel\_mode
+[travel\_mode](#DirectionsStep.travel_mode)
 
-**Type:**  [TravelMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md)
+**Type:**  [TravelMode](TravelMode.md)
 
 The mode of travel used in this step.

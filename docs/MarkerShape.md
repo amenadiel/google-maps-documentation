@@ -6,11 +6,11 @@ MarkerShape interface
 
 google.maps.MarkerShape interface
 
-This object defines the clickable region of a marker image for browsers other than Internet Explorer. The shape consists of two properties - type and coord - which define the non-transparent region of an image. A MarkerShape object is not required on Internet Explorer since the browser does not fire events on the transparent region of an image by default.
+This object defines the clickable region of a marker image for browsers other than Internet Explorer. The shape consists of two properties — type and coord — which define the non-transparent region of an image. A MarkerShape object is not required on Internet Explorer since the browser does not fire events on the transparent region of an image by default.
 
 Properties
 
-coords
+[coords](#MarkerShape.coords)
 
 **Type:**  Array<number>
 
@@ -20,7 +20,7 @@ The coords attribute is an array of integers that specify the pixel position of 
   - poly: coords is \[x1,y1,x2,y2...xn,yn\] where each x,y pair contains the coordinates of one vertex of the polygon.  
   - rect: coords is \[x1,y1,x2,y2\] where x1,y1 are the coordinates of the upper-left corner of the rectangle and x2,y2 are the coordinates of the lower-right coordinates of the rectangle.
 
-type
+[type](#MarkerShape.type)
 
 **Type:**  string
 

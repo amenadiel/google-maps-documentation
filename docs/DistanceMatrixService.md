@@ -10,7 +10,7 @@ A service for computing distances between multiple origins and destinations.
 
 Constructor
 
-DistanceMatrixService
+[DistanceMatrixService](#DistanceMatrixService.constructor)
 
 DistanceMatrixService()
 
@@ -20,14 +20,14 @@ Creates a new instance of a DistanceMatrixService that sends distance matrix que
 
 Methods
 
-getDistanceMatrix
+[getDistanceMatrix](#DistanceMatrixService.getDistanceMatrix)
 
 getDistanceMatrix(request, callback)
 
 **Parameters:** 
 
-*   request:  [DistanceMatrixRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixRequest.md)
-*   callback:  function([DistanceMatrixResponse](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponse.md), [DistanceMatrixStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixStatus.md))
+*   request:  [DistanceMatrixRequest](DistanceMatrixRequest.md)
+*   callback:  function([DistanceMatrixResponse](DistanceMatrixResponse.md), [DistanceMatrixStatus](DistanceMatrixStatus.md))
 
 **Return Value:**  None
 

@@ -10,20 +10,20 @@ The properties of a click event on a KML/KMZ or GeoRSS document.
 
 Properties
 
-featureData
+[featureData](#KmlMouseEvent.featureData)
 
-**Type:**  [KmlFeatureData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlFeatureData.md)
+**Type:**  [KmlFeatureData](KmlFeatureData.md)
 
 A KmlFeatureData object, containing information about the clicked feature.
 
-latLng
+[latLng](#KmlMouseEvent.latLng)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The position at which to anchor an infowindow on the clicked feature.
 
-pixelOffset
+[pixelOffset](#KmlMouseEvent.pixelOffset)
 
-**Type:**  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
+**Type:**  [Size](Size.md)
 
 The offset to apply to an infowindow anchored on the clicked feature.

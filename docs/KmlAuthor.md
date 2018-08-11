@@ -10,19 +10,19 @@ Contains details of the author of a KML document or feature.
 
 Properties
 
-email
+[email](#KmlAuthor.email)
 
 **Type:**  string
 
 The author's e-mail address, or an empty string if not specified.
 
-name
+[name](#KmlAuthor.name)
 
 **Type:**  string
 
 The author's name, or an empty string if not specified.
 
-uri
+[uri](#KmlAuthor.uri)
 
 **Type:**  string
 

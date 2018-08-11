@@ -10,37 +10,37 @@ This object defines the properties that can be set on a FusionTablesLayer object
 
 Properties
 
-clickable
+[clickable](#FusionTablesLayerOptions.clickable)
 
 **Type:**  boolean
 
 If true, the layer receives mouse events. Default value is true.
 
-heatmap
+[heatmap](#FusionTablesLayerOptions.heatmap)
 
-**Type:**  [FusionTablesHeatmap](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesHeatmap.md)
+**Type:**  [FusionTablesHeatmap](FusionTablesHeatmap.md)
 
 Options which define the appearance of the layer as a heatmap.
 
-map
+[map](#FusionTablesLayerOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Type:**  [Map](Map.md)
 
 The map on which to display the layer.
 
-query
+[query](#FusionTablesLayerOptions.query)
 
-**Type:**  [FusionTablesQuery](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesQuery.md)
+**Type:**  [FusionTablesQuery](FusionTablesQuery.md)
 
 Options defining the data to display.
 
-styles
+[styles](#FusionTablesLayerOptions.styles)
 
-**Type:**  Array<[FusionTablesStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesStyle.md)\>
+**Type:**  Array<[FusionTablesStyle](FusionTablesStyle.md)\>
 
 An array of up to 5 style specifications, which control the appearance of features within the layer.
 
-suppressInfoWindows
+[suppressInfoWindows](#FusionTablesLayerOptions.suppressInfoWindows)
 
 **Type:**  boolean
 

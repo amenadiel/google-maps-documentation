@@ -10,26 +10,26 @@ A Street View request to be sent with getPanorama. StreetViewLocationRequest let
 
 Properties
 
-location
+[location](#StreetViewLocationRequest.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 Specifies the location where to search for a Street View panorama.
 
-preference
+[preference](#StreetViewLocationRequest.preference)
 
-**Type:**  [StreetViewPreference](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPreference.md)
+**Type:**  [StreetViewPreference](StreetViewPreference.md)
 
 Sets a preference for which panorama should be found within the radius: the one nearest to the provided location, or the best one within the radius.
 
-radius
+[radius](#StreetViewLocationRequest.radius)
 
 **Type:**  number
 
 Sets a radius in meters in which to search for a panorama. Defaults to 50 when not supplied.
 
-source
+[source](#StreetViewLocationRequest.source)
 
-**Type:**  [StreetViewSource](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewSource.md)
+**Type:**  [StreetViewSource](StreetViewSource.md)
 
 Specifies the source of panoramas to search. This allows a restriction to search for just outdoor panoramas for example. If not specified it is set to DEFAULT.

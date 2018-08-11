@@ -6,18 +6,18 @@ DrivingOptions interface
 
 google.maps.DrivingOptions interface
 
-Configures the [DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md) when the travel mode is set to DRIVING.
+Configures the [DirectionsRequest](DirectionsRequest.md) when the travel mode is set to DRIVING.
 
 Properties
 
-departureTime
+[departureTime](#DrivingOptions.departureTime)
 
 **Type:**  Date
 
 The desired departure time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. This must be specified for a DrivingOptions to be valid. The departure time must be set to the current time or some time in the future. It cannot be in the past.
 
-trafficModel
+[trafficModel](#DrivingOptions.trafficModel)
 
-**Type:**  [TrafficModel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficModel.md)
+**Type:**  [TrafficModel](TrafficModel.md)
 
 The preferred assumption to use when predicting duration in traffic. The default is BEST\_GUESS.

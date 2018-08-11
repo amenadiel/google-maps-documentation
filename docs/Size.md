@@ -8,7 +8,7 @@ google.maps.Size class
 
 Constructor
 
-Size
+[Size](#Size.constructor)
 
 Size(width, height\[, widthUnit, heightUnit\])
 
@@ -23,19 +23,19 @@ Two-dimensional size, where width is the distance on the x-axis, and height is t
 
 Methods
 
-equals
+[equals](#Size.equals)
 
 equals(other)
 
 **Parameters:** 
 
-*   other:  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md#user-content-Size)
+*   other:  [Size](Size.md)
 
 **Return Value:**  boolean
 
 Compares two Sizes.
 
-toString
+[toString](#Size.toString)
 
 toString()
 
@@ -47,13 +47,13 @@ Returns a string representation of this Size.
 
 Properties
 
-height
+[height](#Size.height)
 
 **Type:**  number
 
 The height along the y-axis, in pixels.
 
-width
+[width](#Size.width)
 
 **Type:**  number
 

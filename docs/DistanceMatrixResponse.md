@@ -10,20 +10,20 @@ The response to a DistanceMatrixService request, consisting of the formatted ori
 
 Properties
 
-destinationAddresses
+[destinationAddresses](#DistanceMatrixResponse.destinationAddresses)
 
 **Type:**  Array<string>
 
 The formatted destination addresses.
 
-originAddresses
+[originAddresses](#DistanceMatrixResponse.originAddresses)
 
 **Type:**  Array<string>
 
 The formatted origin addresses.
 
-rows
+[rows](#DistanceMatrixResponse.rows)
 
-**Type:**  Array<[DistanceMatrixResponseRow](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponseRow.md)\>
+**Type:**  Array<[DistanceMatrixResponseRow](DistanceMatrixResponseRow.md)\>
 
 The rows of the matrix, corresponding to the origin addresses.

@@ -10,18 +10,18 @@ The valid travel modes that can be specified in a DirectionsRequest as well as t
 
 Constants
 
-BICYCLING
+[BICYCLING](#TravelMode.BICYCLING)
 
 Specifies a bicycling directions request.
 
-DRIVING
+[DRIVING](#TravelMode.DRIVING)
 
 Specifies a driving directions request.
 
-TRANSIT
+[TRANSIT](#TravelMode.TRANSIT)
 
 Specifies a transit directions request.
 
-WALKING
+[WALKING](#TravelMode.WALKING)
 
 Specifies a walking directions request.

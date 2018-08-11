@@ -10,49 +10,49 @@ Details about the departure, arrival, and mode of transit used in this step.
 
 Properties
 
-arrival\_stop
+[arrival\_stop](#TransitDetails.arrival_stop)
 
-**Type:**  [TransitStop](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitStop.md)
+**Type:**  [TransitStop](TransitStop.md)
 
 The arrival stop of this transit step.
 
-arrival\_time
+[arrival\_time](#TransitDetails.arrival_time)
 
-**Type:**  [Time](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md)
+**Type:**  [Time](Time.md)
 
 The arrival time of this step, specified as a Time object.
 
-departure\_stop
+[departure\_stop](#TransitDetails.departure_stop)
 
-**Type:**  [TransitStop](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitStop.md)
+**Type:**  [TransitStop](TransitStop.md)
 
 The departure stop of this transit step.
 
-departure\_time
+[departure\_time](#TransitDetails.departure_time)
 
-**Type:**  [Time](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md)
+**Type:**  [Time](Time.md)
 
 The departure time of this step, specified as a Time object.
 
-headsign
+[headsign](#TransitDetails.headsign)
 
 **Type:**  string
 
 The direction in which to travel on this line, as it is marked on the vehicle or at the departure stop.
 
-headway
+[headway](#TransitDetails.headway)
 
 **Type:**  number
 
 The expected number of seconds between equivalent vehicles at this stop.
 
-line
+[line](#TransitDetails.line)
 
-**Type:**  [TransitLine](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitLine.md)
+**Type:**  [TransitLine](TransitLine.md)
 
 Details about the transit line used in this step.
 
-num\_stops
+[num\_stops](#TransitDetails.num_stops)
 
 **Type:**  number
 

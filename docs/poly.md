@@ -14,27 +14,27 @@ geometry
 
 Static Methods
 
-containsLocation
+[containsLocation](#poly.containsLocation)
 
 containsLocation(point, polygon)
 
 **Parameters:** 
 
-*   point:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
-*   polygon:  [Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)
+*   point:  [LatLng](LatLng.md)
+*   polygon:  [Polygon](Polygon.md)
 
 **Return Value:**  boolean
 
 Computes whether the given point lies inside the specified polygon.
 
-isLocationOnEdge
+[isLocationOnEdge](#poly.isLocationOnEdge)
 
 isLocationOnEdge(point, poly\[, tolerance\])
 
 **Parameters:** 
 
-*   point:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
-*   poly:  [Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)|[Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md)
+*   point:  [LatLng](LatLng.md)
+*   poly:  [Polygon](Polygon.md)|[Polyline](Polyline.md)
 *   tolerance (optional):  number
 
 **Return Value:**  boolean

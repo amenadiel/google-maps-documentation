@@ -10,7 +10,7 @@ This object is returned from various mouse events on the map and overlays, and c
 
 Methods
 
-stop
+[stop](#MouseEvent.stop)
 
 stop()
 
@@ -22,8 +22,8 @@ Prevents this event from propagating further.
 
 Properties
 
-latLng
+[latLng](#MouseEvent.latLng)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The latitude/longitude that was below the cursor when the event occurred.

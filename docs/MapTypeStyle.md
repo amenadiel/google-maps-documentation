@@ -10,19 +10,19 @@ The MapTypeStyle is a collection of selectors and stylers that define how the ma
 
 Properties
 
-elementType
+[elementType](#MapTypeStyle.elementType)
 
 **Type:**  string
 
 The element to which a styler should be applied. An element is a visual aspect of a feature on the map. Example: a label, an icon, the stroke or fill applied to the geometry, and more. Optional. If elementType is not specified, the value is assumed to be 'all'. For details of usage and allowed values, see the [style reference](https://developers.google.com/maps/documentation/javascript/style-reference#style-elements).
 
-featureType
+[featureType](#MapTypeStyle.featureType)
 
 **Type:**  string
 
 The feature, or group of features, to which a styler should be applied. Optional. If featureType is not specified, the value is assumed to be 'all'. For details of usage and allowed values, see the [style reference](https://developers.google.com/maps/documentation/javascript/style-reference#style-features).
 
-stylers
+[stylers](#MapTypeStyle.stylers)
 
 **Type:**  Array<Object>
 

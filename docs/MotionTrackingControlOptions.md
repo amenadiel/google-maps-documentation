@@ -10,8 +10,8 @@ Options for the rendering of the motion tracking control.
 
 Properties
 
-position
+[position](#MotionTrackingControlOptions.position)
 
-**Type:**  [ControlPosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md)
 
 Position id. This is used to specify the position of this control on the panorama. The default position is RIGHT\_BOTTOM.

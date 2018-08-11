@@ -8,25 +8,25 @@ google.maps.ImageMapType class
 
 This class implements the MapType interface and is provided for rendering image tiles.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
-This class implements [MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md).
+This class implements [MapType](MapType.md).
 
 Constructor
 
-ImageMapType
+[ImageMapType](#ImageMapType.constructor)
 
 ImageMapType(opts)
 
 **Parameters:** 
 
-*   opts:  [ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md)
+*   opts:  [ImageMapTypeOptions](ImageMapTypeOptions.md)
 
 Constructs an ImageMapType using the provided ImageMapTypeOptions
 
 Methods
 
-getOpacity
+[getOpacity](#ImageMapType.getOpacity)
 
 getOpacity()
 
@@ -36,19 +36,19 @@ getOpacity()
 
 Returns the opacity level (0 (transparent) to 1.0) of the ImageMapType tiles.
 
-getTile
+[getTile](#ImageMapType.getTile)
 
 getTile(tileCoord, zoom, ownerDocument)
 
 **Parameters:** 
 
-*   tileCoord:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+*   tileCoord:  [Point](Point.md)
 *   zoom:  number
 *   ownerDocument:  Document
 
 **Return Value:**  Node
 
-releaseTile
+[releaseTile](#ImageMapType.releaseTile)
 
 releaseTile(tileDiv)
 
@@ -58,7 +58,7 @@ releaseTile(tileDiv)
 
 **Return Value:**  None
 
-setOpacity
+[setOpacity](#ImageMapType.setOpacity)
 
 setOpacity(opacity)
 
@@ -72,37 +72,37 @@ Sets the opacity level (0 (transparent) to 1.0) of the ImageMapType tiles.
 
 Properties
 
-alt
+[alt](#ImageMapType.alt)
 
 **Type:**  string
 
-maxZoom
+[maxZoom](#ImageMapType.maxZoom)
 
 **Type:**  number
 
-minZoom
+[minZoom](#ImageMapType.minZoom)
 
 **Type:**  number
 
-name
+[name](#ImageMapType.name)
 
 **Type:**  string
 
-projection
+[projection](#ImageMapType.projection)
 
-**Type:**  [Projection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md)
+**Type:**  [Projection](Projection.md)
 
-radius
+[radius](#ImageMapType.radius)
 
 **Type:**  number
 
-tileSize
+[tileSize](#ImageMapType.tileSize)
 
-**Type:**  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
+**Type:**  [Size](Size.md)
 
 Events
 
-tilesloaded
+[tilesloaded](#ImageMapType.tilesloaded)
 
 function()
 

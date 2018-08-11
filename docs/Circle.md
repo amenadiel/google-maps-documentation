@@ -8,43 +8,43 @@ google.maps.Circle class
 
 A circle on the Earth's surface; also known as a "spherical cap".
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-Circle
+[Circle](#Circle.constructor)
 
 Circle(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md)
+*   opts (optional):  [CircleOptions](CircleOptions.md)
 
-Create a circle using the passed [CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md), which specify the center, radius, and style.
+Create a circle using the passed [CircleOptions](CircleOptions.md), which specify the center, radius, and style.
 
 Methods
 
-getBounds
+[getBounds](#Circle.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Return Value:**  [LatLngBounds](LatLngBounds.md)
 
 Gets the LatLngBounds of this Circle.
 
-getCenter
+[getCenter](#Circle.getCenter)
 
 getCenter()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
 Returns the center of this circle.
 
-getDraggable
+[getDraggable](#Circle.getDraggable)
 
 getDraggable()
 
@@ -54,7 +54,7 @@ getDraggable()
 
 Returns whether this circle can be dragged by the user.
 
-getEditable
+[getEditable](#Circle.getEditable)
 
 getEditable()
 
@@ -64,17 +64,17 @@ getEditable()
 
 Returns whether this circle can be edited by the user.
 
-getMap
+[getMap](#Circle.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
 Returns the map on which this circle is displayed.
 
-getRadius
+[getRadius](#Circle.getRadius)
 
 getRadius()
 
@@ -84,7 +84,7 @@ getRadius()
 
 Returns the radius of this circle (in meters).
 
-getVisible
+[getVisible](#Circle.getVisible)
 
 getVisible()
 
@@ -94,19 +94,19 @@ getVisible()
 
 Returns whether this circle is visible on the map.
 
-setCenter
+[setCenter](#Circle.setCenter)
 
 setCenter(center)
 
 **Parameters:** 
 
-*   center:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+*   center:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 **Return Value:**  None
 
 Sets the center of this circle.
 
-setDraggable
+[setDraggable](#Circle.setDraggable)
 
 setDraggable(draggable)
 
@@ -118,7 +118,7 @@ setDraggable(draggable)
 
 If set to true, the user can drag this circle over the map.
 
-setEditable
+[setEditable](#Circle.setEditable)
 
 setEditable(editable)
 
@@ -130,29 +130,29 @@ setEditable(editable)
 
 If set to true, the user can edit this circle by dragging the control points shown at the center and around the circumference of the circle.
 
-setMap
+[setMap](#Circle.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 
 Renders the circle on the specified map. If map is set to null, the circle will be removed.
 
-setOptions
+[setOptions](#Circle.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md)
+*   options:  [CircleOptions](CircleOptions.md)
 
 **Return Value:**  None
 
-setRadius
+[setRadius](#Circle.setRadius)
 
 setRadius(radius)
 
@@ -164,7 +164,7 @@ setRadius(radius)
 
 Sets the radius of this circle (in meters).
 
-setVisible
+[setVisible](#Circle.setVisible)
 
 setVisible(visible)
 
@@ -178,7 +178,7 @@ Hides this circle if set to false.
 
 Events
 
-center\_changed
+[center\_changed](#Circle.center_changed)
 
 function()
 
@@ -186,107 +186,107 @@ function()
 
 This event is fired when the circle's center is changed.
 
-click
+[click](#Circle.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM click event is fired on the circle.
 
-dblclick
+[dblclick](#Circle.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM dblclick event is fired on the circle.
 
-drag
+[drag](#Circle.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is repeatedly fired while the user drags the circle.
 
-dragend
+[dragend](#Circle.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the user stops dragging the circle.
 
-dragstart
+[dragstart](#Circle.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the user starts dragging the circle.
 
-mousedown
+[mousedown](#Circle.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM mousedown event is fired on the circle.
 
-mousemove
+[mousemove](#Circle.mousemove)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM mousemove event is fired on the circle.
 
-mouseout
+[mouseout](#Circle.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired on circle mouseout.
 
-mouseover
+[mouseover](#Circle.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired on circle mouseover.
 
-mouseup
+[mouseup](#Circle.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM mouseup event is fired on the circle.
 
-radius\_changed
+[radius\_changed](#Circle.radius_changed)
 
 function()
 
@@ -294,12 +294,12 @@ function()
 
 This event is fired when the circle's radius is changed.
 
-rightclick
+[rightclick](#Circle.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the circle is right-clicked on.

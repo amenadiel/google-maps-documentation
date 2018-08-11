@@ -10,57 +10,57 @@ This object is made available to the OverlayView from within the draw method. It
 
 Methods
 
-fromContainerPixelToLatLng
+[fromContainerPixelToLatLng](#MapCanvasProjection.fromContainerPixelToLatLng)
 
 fromContainerPixelToLatLng(pixel\[, nowrap\])
 
 **Parameters:** 
 
-*   pixel:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+*   pixel:  [Point](Point.md)
 *   nowrap (optional):  boolean
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
 Computes the geographical coordinates from pixel coordinates in the map's container.
 
-fromDivPixelToLatLng
+[fromDivPixelToLatLng](#MapCanvasProjection.fromDivPixelToLatLng)
 
 fromDivPixelToLatLng(pixel\[, nowrap\])
 
 **Parameters:** 
 
-*   pixel:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+*   pixel:  [Point](Point.md)
 *   nowrap (optional):  boolean
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
 Computes the geographical coordinates from pixel coordinates in the div that holds the draggable map.
 
-fromLatLngToContainerPixel
+[fromLatLngToContainerPixel](#MapCanvasProjection.fromLatLngToContainerPixel)
 
 fromLatLngToContainerPixel(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+*   latLng:  [LatLng](LatLng.md)
 
-**Return Value:**  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+**Return Value:**  [Point](Point.md)
 
 Computes the pixel coordinates of the given geographical location in the map's container element.
 
-fromLatLngToDivPixel
+[fromLatLngToDivPixel](#MapCanvasProjection.fromLatLngToDivPixel)
 
 fromLatLngToDivPixel(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+*   latLng:  [LatLng](LatLng.md)
 
-**Return Value:**  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+**Return Value:**  [Point](Point.md)
 
 Computes the pixel coordinates of the given geographical location in the DOM element that holds the draggable map.
 
-getWorldWidth
+[getWorldWidth](#MapCanvasProjection.getWorldWidth)
 
 getWorldWidth()
 

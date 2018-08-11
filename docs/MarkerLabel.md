@@ -10,31 +10,31 @@ These options specify the appearance of a marker label. A marker label is a sing
 
 Properties
 
-color
+[color](#MarkerLabel.color)
 
 **Type:**  string
 
 The color of the label text. Default color is black.
 
-fontFamily
+[fontFamily](#MarkerLabel.fontFamily)
 
 **Type:**  string
 
 The font family of the label text (equivalent to the CSS font-family property).
 
-fontSize
+[fontSize](#MarkerLabel.fontSize)
 
 **Type:**  string
 
 The font size of the label text (equivalent to the CSS font-size property). Default size is 14px.
 
-fontWeight
+[fontWeight](#MarkerLabel.fontWeight)
 
 **Type:**  string
 
 The font weight of the label text (equivalent to the CSS font-weight property).
 
-text
+[text](#MarkerLabel.text)
 
 **Type:**  string
 

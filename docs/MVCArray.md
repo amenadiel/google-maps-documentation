@@ -6,11 +6,11 @@ MVCArray class
 
 google.maps.MVCArray<T> class
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-MVCArray
+[MVCArray](#MVCArray.constructor)
 
 MVCArray(\[array\])
 
@@ -22,7 +22,7 @@ A mutable MVC Array.
 
 Methods
 
-clear
+[clear](#MVCArray.clear)
 
 clear()
 
@@ -32,7 +32,7 @@ clear()
 
 Removes all elements from the array.
 
-forEach
+[forEach](#MVCArray.forEach)
 
 forEach(callback)
 
@@ -44,7 +44,7 @@ forEach(callback)
 
 Iterate over each element, calling the provided callback. The callback is called for each element like: callback(element, index).
 
-getArray
+[getArray](#MVCArray.getArray)
 
 getArray()
 
@@ -54,7 +54,7 @@ getArray()
 
 Returns a reference to the underlying Array. Warning: if the Array is mutated, no events will be fired by this object.
 
-getAt
+[getAt](#MVCArray.getAt)
 
 getAt(i)
 
@@ -66,7 +66,7 @@ getAt(i)
 
 Returns the element at the specified index.
 
-getLength
+[getLength](#MVCArray.getLength)
 
 getLength()
 
@@ -76,7 +76,7 @@ getLength()
 
 Returns the number of elements in this array.
 
-insertAt
+[insertAt](#MVCArray.insertAt)
 
 insertAt(i, elem)
 
@@ -89,7 +89,7 @@ insertAt(i, elem)
 
 Inserts an element at the specified index.
 
-pop
+[pop](#MVCArray.pop)
 
 pop()
 
@@ -99,7 +99,7 @@ pop()
 
 Removes the last element of the array and returns that element.
 
-push
+[push](#MVCArray.push)
 
 push(elem)
 
@@ -111,7 +111,7 @@ push(elem)
 
 Adds one element to the end of the array and returns the new length of the array.
 
-removeAt
+[removeAt](#MVCArray.removeAt)
 
 removeAt(i)
 
@@ -123,7 +123,7 @@ removeAt(i)
 
 Removes an element from the specified index.
 
-setAt
+[setAt](#MVCArray.setAt)
 
 setAt(i, elem)
 
@@ -138,7 +138,7 @@ Sets an element at the specified index.
 
 Events
 
-insert\_at
+[insert\_at](#MVCArray.insert_at)
 
 function(index)
 
@@ -148,7 +148,7 @@ function(index)
 
 This event is fired when insertAt() is called. The event passes the index that was passed to insertAt().
 
-remove\_at
+[remove\_at](#MVCArray.remove_at)
 
 function(index, removed)
 
@@ -159,7 +159,7 @@ function(index, removed)
 
 This event is fired when removeAt() is called. The event passes the index that was passed to removeAt() and the element that was removed from the array.
 
-set\_at
+[set\_at](#MVCArray.set_at)
 
 function(index, previous)
 

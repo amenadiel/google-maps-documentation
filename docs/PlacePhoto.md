@@ -14,13 +14,13 @@ places
 
 Methods
 
-getUrl
+[getUrl](#PlacePhoto.getUrl)
 
 getUrl(opts)
 
 **Parameters:** 
 
-*   opts:  [PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md)
+*   opts:  [PhotoOptions](PhotoOptions.md)
 
 **Return Value:**  string
 
@@ -28,19 +28,19 @@ Returns the image URL corresponding to the specified options. You must include a
 
 Properties
 
-height
+[height](#PlacePhoto.height)
 
 **Type:**  number
 
 The height of the photo in pixels.
 
-html\_attributions
+[html\_attributions](#PlacePhoto.html_attributions)
 
 **Type:**  Array<string>
 
 Attribution text to be displayed for this photo.
 
-width
+[width](#PlacePhoto.width)
 
 **Type:**  number
 

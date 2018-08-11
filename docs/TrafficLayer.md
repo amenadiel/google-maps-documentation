@@ -8,50 +8,50 @@ google.maps.TrafficLayer class
 
 A traffic layer.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-TrafficLayer
+[TrafficLayer](#TrafficLayer.constructor)
 
 TrafficLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [TrafficLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md)
+*   opts (optional):  [TrafficLayerOptions](TrafficLayerOptions.md)
 
 A layer that displays current road traffic.
 
 Methods
 
-getMap
+[getMap](#TrafficLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
 Returns the map on which this layer is displayed.
 
-setMap
+[setMap](#TrafficLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 
 Renders the layer on the specified map. If map is set to null, the layer will be removed.
 
-setOptions
+[setOptions](#TrafficLayer.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [TrafficLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md)
+*   options:  [TrafficLayerOptions](TrafficLayerOptions.md)
 
 **Return Value:**  None

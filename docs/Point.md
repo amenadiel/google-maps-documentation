@@ -8,7 +8,7 @@ google.maps.Point class
 
 Constructor
 
-Point
+[Point](#Point.constructor)
 
 Point(x, y)
 
@@ -21,19 +21,19 @@ A point on a two-dimensional plane.
 
 Methods
 
-equals
+[equals](#Point.equals)
 
 equals(other)
 
 **Parameters:** 
 
-*   other:  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md#user-content-Point)
+*   other:  [Point](Point.md)
 
 **Return Value:**  boolean
 
 Compares two Points
 
-toString
+[toString](#Point.toString)
 
 toString()
 
@@ -45,13 +45,13 @@ Returns a string representation of this Point.
 
 Properties
 
-x
+[x](#Point.x)
 
 **Type:**  number
 
 The X coordinate
 
-y
+[y](#Point.y)
 
 **Type:**  number
 

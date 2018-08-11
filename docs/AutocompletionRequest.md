@@ -6,7 +6,7 @@ AutocompletionRequest interface
 
 google.maps.places.AutocompletionRequest interface
 
-An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteService.md).
+An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-autocomplete-service#AutocompleteService.getPlacePredictions).
 
 #### Library
 
@@ -14,49 +14,49 @@ places
 
 Properties
 
-bounds
+[bounds](#AutocompletionRequest.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given bounds. Both location and radius will be ignored if bounds is set.
 
-componentRestrictions
+[componentRestrictions](#AutocompletionRequest.componentRestrictions)
 
-**Type:**  [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
+**Type:**  [ComponentRestrictions](ComponentRestrictions.md)
 
 The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
 
-input
+[input](#AutocompletionRequest.input)
 
 **Type:**  string
 
 The user entered input string.
 
-location
+[location](#AutocompletionRequest.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 Location for prediction biasing. Predictions will be biased towards the given location and radius. Alternatively, bounds can be used.
 
-offset
+[offset](#AutocompletionRequest.offset)
 
 **Type:**  number
 
 The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).
 
-radius
+[radius](#AutocompletionRequest.radius)
 
 **Type:**  number
 
 The radius of the area used for prediction biasing. The radius is specified in meters, and must always be accompanied by a location property. Alternatively, bounds can be used.
 
-sessionToken
+[sessionToken](#AutocompletionRequest.sessionToken)
 
-**Type:**  [AutocompleteSessionToken](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteSessionToken.md)
+**Type:**  [AutocompleteSessionToken](AutocompleteSessionToken.md)
 
 Unique reference used to bundle individual requests into sessions.
 
-types
+[types](#AutocompletionRequest.types)
 
 **Type:**  Array<string>
 

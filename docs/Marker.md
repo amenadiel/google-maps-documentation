@@ -6,31 +6,31 @@ Marker class
 
 google.maps.Marker class
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-Marker
+[Marker](#Marker.constructor)
 
 Marker(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md)
+*   opts (optional):  [MarkerOptions](MarkerOptions.md)
 
 Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.
 
 Methods
 
-getAnimation
+[getAnimation](#Marker.getAnimation)
 
 getAnimation()
 
 **Parameters:**  None
 
-**Return Value:**  [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
+**Return Value:**  [Animation](Animation.md)
 
-getClickable
+[getClickable](#Marker.getClickable)
 
 getClickable()
 
@@ -38,7 +38,7 @@ getClickable()
 
 **Return Value:**  boolean
 
-getCursor
+[getCursor](#Marker.getCursor)
 
 getCursor()
 
@@ -46,7 +46,7 @@ getCursor()
 
 **Return Value:**  string
 
-getDraggable
+[getDraggable](#Marker.getDraggable)
 
 getDraggable()
 
@@ -54,31 +54,31 @@ getDraggable()
 
 **Return Value:**  boolean
 
-getIcon
+[getIcon](#Marker.getIcon)
 
 getIcon()
 
 **Parameters:**  None
 
-**Return Value:**  string|[Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)|[Symbol](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md)
+**Return Value:**  string|[Icon](Icon.md)|[Symbol](Symbol.md)
 
-getLabel
+[getLabel](#Marker.getLabel)
 
 getLabel()
 
 **Parameters:**  None
 
-**Return Value:**  [MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
+**Return Value:**  [MarkerLabel](MarkerLabel.md)
 
-getMap
+[getMap](#Marker.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
+**Return Value:**  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
 
-getOpacity
+[getOpacity](#Marker.getOpacity)
 
 getOpacity()
 
@@ -86,23 +86,23 @@ getOpacity()
 
 **Return Value:**  number
 
-getPosition
+[getPosition](#Marker.getPosition)
 
 getPosition()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
-getShape
+[getShape](#Marker.getShape)
 
 getShape()
 
 **Parameters:**  None
 
-**Return Value:**  [MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md)
+**Return Value:**  [MarkerShape](MarkerShape.md)
 
-getTitle
+[getTitle](#Marker.getTitle)
 
 getTitle()
 
@@ -110,7 +110,7 @@ getTitle()
 
 **Return Value:**  string
 
-getVisible
+[getVisible](#Marker.getVisible)
 
 getVisible()
 
@@ -118,7 +118,7 @@ getVisible()
 
 **Return Value:**  boolean
 
-getZIndex
+[getZIndex](#Marker.getZIndex)
 
 getZIndex()
 
@@ -126,19 +126,19 @@ getZIndex()
 
 **Return Value:**  number
 
-setAnimation
+[setAnimation](#Marker.setAnimation)
 
 setAnimation(animation)
 
 **Parameters:** 
 
-*   animation:  [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
+*   animation:  [Animation](Animation.md)
 
 **Return Value:**  None
 
 Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in null will cause any animation to stop.
 
-setClickable
+[setClickable](#Marker.setClickable)
 
 setClickable(flag)
 
@@ -148,7 +148,7 @@ setClickable(flag)
 
 **Return Value:**  None
 
-setCursor
+[setCursor](#Marker.setCursor)
 
 setCursor(cursor)
 
@@ -158,7 +158,7 @@ setCursor(cursor)
 
 **Return Value:**  None
 
-setDraggable
+[setDraggable](#Marker.setDraggable)
 
 setDraggable(flag)
 
@@ -168,39 +168,39 @@ setDraggable(flag)
 
 **Return Value:**  None
 
-setIcon
+[setIcon](#Marker.setIcon)
 
 setIcon(icon)
 
 **Parameters:** 
 
-*   icon:  string|[Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)|[Symbol](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md)
+*   icon:  string|[Icon](Icon.md)|[Symbol](Symbol.md)
 
 **Return Value:**  None
 
-setLabel
+[setLabel](#Marker.setLabel)
 
 setLabel(label)
 
 **Parameters:** 
 
-*   label:  string|[MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
+*   label:  string|[MarkerLabel](MarkerLabel.md)
 
 **Return Value:**  None
 
-setMap
+[setMap](#Marker.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
+*   map:  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
 
 **Return Value:**  None
 
 Renders the marker on the specified map or panorama. If map is set to null, the marker will be removed.
 
-setOpacity
+[setOpacity](#Marker.setOpacity)
 
 setOpacity(opacity)
 
@@ -210,37 +210,37 @@ setOpacity(opacity)
 
 **Return Value:**  None
 
-setOptions
+[setOptions](#Marker.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md)
+*   options:  [MarkerOptions](MarkerOptions.md)
 
 **Return Value:**  None
 
-setPosition
+[setPosition](#Marker.setPosition)
 
 setPosition(latlng)
 
 **Parameters:** 
 
-*   latlng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+*   latlng:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 **Return Value:**  None
 
-setShape
+[setShape](#Marker.setShape)
 
 setShape(shape)
 
 **Parameters:** 
 
-*   shape:  [MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md)
+*   shape:  [MarkerShape](MarkerShape.md)
 
 **Return Value:**  None
 
-setTitle
+[setTitle](#Marker.setTitle)
 
 setTitle(title)
 
@@ -250,7 +250,7 @@ setTitle(title)
 
 **Return Value:**  None
 
-setVisible
+[setVisible](#Marker.setVisible)
 
 setVisible(visible)
 
@@ -260,7 +260,7 @@ setVisible(visible)
 
 **Return Value:**  None
 
-setZIndex
+[setZIndex](#Marker.setZIndex)
 
 setZIndex(zIndex)
 
@@ -272,13 +272,13 @@ setZIndex(zIndex)
 
 Constants
 
-MAX\_ZINDEX
+[MAX\_ZINDEX](#Marker.MAX_ZINDEX)
 
 The maximum default z-index that the API will assign to a marker. You may set a higher z-index to bring a marker to the front.
 
 Events
 
-animation\_changed
+[animation\_changed](#Marker.animation_changed)
 
 function()
 
@@ -286,17 +286,17 @@ function()
 
 This event is fired when the marker's animation property changes.
 
-click
+[click](#Marker.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the marker icon was clicked.
 
-clickable\_changed
+[clickable\_changed](#Marker.clickable_changed)
 
 function()
 
@@ -304,7 +304,7 @@ function()
 
 This event is fired when the marker's clickable property changes.
 
-cursor\_changed
+[cursor\_changed](#Marker.cursor_changed)
 
 function()
 
@@ -312,37 +312,37 @@ function()
 
 This event is fired when the marker's cursor property changes.
 
-dblclick
+[dblclick](#Marker.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the marker icon was double clicked.
 
-drag
+[drag](#Marker.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is repeatedly fired while the user drags the marker.
 
-dragend
+[dragend](#Marker.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the user stops dragging the marker.
 
-draggable\_changed
+[draggable\_changed](#Marker.draggable_changed)
 
 function()
 
@@ -350,17 +350,17 @@ function()
 
 This event is fired when the marker's draggable property changes.
 
-dragstart
+[dragstart](#Marker.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the user starts dragging the marker.
 
-flat\_changed
+[flat\_changed](#Marker.flat_changed)
 
 function()
 
@@ -368,7 +368,7 @@ function()
 
 This event is fired when the marker's flat property changes.
 
-icon\_changed
+[icon\_changed](#Marker.icon_changed)
 
 function()
 
@@ -376,47 +376,47 @@ function()
 
 This event is fired when the marker icon property changes.
 
-mousedown
+[mousedown](#Marker.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired for a mousedown on the marker.
 
-mouseout
+[mouseout](#Marker.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the mouse leaves the area of the marker icon.
 
-mouseover
+[mouseover](#Marker.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the mouse enters the area of the marker icon.
 
-mouseup
+[mouseup](#Marker.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired for a mouseup on the marker.
 
-position\_changed
+[position\_changed](#Marker.position_changed)
 
 function()
 
@@ -424,17 +424,17 @@ function()
 
 This event is fired when the marker position property changes.
 
-rightclick
+[rightclick](#Marker.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired for a rightclick on the marker.
 
-shape\_changed
+[shape\_changed](#Marker.shape_changed)
 
 function()
 
@@ -442,7 +442,7 @@ function()
 
 This event is fired when the marker's shape property changes.
 
-title\_changed
+[title\_changed](#Marker.title_changed)
 
 function()
 
@@ -450,7 +450,7 @@ function()
 
 This event is fired when the marker title property changes.
 
-visible\_changed
+[visible\_changed](#Marker.visible_changed)
 
 function()
 
@@ -458,7 +458,7 @@ function()
 
 This event is fired when the marker's visible property changes.
 
-zindex\_changed
+[zindex\_changed](#Marker.zindex_changed)
 
 function()
 

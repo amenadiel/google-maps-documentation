@@ -14,31 +14,31 @@ places
 
 Properties
 
-bounds
+[bounds](#TextSearchRequest.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 Bounds used to bias results when searching for Places (optional). Both location and radius will be ignored if bounds is set. Results will not be restricted to those inside these bounds; but, results inside it will rank higher.
 
-location
+[location](#TextSearchRequest.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 The center of the area used to bias results when searching for Places.
 
-query
+[query](#TextSearchRequest.query)
 
 **Type:**  string
 
 The request's query term. For example, the name of a place ('Eiffel Tower'), a category followed by the name of a location ('pizza in New York'), or the name of a place followed by a location disambiguator ('Starbucks in Sydney').
 
-radius
+[radius](#TextSearchRequest.radius)
 
 **Type:**  number
 
 The radius of the area used to bias results when searching for Places, in meters.
 
-type
+[type](#TextSearchRequest.type)
 
 **Type:**  string
 

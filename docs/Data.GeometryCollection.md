@@ -8,43 +8,43 @@ google.maps.Data.GeometryCollection class
 
 A GeometryCollection contains a number of geometry objects. Any LatLng or LatLngLiteral objects are automatically converted to Data.Point geometry objects.
 
-This class implements [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md).
+This class implements [Data.Geometry](Data.Geometry.md).
 
 Constructor
 
-Data.GeometryCollection
+[Data.GeometryCollection](#Data.GeometryCollection.constructor)
 
 Data.GeometryCollection(elements)
 
 **Parameters:** 
 
-*   elements:  Array<[Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>
+*   elements:  Array<[Data.Geometry](Data.Geometry.md)|[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>
 
 Constructs a Data.GeometryCollection from the given geometry objects or LatLngs.
 
 Methods
 
-forEachLatLng
+[forEachLatLng](#Data.GeometryCollection.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md))
+*   callback:  function([LatLng](LatLng.md))
 
 **Return Value:**  None
 
-getArray
+[getArray](#Data.GeometryCollection.getArray)
 
 getArray()
 
 **Parameters:**  None
 
-**Return Value:**  Array<[Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)\>
+**Return Value:**  Array<[Data.Geometry](Data.Geometry.md)\>
 
 Returns an array of the contained geometry objects. A new array is returned each time getArray() is called.
 
-getAt
+[getAt](#Data.GeometryCollection.getAt)
 
 getAt(n)
 
@@ -52,11 +52,11 @@ getAt(n)
 
 *   n:  number
 
-**Return Value:**  [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)
+**Return Value:**  [Data.Geometry](Data.Geometry.md)
 
 Returns the n\-th contained geometry object.
 
-getLength
+[getLength](#Data.GeometryCollection.getLength)
 
 getLength()
 
@@ -66,7 +66,7 @@ getLength()
 
 Returns the number of contained geometry objects.
 
-getType
+[getType](#Data.GeometryCollection.getType)
 
 getType()
 

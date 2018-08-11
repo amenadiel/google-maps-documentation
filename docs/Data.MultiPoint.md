@@ -8,43 +8,43 @@ google.maps.Data.MultiPoint class
 
 A MultiPoint geometry contains a number of LatLngs.
 
-This class implements [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md).
+This class implements [Data.Geometry](Data.Geometry.md).
 
 Constructor
 
-Data.MultiPoint
+[Data.MultiPoint](#Data.MultiPoint.constructor)
 
 Data.MultiPoint(elements)
 
 **Parameters:** 
 
-*   elements:  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>
+*   elements:  Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>
 
 Constructs a Data.MultiPoint from the given LatLngs or LatLngLiterals.
 
 Methods
 
-forEachLatLng
+[forEachLatLng](#Data.MultiPoint.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md))
+*   callback:  function([LatLng](LatLng.md))
 
 **Return Value:**  None
 
-getArray
+[getArray](#Data.MultiPoint.getArray)
 
 getArray()
 
 **Parameters:**  None
 
-**Return Value:**  Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Return Value:**  Array<[LatLng](LatLng.md)\>
 
 Returns an array of the contained LatLngs. A new array is returned each time getArray() is called.
 
-getAt
+[getAt](#Data.MultiPoint.getAt)
 
 getAt(n)
 
@@ -52,11 +52,11 @@ getAt(n)
 
 *   n:  number
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
 Returns the n\-th contained LatLng.
 
-getLength
+[getLength](#Data.MultiPoint.getLength)
 
 getLength()
 
@@ -66,7 +66,7 @@ getLength()
 
 Returns the number of contained LatLngs.
 
-getType
+[getType](#Data.MultiPoint.getType)
 
 getType()
 

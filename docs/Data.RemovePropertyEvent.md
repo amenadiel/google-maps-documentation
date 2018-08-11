@@ -10,19 +10,19 @@ The properties of a removeproperty event.
 
 Properties
 
-feature
+[feature](#Data.RemovePropertyEvent.feature)
 
-**Type:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
+**Type:**  [Data.Feature](Data.Feature.md)
 
 The feature whose property was removed.
 
-name
+[name](#Data.RemovePropertyEvent.name)
 
 **Type:**  string
 
 The property name.
 
-oldValue
+[oldValue](#Data.RemovePropertyEvent.oldValue)
 
 **Type:**  \*
 

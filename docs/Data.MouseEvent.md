@@ -8,12 +8,12 @@ google.maps.Data.MouseEvent interface
 
 This object is passed to mouse event handlers on a Data object.
 
-This interface extends [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md).
+This interface extends [MouseEvent](MouseEvent.md).
 
 Properties
 
-feature
+[feature](#Data.MouseEvent.feature)
 
-**Type:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
+**Type:**  [Data.Feature](Data.Feature.md)
 
 The feature which generated the mouse event.

@@ -10,13 +10,13 @@ Details about a transit stop or station.
 
 Properties
 
-location
+[location](#TransitStop.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The location of this stop.
 
-name
+[name](#TransitStop.name)
 
 **Type:**  string
 

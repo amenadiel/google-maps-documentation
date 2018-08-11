@@ -14,13 +14,13 @@ places
 
 Properties
 
-offset
+[offset](#PredictionTerm.offset)
 
 **Type:**  number
 
 The offset, in unicode characters, of the start of this term in the description of the place.
 
-value
+[value](#PredictionTerm.value)
 
 **Type:**  string
 

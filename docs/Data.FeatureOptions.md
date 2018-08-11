@@ -10,19 +10,19 @@ Optional parameters for creating Data.Feature objects.
 
 Properties
 
-geometry
+[geometry](#Data.FeatureOptions.geometry)
 
-**Type:**  [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [Data.Geometry](Data.Geometry.md)|[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 The feature geometry. If none is specified when a feature is constructed, the feature's geometry will be null. If a LatLng object or LatLngLiteral is given, this will be converted to a Data.Point geometry.
 
-id
+[id](#Data.FeatureOptions.id)
 
 **Type:**  number|string
 
 Feature ID is optional. If provided, it can be used to look up the feature in a Data object using the getFeatureById() method. Note that a feature's ID cannot be subsequently changed.
 
-properties
+[properties](#Data.FeatureOptions.properties)
 
 **Type:**  Object
 

@@ -10,32 +10,32 @@ The representation of a panorama returned from the provider defined using regist
 
 Properties
 
-copyright
+[copyright](#StreetViewPanoramaData.copyright)
 
 **Type:**  string
 
 Specifies the copyright text for this panorama.
 
-imageDate
+[imageDate](#StreetViewPanoramaData.imageDate)
 
 **Type:**  string
 
 Specifies the year and month in which the imagery in this panorama was acquired. The date string is in the form YYYY-MM.
 
-links
+[links](#StreetViewPanoramaData.links)
 
-**Type:**  Array<[StreetViewLink](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLink.md)\>
+**Type:**  Array<[StreetViewLink](StreetViewLink.md)\>
 
 Specifies the navigational links to adjacent panoramas.
 
-location
+[location](#StreetViewPanoramaData.location)
 
-**Type:**  [StreetViewLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLocation.md)
+**Type:**  [StreetViewLocation](StreetViewLocation.md)
 
 Specifies the location meta-data for this panorama.
 
-tiles
+[tiles](#StreetViewPanoramaData.tiles)
 
-**Type:**  [StreetViewTileData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewTileData.md)
+**Type:**  [StreetViewTileData](StreetViewTileData.md)
 
 Specifies the custom tiles for this panorama.

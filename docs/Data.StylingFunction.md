@@ -10,4 +10,4 @@ A function that computes the appearance of a feature.
 
 The Data.setStyle() method can accept a styling function. Use this when features should appear differently depending on their properties. You can find more information about styling features in the [developer's guide](https://developers.google.com/maps/documentation/javascript/datalayer#style_geojson_data).
 
-function([Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)): [Data.StyleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.StyleOptions.md)
+function([Data.Feature](Data.Feature.md)): [Data.StyleOptions](Data.StyleOptions.md)

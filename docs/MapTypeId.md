@@ -10,18 +10,18 @@ Identifiers for common MapTypes. Specify these by value, or by using the constan
 
 Constants
 
-HYBRID
+[HYBRID](#MapTypeId.HYBRID)
 
 This map type displays a transparent layer of major streets on satellite images.
 
-ROADMAP
+[ROADMAP](#MapTypeId.ROADMAP)
 
 This map type displays a normal street map.
 
-SATELLITE
+[SATELLITE](#MapTypeId.SATELLITE)
 
 This map type displays satellite images.
 
-TERRAIN
+[TERRAIN](#MapTypeId.TERRAIN)
 
 This map type displays maps with physical features such as terrain and vegetation.

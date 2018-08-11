@@ -10,26 +10,26 @@ Geometry information about this GeocoderResult
 
 Properties
 
-bounds
+[bounds](#GeocoderGeometry.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)
 
 The precise bounds of this GeocoderResult, if applicable
 
-location
+[location](#GeocoderGeometry.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The latitude/longitude coordinates of this result
 
-location\_type
+[location\_type](#GeocoderGeometry.location_type)
 
-**Type:**  [GeocoderLocationType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderLocationType.md)
+**Type:**  [GeocoderLocationType](GeocoderLocationType.md)
 
 The type of location returned in location
 
-viewport
+[viewport](#GeocoderGeometry.viewport)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)
 
 The bounds of the recommended viewport for displaying this GeocoderResult

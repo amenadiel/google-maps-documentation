@@ -10,7 +10,7 @@ Defines a service class that talks directly to Google servers for requesting ele
 
 Constructor
 
-ElevationService
+[ElevationService](#ElevationService.constructor)
 
 ElevationService()
 
@@ -20,27 +20,27 @@ Creates a new instance of a ElevationService that sends elevation queries to Goo
 
 Methods
 
-getElevationAlongPath
+[getElevationAlongPath](#ElevationService.getElevationAlongPath)
 
 getElevationAlongPath(request, callback)
 
 **Parameters:** 
 
-*   request:  [PathElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PathElevationRequest.md)
-*   callback:  function(Array<[ElevationResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationResult.md)\>, [ElevationStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md))
+*   request:  [PathElevationRequest](PathElevationRequest.md)
+*   callback:  function(Array<[ElevationResult](ElevationResult.md)\>, [ElevationStatus](ElevationStatus.md))
 
 **Return Value:**  None
 
 Makes an elevation request along a path, where the elevation data are returned as distance-based samples along that path.
 
-getElevationForLocations
+[getElevationForLocations](#ElevationService.getElevationForLocations)
 
 getElevationForLocations(request, callback)
 
 **Parameters:** 
 
-*   request:  [LocationElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationElevationRequest.md)
-*   callback:  function(Array<[ElevationResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationResult.md)\>, [ElevationStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md))
+*   request:  [LocationElevationRequest](LocationElevationRequest.md)
+*   callback:  function(Array<[ElevationResult](ElevationResult.md)\>, [ElevationStatus](ElevationStatus.md))
 
 **Return Value:**  None
 

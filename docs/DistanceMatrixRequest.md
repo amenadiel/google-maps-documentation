@@ -10,62 +10,62 @@ A distance matrix query sent by the DistanceMatrixService containing arrays of o
 
 Properties
 
-avoidFerries
+[avoidFerries](#DistanceMatrixRequest.avoidFerries)
 
 **Type:**  boolean
 
 If true, instructs the Distance Matrix service to avoid ferries where possible. Optional.
 
-avoidHighways
+[avoidHighways](#DistanceMatrixRequest.avoidHighways)
 
 **Type:**  boolean
 
 If true, instructs the Distance Matrix service to avoid highways where possible. Optional.
 
-avoidTolls
+[avoidTolls](#DistanceMatrixRequest.avoidTolls)
 
 **Type:**  boolean
 
 If true, instructs the Distance Matrix service to avoid toll roads where possible. Optional.
 
-destinations
+[destinations](#DistanceMatrixRequest.destinations)
 
-**Type:**  Array<string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)\>
+**Type:**  Array<string|[LatLng](LatLng.md)|[Place](Place.md)\>
 
 An array containing destination address strings, or LatLng, or Place objects, to which to calculate distance and time. Required.
 
-drivingOptions
+[drivingOptions](#DistanceMatrixRequest.drivingOptions)
 
-**Type:**  [DrivingOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrivingOptions.md)
+**Type:**  [DrivingOptions](DrivingOptions.md)
 
 Settings that apply only to requests where travelMode is DRIVING. This object will have no effect for other travel modes.
 
-origins
+[origins](#DistanceMatrixRequest.origins)
 
-**Type:**  Array<string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)\>
+**Type:**  Array<string|[LatLng](LatLng.md)|[Place](Place.md)\>
 
 An array containing origin address strings, or LatLng, or Place objects, from which to calculate distance and time. Required.
 
-region
+[region](#DistanceMatrixRequest.region)
 
 **Type:**  string
 
 Region code used as a bias for geocoding requests. Optional.
 
-transitOptions
+[transitOptions](#DistanceMatrixRequest.transitOptions)
 
-**Type:**  [TransitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md)
+**Type:**  [TransitOptions](TransitOptions.md)
 
 Settings that apply only to requests where travelMode is TRANSIT. This object will have no effect for other travel modes.
 
-travelMode
+[travelMode](#DistanceMatrixRequest.travelMode)
 
-**Type:**  [TravelMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md)
+**Type:**  [TravelMode](TravelMode.md)
 
 Type of routing requested. Required.
 
-unitSystem
+[unitSystem](#DistanceMatrixRequest.unitSystem)
 
-**Type:**  [UnitSystem](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/UnitSystem.md)
+**Type:**  [UnitSystem](UnitSystem.md)
 
 Preferred unit system to use when displaying distance. Optional; defaults to metric.

@@ -14,8 +14,8 @@ places
 
 Properties
 
-bounds
+[bounds](#SearchBoxOptions.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 The area towards which to bias query predictions. Predictions are biased towards, but not restricted to, queries targeting these bounds.

@@ -10,22 +10,22 @@ Built-in symbol paths.
 
 Constants
 
-BACKWARD\_CLOSED\_ARROW
+[BACKWARD\_CLOSED\_ARROW](#SymbolPath.BACKWARD_CLOSED_ARROW)
 
 A backward-pointing closed arrow.
 
-BACKWARD\_OPEN\_ARROW
+[BACKWARD\_OPEN\_ARROW](#SymbolPath.BACKWARD_OPEN_ARROW)
 
 A backward-pointing open arrow.
 
-CIRCLE
+[CIRCLE](#SymbolPath.CIRCLE)
 
 A circle.
 
-FORWARD\_CLOSED\_ARROW
+[FORWARD\_CLOSED\_ARROW](#SymbolPath.FORWARD_CLOSED_ARROW)
 
 A forward-pointing closed arrow.
 
-FORWARD\_OPEN\_ARROW
+[FORWARD\_OPEN\_ARROW](#SymbolPath.FORWARD_OPEN_ARROW)
 
 A forward-pointing open arrow.

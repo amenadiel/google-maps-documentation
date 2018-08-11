@@ -10,19 +10,19 @@ A feature has a geometry, an id, and a set of properties.
 
 Constructor
 
-Data.Feature
+[Data.Feature](#Data.Feature.constructor)
 
 Data.Feature(\[options\])
 
 **Parameters:** 
 
-*   options (optional):  [Data.FeatureOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md)
+*   options (optional):  [Data.FeatureOptions](Data.FeatureOptions.md)
 
 Constructs a Feature with the given options.
 
 Methods
 
-forEachProperty
+[forEachProperty](#Data.Feature.forEachProperty)
 
 forEachProperty(callback)
 
@@ -34,17 +34,17 @@ forEachProperty(callback)
 
 Repeatedly invokes the given function, passing a property value and name on each invocation. The order of iteration through the properties is undefined.
 
-getGeometry
+[getGeometry](#Data.Feature.getGeometry)
 
 getGeometry()
 
 **Parameters:**  None
 
-**Return Value:**  [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)
+**Return Value:**  [Data.Geometry](Data.Geometry.md)
 
 Returns the feature's geometry.
 
-getId
+[getId](#Data.Feature.getId)
 
 getId()
 
@@ -54,7 +54,7 @@ getId()
 
 Returns the feature ID.
 
-getProperty
+[getProperty](#Data.Feature.getProperty)
 
 getProperty(name)
 
@@ -66,7 +66,7 @@ getProperty(name)
 
 Returns the value of the requested property, or undefined if the property does not exist.
 
-removeProperty
+[removeProperty](#Data.Feature.removeProperty)
 
 removeProperty(name)
 
@@ -78,19 +78,19 @@ removeProperty(name)
 
 Removes the property with the given name.
 
-setGeometry
+[setGeometry](#Data.Feature.setGeometry)
 
 setGeometry(newGeometry)
 
 **Parameters:** 
 
-*   newGeometry:  [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+*   newGeometry:  [Data.Geometry](Data.Geometry.md)|[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 **Return Value:**  None
 
 Sets the feature's geometry.
 
-setProperty
+[setProperty](#Data.Feature.setProperty)
 
 setProperty(name, newValue)
 
@@ -103,7 +103,7 @@ setProperty(name, newValue)
 
 Sets the value of the specified property. If newValue is undefined this is equivalent to calling removeProperty.
 
-toGeoJson
+[toGeoJson](#Data.Feature.toGeoJson)
 
 toGeoJson(callback)
 
@@ -117,32 +117,32 @@ Exports the feature to a GeoJSON object.
 
 Events
 
-removeproperty
+[removeproperty](#Data.Feature.removeproperty)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.RemovePropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md)
+*   event:  [Data.RemovePropertyEvent](Data.RemovePropertyEvent.md)
 
 This event is triggered when a feature's property is removed.
 
-setgeometry
+[setgeometry](#Data.Feature.setgeometry)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.SetGeometryEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md)
+*   event:  [Data.SetGeometryEvent](Data.SetGeometryEvent.md)
 
 This event is triggered when a feature's geometry is set.
 
-setproperty
+[setproperty](#Data.Feature.setproperty)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.SetPropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md)
+*   event:  [Data.SetPropertyEvent](Data.SetPropertyEvent.md)
 
 This event is triggered when a feature's property is set.

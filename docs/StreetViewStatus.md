@@ -10,14 +10,14 @@ The status returned by the StreetViewService on completion of a Street View requ
 
 Constants
 
-OK
+[OK](#StreetViewStatus.OK)
 
 The request was successful.
 
-UNKNOWN\_ERROR
+[UNKNOWN\_ERROR](#StreetViewStatus.UNKNOWN_ERROR)
 
 The request could not be successfully processed, yet the exact reason for failure is unknown.
 
-ZERO\_RESULTS
+[ZERO\_RESULTS](#StreetViewStatus.ZERO_RESULTS)
 
 There are no panoramas found that match the search criteria.

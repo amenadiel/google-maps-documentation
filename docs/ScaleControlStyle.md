@@ -10,6 +10,6 @@ Identifiers for scale control ids.
 
 Constants
 
-DEFAULT
+[DEFAULT](#ScaleControlStyle.DEFAULT)
 
 The standard scale control.

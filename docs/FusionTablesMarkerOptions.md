@@ -10,7 +10,7 @@ Options which control the appearance of point features in a FusionTablesLayer.
 
 Properties
 
-iconName
+[iconName](#FusionTablesMarkerOptions.iconName)
 
 **Type:**  string
 

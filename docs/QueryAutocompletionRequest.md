@@ -14,31 +14,31 @@ places
 
 Properties
 
-bounds
+[bounds](#QueryAutocompletionRequest.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given bounds. Both location and radius will be ignored if bounds is set.
 
-input
+[input](#QueryAutocompletionRequest.input)
 
 **Type:**  string
 
 The user entered input string.
 
-location
+[location](#QueryAutocompletionRequest.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 Location for prediction biasing. Predictions will be biased towards the given location and radius. Alternatively, bounds can be used.
 
-offset
+[offset](#QueryAutocompletionRequest.offset)
 
 **Type:**  number
 
 The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).
 
-radius
+[radius](#QueryAutocompletionRequest.radius)
 
 **Type:**  number
 

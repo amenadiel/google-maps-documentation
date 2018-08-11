@@ -10,8 +10,8 @@ Options for the rendering of the zoom control.
 
 Properties
 
-position
+[position](#ZoomControlOptions.position)
 
-**Type:**  [ControlPosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md)
 
 Position id. Used to specify the position of the control on the map. The default position is TOP\_LEFT.

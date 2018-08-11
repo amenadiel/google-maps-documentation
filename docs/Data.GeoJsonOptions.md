@@ -10,7 +10,7 @@ Optional parameters for importing GeoJSON.
 
 Properties
 
-idPropertyName
+[idPropertyName](#Data.GeoJsonOptions.idPropertyName)
 
 **Type:**  string
 

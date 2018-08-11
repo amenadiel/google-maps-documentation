@@ -10,13 +10,13 @@ A DirectionsWaypoint represents a location between origin and destination throug
 
 Properties
 
-location
+[location](#DirectionsWaypoint.location)
 
-**Type:**  string|[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)
+**Type:**  string|[LatLng](LatLng.md)|[Place](Place.md)
 
 Waypoint location. Can be an address string, a LatLng, or a Place. Optional.
 
-stopover
+[stopover](#DirectionsWaypoint.stopover)
 
 **Type:**  boolean
 

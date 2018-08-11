@@ -6,7 +6,7 @@ FindPlaceFromPhoneNumberRequest interface
 
 google.maps.places.FindPlaceFromPhoneNumberRequest interface
 
-A find place from text search request to be sent to [PlacesService.findPlaceFromPhoneNumber](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+A find place from text search request to be sent to [PlacesService.findPlaceFromPhoneNumber](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.findPlaceFromPhoneNumber).
 
 #### Library
 
@@ -14,19 +14,19 @@ places
 
 Properties
 
-fields
+[fields](#FindPlaceFromPhoneNumberRequest.fields)
 
 **Type:**  Array<string>
 
-Fields to be included in the response. For a list of fields see [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+Fields to be included in the response. For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
 
-locationBias
+[locationBias](#FindPlaceFromPhoneNumberRequest.locationBias)
 
-**Type:**  [LocationBias](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationBias.md)
+**Type:**  [LocationBias](LocationBias.md)
 
-The bias used when searching for Place. The result will be biased towards, but not restricted to, the given [LocationBias](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationBias.md).
+The bias used when searching for Place. The result will be biased towards, but not restricted to, the given [LocationBias](LocationBias.md).
 
-phoneNumber
+[phoneNumber](#FindPlaceFromPhoneNumberRequest.phoneNumber)
 
 **Type:**  string
 

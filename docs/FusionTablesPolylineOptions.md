@@ -10,19 +10,19 @@ Options which control the appearance of polylines in a FusionTablesLayer.
 
 Properties
 
-strokeColor
+[strokeColor](#FusionTablesPolylineOptions.strokeColor)
 
 **Type:**  string
 
 The fill color, defined by a six-digit hexadecimal number in RRGGBB format (e.g. #00AAFF).
 
-strokeOpacity
+[strokeOpacity](#FusionTablesPolylineOptions.strokeOpacity)
 
 **Type:**  number
 
 The stroke opacity between 0.0 and 1.0.
 
-strokeWeight
+[strokeWeight](#FusionTablesPolylineOptions.strokeWeight)
 
 **Type:**  number
 

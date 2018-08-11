@@ -10,73 +10,73 @@ PolylineOptions object used to define the properties that can be set on a Polyli
 
 Properties
 
-clickable
+[clickable](#PolylineOptions.clickable)
 
 **Type:**  boolean
 
 Indicates whether this Polyline handles mouse events. Defaults to true.
 
-draggable
+[draggable](#PolylineOptions.draggable)
 
 **Type:**  boolean
 
 If set to true, the user can drag this shape over the map. The geodesic property defines the mode of dragging. Defaults to false.
 
-editable
+[editable](#PolylineOptions.editable)
 
 **Type:**  boolean
 
 If set to true, the user can edit this shape by dragging the control points shown at the vertices and on each segment. Defaults to false.
 
-geodesic
+[geodesic](#PolylineOptions.geodesic)
 
 **Type:**  boolean
 
 When true, edges of the polygon are interpreted as geodesic and will follow the curvature of the Earth. When false, edges of the polygon are rendered as straight lines in screen space. Note that the shape of a geodesic polygon may appear to change when dragged, as the dimensions are maintained relative to the surface of the earth. Defaults to false.
 
-icons
+[icons](#PolylineOptions.icons)
 
-**Type:**  Array<[IconSequence](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconSequence.md)\>
+**Type:**  Array<[IconSequence](IconSequence.md)\>
 
 The icons to be rendered along the polyline.
 
-map
+[map](#PolylineOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Type:**  [Map](Map.md)
 
 Map on which to display Polyline.
 
-path
+[path](#PolylineOptions.path)
 
-**Type:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>
+**Type:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>|Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>
 
 The ordered sequence of coordinates of the Polyline. This path may be specified using either a simple array of LatLngs, or an MVCArray of LatLngs. Note that if you pass a simple array, it will be converted to an MVCArray Inserting or removing LatLngs in the MVCArray will automatically update the polyline on the map.
 
-strokeColor
+[strokeColor](#PolylineOptions.strokeColor)
 
 **Type:**  string
 
 The stroke color. All CSS3 colors are supported except for extended named colors.
 
-strokeOpacity
+[strokeOpacity](#PolylineOptions.strokeOpacity)
 
 **Type:**  number
 
 The stroke opacity between 0.0 and 1.0.
 
-strokeWeight
+[strokeWeight](#PolylineOptions.strokeWeight)
 
 **Type:**  number
 
 The stroke width in pixels.
 
-visible
+[visible](#PolylineOptions.visible)
 
 **Type:**  boolean
 
 Whether this polyline is visible on the map. Defaults to true.
 
-zIndex
+[zIndex](#PolylineOptions.zIndex)
 
 **Type:**  number
 

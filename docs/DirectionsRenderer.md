@@ -6,45 +6,45 @@ DirectionsRenderer class
 
 google.maps.DirectionsRenderer class
 
-Renders directions obtained from the [DirectionsService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md).
+Renders directions obtained from the [DirectionsService](DirectionsService.md).
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-DirectionsRenderer
+[DirectionsRenderer](#DirectionsRenderer.constructor)
 
 DirectionsRenderer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [DirectionsRendererOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md)
+*   opts (optional):  [DirectionsRendererOptions](DirectionsRendererOptions.md)
 
 Creates the renderer with the given options. Directions can be rendered on a map (as visual overlays) or additionally on a <div> panel (as textual instructions).
 
 Methods
 
-getDirections
+[getDirections](#DirectionsRenderer.getDirections)
 
 getDirections()
 
 **Parameters:**  None
 
-**Return Value:**  [DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md)
+**Return Value:**  [DirectionsResult](DirectionsResult.md)
 
 Returns the renderer's current set of directions.
 
-getMap
+[getMap](#DirectionsRenderer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
 Returns the map on which the DirectionsResult is rendered.
 
-getPanel
+[getPanel](#DirectionsRenderer.getPanel)
 
 getPanel()
 
@@ -54,7 +54,7 @@ getPanel()
 
 Returns the panel <div> in which the DirectionsResult is rendered.
 
-getRouteIndex
+[getRouteIndex](#DirectionsRenderer.getRouteIndex)
 
 getRouteIndex()
 
@@ -64,43 +64,43 @@ getRouteIndex()
 
 Returns the current (zero-based) route index in use by this DirectionsRenderer object.
 
-setDirections
+[setDirections](#DirectionsRenderer.setDirections)
 
 setDirections(directions)
 
 **Parameters:** 
 
-*   directions:  [DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md)
+*   directions:  [DirectionsResult](DirectionsResult.md)
 
 **Return Value:**  None
 
 Set the renderer to use the result from the DirectionsService. Setting a valid set of directions in this manner will display the directions on the renderer's designated map and panel.
 
-setMap
+[setMap](#DirectionsRenderer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 
 This method specifies the map on which directions will be rendered. Pass null to remove the directions from the map.
 
-setOptions
+[setOptions](#DirectionsRenderer.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [DirectionsRendererOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md)
+*   options:  [DirectionsRendererOptions](DirectionsRendererOptions.md)
 
 **Return Value:**  None
 
 Change the options settings of this DirectionsRenderer after initialization.
 
-setPanel
+[setPanel](#DirectionsRenderer.setPanel)
 
 setPanel(panel)
 
@@ -112,7 +112,7 @@ setPanel(panel)
 
 This method renders the directions in a <div>. Pass null to remove the content from the panel.
 
-setRouteIndex
+[setRouteIndex](#DirectionsRenderer.setRouteIndex)
 
 setRouteIndex(routeIndex)
 
@@ -126,7 +126,7 @@ Set the (zero-based) index of the route in the DirectionsResult object to render
 
 Events
 
-directions\_changed
+[directions\_changed](#DirectionsRenderer.directions_changed)
 
 function()
 

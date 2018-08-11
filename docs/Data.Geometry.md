@@ -10,19 +10,19 @@ A superclass for the various geometry objects.
 
 Methods
 
-forEachLatLng
+[forEachLatLng](#Data.Geometry.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md))
+*   callback:  function([LatLng](LatLng.md))
 
 **Return Value:**  None
 
 Repeatedly invokes the given function, passing a point from the geometry to the function on each invocation.
 
-getType
+[getType](#Data.Geometry.getType)
 
 getType()
 

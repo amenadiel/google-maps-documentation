@@ -10,19 +10,19 @@ A collection of references to adjacent Street View panos.
 
 Properties
 
-description
+[description](#StreetViewLink.description)
 
 **Type:**  string
 
 A localized string describing the link.
 
-heading
+[heading](#StreetViewLink.heading)
 
 **Type:**  number
 
 The heading of the link.
 
-pano
+[pano](#StreetViewLink.pano)
 
 **Type:**  string
 

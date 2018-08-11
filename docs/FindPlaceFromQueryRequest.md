@@ -6,7 +6,7 @@ FindPlaceFromQueryRequest interface
 
 google.maps.places.FindPlaceFromQueryRequest interface
 
-A find place from text search request to be sent to [PlacesService.findPlaceFromQuery](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+A find place from text search request to be sent to [PlacesService.findPlaceFromQuery](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.findPlaceFromQuery).
 
 #### Library
 
@@ -14,13 +14,13 @@ places
 
 Properties
 
-locationBias
+[locationBias](#FindPlaceFromQueryRequest.locationBias)
 
-**Type:**  [LocationBias](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationBias.md)
+**Type:**  [LocationBias](LocationBias.md)
 
-The bias used when searching for Place. The result will be biased towards, but not restricted to, the given [LocationBias](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationBias.md).
+The bias used when searching for Place. The result will be biased towards, but not restricted to, the given [LocationBias](LocationBias.md).
 
-query
+[query](#FindPlaceFromQueryRequest.query)
 
 **Type:**  string
 

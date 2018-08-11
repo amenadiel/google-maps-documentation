@@ -10,10 +10,10 @@ The status returned by the MaxZoomService on the completion of a call to getMaxZ
 
 Constants
 
-ERROR
+[ERROR](#MaxZoomStatus.ERROR)
 
 There was a problem contacting the Google servers.
 
-OK
+[OK](#MaxZoomStatus.OK)
 
 The response contains a valid MaxZoomResult.

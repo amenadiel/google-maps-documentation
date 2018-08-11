@@ -10,7 +10,7 @@ A service for obtaining the highest zoom level at which satellite imagery is ava
 
 Constructor
 
-MaxZoomService
+[MaxZoomService](#MaxZoomService.constructor)
 
 MaxZoomService()
 
@@ -20,14 +20,14 @@ Creates a new instance of a MaxZoomService that can be used to send queries abou
 
 Methods
 
-getMaxZoomAtLatLng
+[getMaxZoomAtLatLng](#MaxZoomService.getMaxZoomAtLatLng)
 
 getMaxZoomAtLatLng(latlng, callback)
 
 **Parameters:** 
 
-*   latlng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
-*   callback:  function([MaxZoomResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomResult.md))
+*   latlng:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+*   callback:  function([MaxZoomResult](MaxZoomResult.md))
 
 **Return Value:**  None
 

@@ -10,8 +10,8 @@ The properties of a removefeature event.
 
 Properties
 
-feature
+[feature](#Data.RemoveFeatureEvent.feature)
 
-**Type:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
+**Type:**  [Data.Feature](Data.Feature.md)
 
 The feature that was removed from the FeatureCollection.

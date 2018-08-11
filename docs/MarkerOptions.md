@@ -10,97 +10,97 @@ MarkerOptions object used to define the properties that can be set on a Marker.
 
 Properties
 
-anchorPoint
+[anchorPoint](#MarkerOptions.anchorPoint)
 
-**Type:**  [Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md)
+**Type:**  [Point](Point.md)
 
 The offset from the marker's position to the tip of an InfoWindow that has been opened with the marker as anchor.
 
-animation
+[animation](#MarkerOptions.animation)
 
-**Type:**  [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
+**Type:**  [Animation](Animation.md)
 
 Which animation to play when marker is added to a map.
 
-clickable
+[clickable](#MarkerOptions.clickable)
 
 **Type:**  boolean
 
 If true, the marker receives mouse and touch events. Default value is true.
 
-crossOnDrag
+[crossOnDrag](#MarkerOptions.crossOnDrag)
 
 **Type:**  boolean
 
 If false, disables cross that appears beneath the marker when dragging. This option is true by default.
 
-cursor
+[cursor](#MarkerOptions.cursor)
 
 **Type:**  string
 
 Mouse cursor to show on hover
 
-draggable
+[draggable](#MarkerOptions.draggable)
 
 **Type:**  boolean
 
 If true, the marker can be dragged. Default value is false.
 
-icon
+[icon](#MarkerOptions.icon)
 
-**Type:**  string|[Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)|[Symbol](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md)
+**Type:**  string|[Icon](Icon.md)|[Symbol](Symbol.md)
 
 Icon for the foreground. If a string is provided, it is treated as though it were an Icon with the string as url.
 
-label
+[label](#MarkerOptions.label)
 
-**Type:**  string|[MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
+**Type:**  string|[MarkerLabel](MarkerLabel.md)
 
 Adds a label to the marker. The label can either be a string, or a MarkerLabel object.
 
-map
+[map](#MarkerOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
+**Type:**  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
 
 Map on which to display Marker.
 
-opacity
+[opacity](#MarkerOptions.opacity)
 
 **Type:**  number
 
 The marker's opacity between 0.0 and 1.0.
 
-optimized
+[optimized](#MarkerOptions.optimized)
 
 **Type:**  boolean
 
 Optimization renders many markers as a single static element. Optimized rendering is enabled by default. Disable optimized rendering for animated GIFs or PNGs, or when each marker must be rendered as a separate DOM element (advanced usage only).
 
-position
+[position](#MarkerOptions.position)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 Marker position. Required.
 
-shape
+[shape](#MarkerOptions.shape)
 
-**Type:**  [MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md)
+**Type:**  [MarkerShape](MarkerShape.md)
 
 Image map region definition used for drag/click.
 
-title
+[title](#MarkerOptions.title)
 
 **Type:**  string
 
 Rollover text
 
-visible
+[visible](#MarkerOptions.visible)
 
 **Type:**  boolean
 
 If true, the marker is visible
 
-zIndex
+[zIndex](#MarkerOptions.zIndex)
 
 **Type:**  number
 

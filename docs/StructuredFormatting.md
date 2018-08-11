@@ -14,19 +14,19 @@ places
 
 Properties
 
-main\_text
+[main\_text](#StructuredFormatting.main_text)
 
 **Type:**  string
 
 This is the main text part of the unformatted description of the place suggested by the Places service. Usually the name of the place.
 
-main\_text\_matched\_substrings
+[main\_text\_matched\_substrings](#StructuredFormatting.main_text_matched_substrings)
 
-**Type:**  Array<[PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md)\>
+**Type:**  Array<[PredictionSubstring](PredictionSubstring.md)\>
 
 A set of substrings in the main text that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.
 
-secondary\_text
+[secondary\_text](#StructuredFormatting.secondary_text)
 
 **Type:**  string
 

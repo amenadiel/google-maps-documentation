@@ -14,13 +14,13 @@ places
 
 Properties
 
-maxHeight
+[maxHeight](#PhotoOptions.maxHeight)
 
 **Type:**  number
 
 The maximum height in pixels of the returned image.
 
-maxWidth
+[maxWidth](#PhotoOptions.maxWidth)
 
 **Type:**  number
 

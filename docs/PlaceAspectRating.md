@@ -14,13 +14,13 @@ places
 
 Properties
 
-rating
+[rating](#PlaceAspectRating.rating)
 
 **Type:**  number
 
 The rating of this aspect. For individual reviews this is an integer from 0 to 3. For aggregated ratings of a place this is an integer from 0 to 30.
 
-type
+[type](#PlaceAspectRating.type)
 
 **Type:**  string
 

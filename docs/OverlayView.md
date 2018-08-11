@@ -16,13 +16,13 @@ You must implement three methods: onAdd(), draw(), and onRemove().
 *   In the draw() method, you should position these elements.
 *   In the onRemove() method, you should remove the objects from the DOM.
 
-setMap()MaponAdd()setMap(null)onRemove()setMap()draw()
+You must call setMap() with a valid Map object to trigger the call to the onAdd() method and setMap(null) in order to trigger the onRemove() method. The setMap() method can be called at the time of construction or at any point afterward when the overlay should be re-shown after removing. The draw() method will then be called whenever a map property changes that could change the position of the element, such as zoom, center, or map type.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-OverlayView
+[OverlayView](#OverlayView.constructor)
 
 OverlayView()
 
@@ -30,9 +30,35 @@ OverlayView()
 
 Creates an OverlayView.
 
+Static Methods
+
+[preventMapHitsAndGesturesFrom](#OverlayView.preventMapHitsAndGesturesFrom)
+
+preventMapHitsAndGesturesFrom(element)
+
+**Parameters:** 
+
+*   element:  Element
+
+**Return Value:**  None
+
+Stops click, tap, drag, and wheel events on the element from bubbling up to the map. Use this to prevent map dragging and zooming, as well as map "click" events.
+
+[preventMapHitsFrom](#OverlayView.preventMapHitsFrom)
+
+preventMapHitsFrom(element)
+
+**Parameters:** 
+
+*   element:  Element
+
+**Return Value:**  None
+
+Stops click or tap on the element from bubbling up to the map. Use this to prevent the map from triggering "click" events.
+
 Methods
 
-draw
+[draw](#OverlayView.draw)
 
 draw()
 
@@ -42,35 +68,35 @@ draw()
 
 Implement this method to draw or update the overlay. Use the position from projection.fromLatLngToDivPixel() to correctly position the overlay relative to the MapPanes. This method is called after onAdd(), and is called on change of zoom or center. It is not recommended to do computationally expensive work in this method.
 
-getMap
+[getMap](#OverlayView.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
+**Return Value:**  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
 
-getPanes
+[getPanes](#OverlayView.getPanes)
 
 getPanes()
 
 **Parameters:**  None
 
-**Return Value:**  [MapPanes](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapPanes.md)
+**Return Value:**  [MapPanes](MapPanes.md)
 
 Returns the panes in which this OverlayView can be rendered. The panes are not initialized until onAdd is called by the API.
 
-getProjection
+[getProjection](#OverlayView.getProjection)
 
 getProjection()
 
 **Parameters:**  None
 
-**Return Value:**  [MapCanvasProjection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapCanvasProjection.md)
+**Return Value:**  [MapCanvasProjection](MapCanvasProjection.md)
 
 Returns the MapCanvasProjection object associated with this OverlayView. The projection is not initialized until onAdd is called by the API.
 
-onAdd
+[onAdd](#OverlayView.onAdd)
 
 onAdd()
 
@@ -80,7 +106,7 @@ onAdd()
 
 Implement this method to initialize the overlay DOM elements. This method is called once after setMap() is called with a valid map. At this point, panes and projection will have been initialized.
 
-onRemove
+[onRemove](#OverlayView.onRemove)
 
 onRemove()
 
@@ -90,13 +116,13 @@ onRemove()
 
 Implement this method to remove your elements from the DOM. This method is called once following a call to setMap(null).
 
-setMap
+[setMap](#OverlayView.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)|[StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md)
+*   map:  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
 
 **Return Value:**  None
 

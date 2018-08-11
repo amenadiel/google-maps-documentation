@@ -14,7 +14,7 @@ places
 
 Constructor
 
-AutocompleteService
+[AutocompleteService](#AutocompleteService.constructor)
 
 AutocompleteService()
 
@@ -24,27 +24,27 @@ Creates a new instance of the AutocompleteService.
 
 Methods
 
-getPlacePredictions
+[getPlacePredictions](#AutocompleteService.getPlacePredictions)
 
 getPlacePredictions(request, callback)
 
 **Parameters:** 
 
-*   request:  [AutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletionRequest.md)
-*   callback:  function(Array<[AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+*   request:  [AutocompletionRequest](AutocompletionRequest.md)
+*   callback:  function(Array<[AutocompletePrediction](AutocompletePrediction.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
 Retrieves place autocomplete predictions based on the supplied autocomplete request.
 
-getQueryPredictions
+[getQueryPredictions](#AutocompleteService.getQueryPredictions)
 
 getQueryPredictions(request, callback)
 
 **Parameters:** 
 
-*   request:  [QueryAutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletionRequest.md)
-*   callback:  function(Array<[QueryAutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletePrediction.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+*   request:  [QueryAutocompletionRequest](QueryAutocompletionRequest.md)
+*   callback:  function(Array<[QueryAutocompletePrediction](QueryAutocompletePrediction.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 

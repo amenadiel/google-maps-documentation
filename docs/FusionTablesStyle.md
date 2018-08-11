@@ -10,25 +10,25 @@ Controls the appearance of a set of features within a FusionTablesLayer. Feature
 
 Properties
 
-markerOptions
+[markerOptions](#FusionTablesStyle.markerOptions)
 
-**Type:**  [FusionTablesMarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMarkerOptions.md)
+**Type:**  [FusionTablesMarkerOptions](FusionTablesMarkerOptions.md)
 
 Options which control the appearance of point features.
 
-polygonOptions
+[polygonOptions](#FusionTablesStyle.polygonOptions)
 
-**Type:**  [FusionTablesPolygonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesPolygonOptions.md)
+**Type:**  [FusionTablesPolygonOptions](FusionTablesPolygonOptions.md)
 
 Options which control the appearance of polygons.
 
-polylineOptions
+[polylineOptions](#FusionTablesStyle.polylineOptions)
 
-**Type:**  [FusionTablesPolylineOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesPolylineOptions.md)
+**Type:**  [FusionTablesPolylineOptions](FusionTablesPolylineOptions.md)
 
 Options which control the appearance of polylines.
 
-where
+[where](#FusionTablesStyle.where)
 
 **Type:**  string
 

@@ -10,14 +10,14 @@ TrafficLayerOptions object used to define the properties that can be set on a Tr
 
 Properties
 
-autoRefresh
+[autoRefresh](#TrafficLayerOptions.autoRefresh)
 
 **Type:**  boolean
 
 Whether the traffic layer refreshes with updated information automatically. This is true by default.
 
-map
+[map](#TrafficLayerOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Type:**  [Map](Map.md)
 
 Map on which to display the traffic layer.

@@ -14,93 +14,78 @@ places
 
 Constructor
 
-PlacesService
+[PlacesService](#PlacesService.constructor)
 
 PlacesService(attrContainer)
 
 **Parameters:** 
 
-*   attrContainer:  HTMLDivElement|[Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   attrContainer:  HTMLDivElement|[Map](Map.md)
 
 Creates a new instance of the PlacesService that renders attributions in the specified container.
 
 Methods
 
-findPlaceFromPhoneNumber
+[findPlaceFromPhoneNumber](#PlacesService.findPlaceFromPhoneNumber)
 
 findPlaceFromPhoneNumber(request, callback)
 
 **Parameters:** 
 
-*   request:  [FindPlaceFromPhoneNumberRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FindPlaceFromPhoneNumberRequest.md)
-*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+*   request:  [FindPlaceFromPhoneNumberRequest](FindPlaceFromPhoneNumberRequest.md)
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
-Retrieves a list of places based on a phone number. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Your app can get a more detailed [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for each place by calling [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md) and passing the [PlaceResult.place\_id](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for the desired place.
+Retrieves a list of places based on a phone number. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](PlaceResult.md). Your app can get a more detailed [PlaceResult](PlaceResult.md) for each place by calling [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails) and passing the [PlaceResult.place\_id](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlaceResult.place_id) for the desired place.
 
-findPlaceFromQuery
+[findPlaceFromQuery](#PlacesService.findPlaceFromQuery)
 
 findPlaceFromQuery(request, callback)
 
 **Parameters:** 
 
-*   request:  [FindPlaceFromQueryRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FindPlaceFromQueryRequest.md)
-*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+*   request:  [FindPlaceFromQueryRequest](FindPlaceFromQueryRequest.md)
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
-Retrieves a list of places based on a query string. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Your app can get a more detailed [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for each place by calling [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md) and passing the [PlaceResult.place\_id](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for the desired place.
+Retrieves a list of places based on a query string. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](PlaceResult.md). Your app can get a more detailed [PlaceResult](PlaceResult.md) for each place by calling [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails) and passing the [PlaceResult.place\_id](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlaceResult.place_id) for the desired place.
 
-getDetails
+[getDetails](#PlacesService.getDetails)
 
 getDetails(request, callback)
 
 **Parameters:** 
 
-*   request:  [PlaceDetailsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceDetailsRequest.md)
-*   callback:  function([PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md), [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
+*   request:  [PlaceDetailsRequest](PlaceDetailsRequest.md)
+*   callback:  function([PlaceResult](PlaceResult.md), [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
 Retrieves details about the place identified by the given placeId.
 
-nearbySearch
+[nearbySearch](#PlacesService.nearbySearch)
 
 nearbySearch(request, callback)
 
 **Parameters:** 
 
-*   request:  [PlaceSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md), [PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md))
+*   request:  [PlaceSearchRequest](PlaceSearchRequest.md)
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md))
 
 **Return Value:**  None
 
-Retrieves a list of places near a particular location, based on keyword or type. Location must always be specified, either by passing a LatLngBounds, or location and radius parameters. The [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)s passed to the callback are subsets of the full [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md). Your app can get a more detailed [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for each place by sending a [Place Details request](https://developers.google.com/maps/documentation/javascript/places#place_details_requests) passing the [PlaceResult.place\_id](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md) for the desired place. The [PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md) object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
+Retrieves a list of places near a particular location, based on keyword or type. Location must always be specified, either by passing a LatLngBounds, or location and radius parameters. The [PlaceResult](PlaceResult.md)s passed to the callback are subsets of the full [PlaceResult](PlaceResult.md). Your app can get a more detailed [PlaceResult](PlaceResult.md) for each place by sending a [Place Details request](https://developers.google.com/maps/documentation/javascript/places#place_details_requests) passing the [PlaceResult.place\_id](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlaceResult.place_id) for the desired place. The [PlaceSearchPagination](PlaceSearchPagination.md) object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
 
-radarSearch
-
-**Notice:** Radar Search is **deprecated** as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.
-
-radarSearch(request, callback)
-
-**Parameters:** 
-
-*   request:  [RadarSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RadarSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md))
-
-**Return Value:**  None
-
-Similar to the nearbySearch function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and place\_id.
-
-textSearch
+[textSearch](#PlacesService.textSearch)
 
 textSearch(request, callback)
 
 **Parameters:** 
 
-*   request:  [TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)\>, [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md), [PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md))
+*   request:  [TextSearchRequest](TextSearchRequest.md)
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md))
 
 **Return Value:**  None
 

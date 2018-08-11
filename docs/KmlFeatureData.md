@@ -10,37 +10,37 @@ Data for a single KML feature in JSON format, returned when a KML feature is cli
 
 Properties
 
-author
+[author](#KmlFeatureData.author)
 
-**Type:**  [KmlAuthor](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlAuthor.md)
+**Type:**  [KmlAuthor](KmlAuthor.md)
 
 The feature's <atom:author>, extracted from the layer markup (if specified).
 
-description
+[description](#KmlFeatureData.description)
 
 **Type:**  string
 
 The feature's <description>, extracted from the layer markup.
 
-id
+[id](#KmlFeatureData.id)
 
 **Type:**  string
 
 The feature's <id>, extracted from the layer markup. If no <id> has been specified, a unique ID will be generated for this feature.
 
-infoWindowHtml
+[infoWindowHtml](#KmlFeatureData.infoWindowHtml)
 
 **Type:**  string
 
 The feature's balloon styled text, if set.
 
-name
+[name](#KmlFeatureData.name)
 
 **Type:**  string
 
 The feature's <name>, extracted from the layer markup.
 
-snippet
+[snippet](#KmlFeatureData.snippet)
 
 **Type:**  string
 

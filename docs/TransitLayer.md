@@ -8,11 +8,11 @@ google.maps.TransitLayer class
 
 A transit layer.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-TransitLayer
+[TransitLayer](#TransitLayer.constructor)
 
 TransitLayer()
 
@@ -22,23 +22,23 @@ A layer that displays transit lines.
 
 Methods
 
-getMap
+[getMap](#TransitLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
 Returns the map on which this layer is displayed.
 
-setMap
+[setMap](#TransitLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 

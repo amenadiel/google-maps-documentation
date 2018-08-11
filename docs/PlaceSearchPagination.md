@@ -14,7 +14,7 @@ places
 
 Methods
 
-nextPage
+[nextPage](#PlaceSearchPagination.nextPage)
 
 nextPage()
 
@@ -26,7 +26,7 @@ Fetches the next page of results. Uses the same callback function that was provi
 
 Properties
 
-hasNextPage
+[hasNextPage](#PlaceSearchPagination.hasNextPage)
 
 **Type:**  boolean
 

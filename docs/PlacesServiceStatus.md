@@ -14,30 +14,30 @@ places
 
 Constants
 
-INVALID\_REQUEST
+[INVALID\_REQUEST](#PlacesServiceStatus.INVALID_REQUEST)
 
 This request was invalid.
 
-NOT\_FOUND
+[NOT\_FOUND](#PlacesServiceStatus.NOT_FOUND)
 
 The place referenced was not found.
 
-OK
+[OK](#PlacesServiceStatus.OK)
 
 The response contains a valid result.
 
-OVER\_QUERY\_LIMIT
+[OVER\_QUERY\_LIMIT](#PlacesServiceStatus.OVER_QUERY_LIMIT)
 
 The application has gone over its request quota.
 
-REQUEST\_DENIED
+[REQUEST\_DENIED](#PlacesServiceStatus.REQUEST_DENIED)
 
 The application is not allowed to use the PlacesService.
 
-UNKNOWN\_ERROR
+[UNKNOWN\_ERROR](#PlacesServiceStatus.UNKNOWN_ERROR)
 
 The PlacesService request could not be processed due to a server error. The request may succeed if you try again.
 
-ZERO\_RESULTS
+[ZERO\_RESULTS](#PlacesServiceStatus.ZERO_RESULTS)
 
 No result was found for this request.

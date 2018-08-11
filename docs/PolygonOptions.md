@@ -10,85 +10,85 @@ PolygonOptions object used to define the properties that can be set on a Polygon
 
 Properties
 
-clickable
+[clickable](#PolygonOptions.clickable)
 
 **Type:**  boolean
 
 Indicates whether this Polygon handles mouse events. Defaults to true.
 
-draggable
+[draggable](#PolygonOptions.draggable)
 
 **Type:**  boolean
 
 If set to true, the user can drag this shape over the map. The geodesic property defines the mode of dragging. Defaults to false.
 
-editable
+[editable](#PolygonOptions.editable)
 
 **Type:**  boolean
 
 If set to true, the user can edit this shape by dragging the control points shown at the vertices and on each segment. Defaults to false.
 
-fillColor
+[fillColor](#PolygonOptions.fillColor)
 
 **Type:**  string
 
 The fill color. All CSS3 colors are supported except for extended named colors.
 
-fillOpacity
+[fillOpacity](#PolygonOptions.fillOpacity)
 
 **Type:**  number
 
 The fill opacity between 0.0 and 1.0
 
-geodesic
+[geodesic](#PolygonOptions.geodesic)
 
 **Type:**  boolean
 
 When true, edges of the polygon are interpreted as geodesic and will follow the curvature of the Earth. When false, edges of the polygon are rendered as straight lines in screen space. Note that the shape of a geodesic polygon may appear to change when dragged, as the dimensions are maintained relative to the surface of the earth. Defaults to false.
 
-map
+[map](#PolygonOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Type:**  [Map](Map.md)
 
 Map on which to display Polygon.
 
-paths
+[paths](#PolygonOptions.paths)
 
-**Type:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>>|[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|Array<Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)\>
+**Type:**  [MVCArray](MVCArray.md)<[MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>>|[MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>|Array<Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>>|Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>
 
-The ordered sequence of coordinates that designates a closed loop. Unlike polylines, a polygon may consist of one or more paths. As a result, the paths property may specify one or more arrays of LatLng coordinates. Paths are closed automatically; do not repeat the first vertex of the path as the last vertex. Simple polygons may be defined using a single array of LatLngs. More complex polygons may specify an array of arrays. Any simple arrays are converted into [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)s. Inserting or removing LatLngs from the MVCArray will automatically update the polygon on the map.
+The ordered sequence of coordinates that designates a closed loop. Unlike polylines, a polygon may consist of one or more paths. As a result, the paths property may specify one or more arrays of LatLng coordinates. Paths are closed automatically; do not repeat the first vertex of the path as the last vertex. Simple polygons may be defined using a single array of LatLngs. More complex polygons may specify an array of arrays. Any simple arrays are converted into [MVCArray](#MVCArray)s. Inserting or removing LatLngs from the MVCArray will automatically update the polygon on the map.
 
-strokeColor
+[strokeColor](#PolygonOptions.strokeColor)
 
 **Type:**  string
 
 The stroke color. All CSS3 colors are supported except for extended named colors.
 
-strokeOpacity
+[strokeOpacity](#PolygonOptions.strokeOpacity)
 
 **Type:**  number
 
 The stroke opacity between 0.0 and 1.0
 
-strokePosition
+[strokePosition](#PolygonOptions.strokePosition)
 
-**Type:**  [StrokePosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StrokePosition.md)
+**Type:**  [StrokePosition](StrokePosition.md)
 
 The stroke position. Defaults to CENTER. This property is not supported on Internet Explorer 8 and earlier.
 
-strokeWeight
+[strokeWeight](#PolygonOptions.strokeWeight)
 
 **Type:**  number
 
 The stroke width in pixels.
 
-visible
+[visible](#PolygonOptions.visible)
 
 **Type:**  boolean
 
 Whether this polygon is visible on the map. Defaults to true.
 
-zIndex
+[zIndex](#PolygonOptions.zIndex)
 
 **Type:**  number
 

@@ -14,61 +14,61 @@ places
 
 Properties
 
-bounds
+[bounds](#PlaceSearchRequest.bounds)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 The bounds within which to search for Places. Both location and radius will be ignored if bounds is set.
 
-keyword
+[keyword](#PlaceSearchRequest.keyword)
 
 **Type:**  string
 
 A term to be matched against all available fields, including but not limited to name, type, and address, as well as customer reviews and other third-party content.
 
-location
+[location](#PlaceSearchRequest.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 The location around which to search for Places.
 
-maxPriceLevel
+[maxPriceLevel](#PlaceSearchRequest.maxPriceLevel)
 
 **Type:**  number
 
 Restricts results to only those places at the specified price level or lower. Valid values are in the range from 0 (most affordable) to 4 (most expensive), inclusive. Must be greater than or equal to minPrice , if specified.
 
-minPriceLevel
+[minPriceLevel](#PlaceSearchRequest.minPriceLevel)
 
 **Type:**  number
 
 Restricts results to only those places at the specified price level or higher. Valid values are in the range from 0 (most affordable) to 4 (most expensive), inclusive. Must be less than or equal to maxPrice, if specified.
 
-name
+[name](#PlaceSearchRequest.name)
 
 **Type:**  string
 
 Restricts the Place search results to Places that include this text in the name.
 
-openNow
+[openNow](#PlaceSearchRequest.openNow)
 
 **Type:**  boolean
 
 Restricts results to only those places that are open right now.
 
-radius
+[radius](#PlaceSearchRequest.radius)
 
 **Type:**  number
 
-The distance from the given location within which to search for Places, in meters. The maximum allowed value is 50 000.
+The distance from the given location within which to search for Places, in meters. The maximum allowed value is 50 000.
 
-rankBy
+[rankBy](#PlaceSearchRequest.rankBy)
 
-**Type:**  [RankBy](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RankBy.md)
+**Type:**  [RankBy](RankBy.md)
 
 Specifies the ranking method to use when returning results. Defaults to PROMINENCE. Note that when rankBy is set to DISTANCE, you must specify a location but you cannot specify a radius or bounds.
 
-type
+[type](#PlaceSearchRequest.type)
 
 **Type:**  string
 

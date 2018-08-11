@@ -8,17 +8,17 @@ google.maps.CircleLiteral interface
 
 Object literal which represents a circle.
 
-This interface extends [CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md).
+This interface extends [CircleOptions](CircleOptions.md).
 
 Properties
 
-center
+[center](#CircleLiteral.center)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 The center of the Circle.
 
-radius
+[radius](#CircleLiteral.radius)
 
 **Type:**  number
 

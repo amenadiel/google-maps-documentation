@@ -10,19 +10,19 @@ A representation of time as a Date object, a localized string, and a time zone.
 
 Properties
 
-text
+[text](#Time.text)
 
 **Type:**  string
 
 A string representing the time's value. The time is displayed in the time zone of the transit stop.
 
-time\_zone
+[time\_zone](#Time.time_zone)
 
 **Type:**  string
 
 The time zone in which this stop lies. The value is the name of the time zone as defined in the IANA Time Zone Database, e.g. "America/New\_York".
 
-value
+[value](#Time.value)
 
 **Type:**  Date
 

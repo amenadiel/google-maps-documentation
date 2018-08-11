@@ -6,11 +6,11 @@ MapsEventListener interface
 
 google.maps.MapsEventListener interface
 
-An event listener, created by [google.maps.event.addListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md)() and friends.
+An event listener, created by [google.maps.event.addListener](event.md)() and friends.
 
 Methods
 
-remove
+[remove](#MapsEventListener.remove)
 
 remove()
 

@@ -6,14 +6,14 @@ UnitSystem constants
 
 google.maps.UnitSystem constants
 
-The valid unit systems that can be specified in a _[DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md)_.
+The valid unit systems that can be specified in a _[DirectionsRequest](DirectionsRequest.md)_.
 
 Constants
 
-IMPERIAL
+[IMPERIAL](#UnitSystem.IMPERIAL)
 
 Specifies that distances in the DirectionsResult should be expressed in imperial units.
 
-METRIC
+[METRIC](#UnitSystem.METRIC)
 
 Specifies that distances in the DirectionsResult should be expressed in metric units.

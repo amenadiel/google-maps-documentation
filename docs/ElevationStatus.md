@@ -10,22 +10,22 @@ The status returned by the ElevationService upon completion of an elevation requ
 
 Constants
 
-INVALID\_REQUEST
+[INVALID\_REQUEST](#ElevationStatus.INVALID_REQUEST)
 
 This request was invalid.
 
-OK
+[OK](#ElevationStatus.OK)
 
 The request did not encounter any errors.
 
-OVER\_QUERY\_LIMIT
+[OVER\_QUERY\_LIMIT](#ElevationStatus.OVER_QUERY_LIMIT)
 
 The webpage has gone over the requests limit in too short a period of time.
 
-REQUEST\_DENIED
+[REQUEST\_DENIED](#ElevationStatus.REQUEST_DENIED)
 
 The webpage is not allowed to use the elevation service for some reason.
 
-UNKNOWN\_ERROR
+[UNKNOWN\_ERROR](#ElevationStatus.UNKNOWN_ERROR)
 
 A geocoding, directions or elevation request could not be successfully processed, yet the exact reason for the failure is not known.

@@ -8,33 +8,33 @@ google.maps.Rectangle class
 
 A rectangle overlay.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-Rectangle
+[Rectangle](#Rectangle.constructor)
 
 Rectangle(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md)
+*   opts (optional):  [RectangleOptions](RectangleOptions.md)
 
-Create a rectangle using the passed _[RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md)_, which specify the bounds and style.
+Create a rectangle using the passed _[RectangleOptions](RectangleOptions.md)_, which specify the bounds and style.
 
 Methods
 
-getBounds
+[getBounds](#Rectangle.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Return Value:**  [LatLngBounds](LatLngBounds.md)
 
 Returns the bounds of this rectangle.
 
-getDraggable
+[getDraggable](#Rectangle.getDraggable)
 
 getDraggable()
 
@@ -44,7 +44,7 @@ getDraggable()
 
 Returns whether this rectangle can be dragged by the user.
 
-getEditable
+[getEditable](#Rectangle.getEditable)
 
 getEditable()
 
@@ -54,17 +54,17 @@ getEditable()
 
 Returns whether this rectangle can be edited by the user.
 
-getMap
+[getMap](#Rectangle.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
 Returns the map on which this rectangle is displayed.
 
-getVisible
+[getVisible](#Rectangle.getVisible)
 
 getVisible()
 
@@ -74,19 +74,19 @@ getVisible()
 
 Returns whether this rectangle is visible on the map.
 
-setBounds
+[setBounds](#Rectangle.setBounds)
 
 setBounds(bounds)
 
 **Parameters:** 
 
-*   bounds:  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)|[LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
+*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
 
 **Return Value:**  None
 
 Sets the bounds of this rectangle.
 
-setDraggable
+[setDraggable](#Rectangle.setDraggable)
 
 setDraggable(draggable)
 
@@ -98,7 +98,7 @@ setDraggable(draggable)
 
 If set to true, the user can drag this rectangle over the map.
 
-setEditable
+[setEditable](#Rectangle.setEditable)
 
 setEditable(editable)
 
@@ -110,29 +110,29 @@ setEditable(editable)
 
 If set to true, the user can edit this rectangle by dragging the control points shown at the corners and on each edge.
 
-setMap
+[setMap](#Rectangle.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 
 Renders the rectangle on the specified map. If map is set to null, the rectangle will be removed.
 
-setOptions
+[setOptions](#Rectangle.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md)
+*   options:  [RectangleOptions](RectangleOptions.md)
 
 **Return Value:**  None
 
-setVisible
+[setVisible](#Rectangle.setVisible)
 
 setVisible(visible)
 
@@ -146,7 +146,7 @@ Hides this rectangle if set to false.
 
 Events
 
-bounds\_changed
+[bounds\_changed](#Rectangle.bounds_changed)
 
 function()
 
@@ -154,112 +154,112 @@ function()
 
 This event is fired when the rectangle's bounds are changed.
 
-click
+[click](#Rectangle.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM click event is fired on the rectangle.
 
-dblclick
+[dblclick](#Rectangle.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM dblclick event is fired on the rectangle.
 
-drag
+[drag](#Rectangle.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is repeatedly fired while the user drags the rectangle.
 
-dragend
+[dragend](#Rectangle.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the user stops dragging the rectangle.
 
-dragstart
+[dragstart](#Rectangle.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the user starts dragging the rectangle.
 
-mousedown
+[mousedown](#Rectangle.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM mousedown event is fired on the rectangle.
 
-mousemove
+[mousemove](#Rectangle.mousemove)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM mousemove event is fired on the rectangle.
 
-mouseout
+[mouseout](#Rectangle.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired on rectangle mouseout.
 
-mouseover
+[mouseover](#Rectangle.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired on rectangle mouseover.
 
-mouseup
+[mouseup](#Rectangle.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the DOM mouseup event is fired on the rectangle.
 
-rightclick
+[rightclick](#Rectangle.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md)
+*   event:  [MouseEvent](MouseEvent.md)
 
 This event is fired when the rectangle is right-clicked on.

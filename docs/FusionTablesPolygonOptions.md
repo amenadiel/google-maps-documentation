@@ -10,31 +10,31 @@ Options which control the appearance of polygons in a FusionTablesLayer.
 
 Properties
 
-fillColor
+[fillColor](#FusionTablesPolygonOptions.fillColor)
 
 **Type:**  string
 
 The fill color, defined by a six-digit hexadecimal number in RRGGBB format (e.g. #00AAFF).
 
-fillOpacity
+[fillOpacity](#FusionTablesPolygonOptions.fillOpacity)
 
 **Type:**  number
 
 The fill opacity between 0.0 and 1.0.
 
-strokeColor
+[strokeColor](#FusionTablesPolygonOptions.strokeColor)
 
 **Type:**  string
 
 The fill color, defined by a six-digit hexadecimal number in RRGGBB format (e.g. #00AAFF).
 
-strokeOpacity
+[strokeOpacity](#FusionTablesPolygonOptions.strokeOpacity)
 
 **Type:**  number
 
 The stroke opacity between 0.0 and 1.0.
 
-strokeWeight
+[strokeWeight](#FusionTablesPolygonOptions.strokeWeight)
 
 **Type:**  number
 

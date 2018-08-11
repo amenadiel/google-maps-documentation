@@ -10,20 +10,20 @@ The properties of a setgeometry event.
 
 Properties
 
-feature
+[feature](#Data.SetGeometryEvent.feature)
 
-**Type:**  [Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md)
+**Type:**  [Data.Feature](Data.Feature.md)
 
 The feature whose geometry was set.
 
-newGeometry
+[newGeometry](#Data.SetGeometryEvent.newGeometry)
 
-**Type:**  [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)
+**Type:**  [Data.Geometry](Data.Geometry.md)
 
 The new feature geometry.
 
-oldGeometry
+[oldGeometry](#Data.SetGeometryEvent.oldGeometry)
 
-**Type:**  [Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md)
+**Type:**  [Data.Geometry](Data.Geometry.md)
 
 The previous feature geometry.

@@ -14,14 +14,14 @@ drawing
 
 Properties
 
-drawingModes
+[drawingModes](#DrawingControlOptions.drawingModes)
 
-**Type:**  Array<[OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)\>
+**Type:**  Array<[OverlayType](OverlayType.md)\>
 
 The drawing modes to display in the drawing control, in the order in which they are to be displayed. The hand icon (which corresponds to the null drawing mode) is always available and is not to be specified in this array. Defaults to \['marker', 'polyline', 'rectangle', 'circle', 'polygon'\].
 
-position
+[position](#DrawingControlOptions.position)
 
-**Type:**  [ControlPosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md)
 
 Position id. Used to specify the position of the control on the map. The default position is TOP\_LEFT.

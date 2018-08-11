@@ -10,13 +10,13 @@ A point of view object which specifies the camera's orientation at the Street Vi
 
 Properties
 
-heading
+[heading](#StreetViewPov.heading)
 
 **Type:**  number
 
 The camera heading in degrees relative to true north. True north is 0°, east is 90°, south is 180°, west is 270°.
 
-pitch
+[pitch](#StreetViewPov.pitch)
 
 **Type:**  number
 

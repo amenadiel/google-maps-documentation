@@ -14,43 +14,43 @@ visualization
 
 Properties
 
-data
+[data](#HeatmapLayerOptions.data)
 
-**Type:**  [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>|Array<[LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)\>
+**Type:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>|Array<[LatLng](LatLng.md)\>
 
 The data points to display. Required.
 
-dissipating
+[dissipating](#HeatmapLayerOptions.dissipating)
 
 **Type:**  boolean
 
 Specifies whether heatmaps dissipate on zoom. By default, the radius of influence of a data point is specified by the radius option only. When dissipating is disabled, the radius option is interpreted as a radius at zoom level 0.
 
-gradient
+[gradient](#HeatmapLayerOptions.gradient)
 
 **Type:**  Array<string>
 
 The color gradient of the heatmap, specified as an array of CSS color strings. All CSS3 colors are supported except for extended named colors.
 
-map
+[map](#HeatmapLayerOptions.map)
 
-**Type:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Type:**  [Map](Map.md)
 
 The map on which to display the layer.
 
-maxIntensity
+[maxIntensity](#HeatmapLayerOptions.maxIntensity)
 
 **Type:**  number
 
 The maximum intensity of the heatmap. By default, heatmap colors are dynamically scaled according to the greatest concentration of points at any particular pixel on the map. This property allows you to specify a fixed maximum.
 
-opacity
+[opacity](#HeatmapLayerOptions.opacity)
 
 **Type:**  number
 
 The opacity of the heatmap, expressed as a number between 0 and 1. Defaults to 0.6.
 
-radius
+[radius](#HeatmapLayerOptions.radius)
 
 **Type:**  number
 

@@ -10,19 +10,19 @@ The result of an ElevationService request, consisting of the set of elevation co
 
 Properties
 
-elevation
+[elevation](#ElevationResult.elevation)
 
 **Type:**  number
 
 The elevation of this point on Earth, in meters above sea level.
 
-location
+[location](#ElevationResult.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The location of this elevation result.
 
-resolution
+[resolution](#ElevationResult.resolution)
 
 **Type:**  number
 

@@ -14,14 +14,14 @@ places
 
 Properties
 
-location
+[location](#PlaceGeometry.location)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Type:**  [LatLng](LatLng.md)
 
 The Place's position.
 
-viewport
+[viewport](#PlaceGeometry.viewport)
 
-**Type:**  [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)
 
-The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md).
+The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails).

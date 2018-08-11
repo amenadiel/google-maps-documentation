@@ -14,37 +14,37 @@ places
 
 Properties
 
-description
+[description](#AutocompletePrediction.description)
 
 **Type:**  string
 
 This is the unformatted version of the query suggested by the Places service.
 
-matched\_substrings
+[matched\_substrings](#AutocompletePrediction.matched_substrings)
 
-**Type:**  Array<[PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md)\>
+**Type:**  Array<[PredictionSubstring](PredictionSubstring.md)\>
 
 A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.
 
-place\_id
+[place\_id](#AutocompletePrediction.place_id)
 
 **Type:**  string
 
-A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md)).
+A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails)).
 
-structured\_formatting
+[structured\_formatting](#AutocompletePrediction.structured_formatting)
 
-**Type:**  [StructuredFormatting](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StructuredFormatting.md)
+**Type:**  [StructuredFormatting](StructuredFormatting.md)
 
 Structured information about the place's description, divided into a main text and a secondary text, including an array of matched substrings from the autocomplete input, identified by an offset and a length, expressed in unicode characters.
 
-terms
+[terms](#AutocompletePrediction.terms)
 
-**Type:**  Array<[PredictionTerm](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md)\>
+**Type:**  Array<[PredictionTerm](PredictionTerm.md)\>
 
 Information about individual terms in the above description, from most to least specific. For example, "Taco Bell", "Willitis", and "CA".
 
-types
+[types](#AutocompletePrediction.types)
 
 **Type:**  Array<string>
 

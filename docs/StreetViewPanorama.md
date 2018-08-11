@@ -8,44 +8,44 @@ google.maps.StreetViewPanorama class
 
 Displays the panorama for a given LatLng or panorama ID. A StreetViewPanorama object provides a Street View "viewer" which can be stand-alone within a separate <div> or bound to a Map.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 Constructor
 
-StreetViewPanorama
+[StreetViewPanorama](#StreetViewPanorama.constructor)
 
 StreetViewPanorama(container\[, opts\])
 
 **Parameters:** 
 
 *   container:  Element
-*   opts (optional):  [StreetViewPanoramaOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md)
+*   opts (optional):  [StreetViewPanoramaOptions](StreetViewPanoramaOptions.md)
 
 Creates a panorama with the passed StreetViewPanoramaOptions.
 
 Methods
 
-getLinks
+[getLinks](#StreetViewPanorama.getLinks)
 
 getLinks()
 
 **Parameters:**  None
 
-**Return Value:**  Array<[StreetViewLink](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLink.md)\>
+**Return Value:**  Array<[StreetViewLink](StreetViewLink.md)\>
 
 Returns the set of navigation links for the Street View panorama.
 
-getLocation
+[getLocation](#StreetViewPanorama.getLocation)
 
 getLocation()
 
 **Parameters:**  None
 
-**Return Value:**  [StreetViewLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLocation.md)
+**Return Value:**  [StreetViewLocation](StreetViewLocation.md)
 
 Returns the StreetViewLocation of the current panorama.
 
-getMotionTracking
+[getMotionTracking](#StreetViewPanorama.getMotionTracking)
 
 getMotionTracking()
 
@@ -55,7 +55,7 @@ getMotionTracking()
 
 Returns the state of motion tracker. If true when the user physically moves the device and the browser supports it, the Street View Panorama tracks the physical movements.
 
-getPano
+[getPano](#StreetViewPanorama.getPano)
 
 getPano()
 
@@ -65,47 +65,47 @@ getPano()
 
 Returns the current panorama ID for the Street View panorama. This id is stable within the browser's current session only.
 
-getPhotographerPov
+[getPhotographerPov](#StreetViewPanorama.getPhotographerPov)
 
 getPhotographerPov()
 
 **Parameters:**  None
 
-**Return Value:**  [StreetViewPov](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md)
+**Return Value:**  [StreetViewPov](StreetViewPov.md)
 
 Returns the heading and pitch of the photographer when this panorama was taken. For Street View panoramas on the road, this also reveals in which direction the car was travelling. This data is available after the pano\_changed event.
 
-getPosition
+[getPosition](#StreetViewPanorama.getPosition)
 
 getPosition()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
+**Return Value:**  [LatLng](LatLng.md)
 
 Returns the current LatLng position for the Street View panorama.
 
-getPov
+[getPov](#StreetViewPanorama.getPov)
 
 getPov()
 
 **Parameters:**  None
 
-**Return Value:**  [StreetViewPov](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md)
+**Return Value:**  [StreetViewPov](StreetViewPov.md)
 
 Returns the current point of view for the Street View panorama.
 
-getStatus
+[getStatus](#StreetViewPanorama.getStatus)
 
 getStatus()
 
 **Parameters:**  None
 
-**Return Value:**  [StreetViewStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewStatus.md)
+**Return Value:**  [StreetViewStatus](StreetViewStatus.md)
 
 Returns the status of the panorama on completion of the setPosition() or setPano() request.
 
-getVisible
+[getVisible](#StreetViewPanorama.getVisible)
 
 getVisible()
 
@@ -115,7 +115,7 @@ getVisible()
 
 Returns true if the panorama is visible. It does not specify whether Street View imagery is available at the specified position.
 
-getZoom
+[getZoom](#StreetViewPanorama.getZoom)
 
 getZoom()
 
@@ -125,32 +125,32 @@ getZoom()
 
 Returns the zoom level of the panorama. Fully zoomed-out is level 0, where the field of view is 180 degrees. Zooming in increases the zoom level.
 
-registerPanoProvider
+[registerPanoProvider](#StreetViewPanorama.registerPanoProvider)
 
 registerPanoProvider(provider\[, opt\_options\])
 
 **Parameters:** 
 
-*   provider:  function(string): [StreetViewPanoramaData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md)
-*   opt\_options (optional):  [PanoProviderOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoProviderOptions.md)
+*   provider:  function(string): [StreetViewPanoramaData](StreetViewPanoramaData.md)
+*   opt\_options (optional):  [PanoProviderOptions](PanoProviderOptions.md)
 
 **Return Value:**  None
 
 Set the custom panorama provider called on pano change to load custom panoramas.
 
-setLinks
+[setLinks](#StreetViewPanorama.setLinks)
 
 setLinks(links)
 
 **Parameters:** 
 
-*   links:  Array<[StreetViewLink](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLink.md)\>
+*   links:  Array<[StreetViewLink](StreetViewLink.md)\>
 
 **Return Value:**  None
 
 Sets the set of navigation links for the Street View panorama.
 
-setMotionTracking
+[setMotionTracking](#StreetViewPanorama.setMotionTracking)
 
 setMotionTracking(motionTracking)
 
@@ -162,19 +162,19 @@ setMotionTracking(motionTracking)
 
 Sets the state of motion tracker. If true when the user physically moves the device and the browser supports it, the Street View Panorama tracks the physical movements.
 
-setOptions
+[setOptions](#StreetViewPanorama.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [StreetViewPanoramaOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md)
+*   options:  [StreetViewPanoramaOptions](StreetViewPanoramaOptions.md)
 
 **Return Value:**  None
 
 Sets a collection of key-value pairs.
 
-setPano
+[setPano](#StreetViewPanorama.setPano)
 
 setPano(pano)
 
@@ -186,31 +186,31 @@ setPano(pano)
 
 Sets the current panorama ID for the Street View panorama.
 
-setPosition
+[setPosition](#StreetViewPanorama.setPosition)
 
 setPosition(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+*   latLng:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 **Return Value:**  None
 
 Sets the current LatLng position for the Street View panorama.
 
-setPov
+[setPov](#StreetViewPanorama.setPov)
 
 setPov(pov)
 
 **Parameters:** 
 
-*   pov:  [StreetViewPov](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md)
+*   pov:  [StreetViewPov](StreetViewPov.md)
 
 **Return Value:**  None
 
 Sets the point of view for the Street View panorama.
 
-setVisible
+[setVisible](#StreetViewPanorama.setVisible)
 
 setVisible(flag)
 
@@ -222,7 +222,7 @@ setVisible(flag)
 
 Sets to true to make the panorama visible. If set to false, the panorama will be hidden whether it is embedded in the map or in its own <div>.
 
-setZoom
+[setZoom](#StreetViewPanorama.setZoom)
 
 setZoom(zoom)
 
@@ -236,15 +236,15 @@ Sets the zoom level of the panorama. Fully zoomed-out is level 0, where the fiel
 
 Properties
 
-controls
+[controls](#StreetViewPanorama.controls)
 
-**Type:**  Array<[MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)<Node>>
+**Type:**  Array<[MVCArray](MVCArray.md)<Node>>
 
 Additional controls to attach to the panorama. To add a control to the panorama, add the control's <div> to the MVCArray corresponding to the ControlPosition where it should be rendered.
 
 Events
 
-closeclick
+[closeclick](#StreetViewPanorama.closeclick)
 
 function(event)
 
@@ -254,7 +254,7 @@ function(event)
 
 This event is fired when the close button is clicked.
 
-pano\_changed
+[pano\_changed](#StreetViewPanorama.pano_changed)
 
 function()
 
@@ -262,7 +262,7 @@ function()
 
 This event is fired when the panorama's pano id changes. The pano may change as the user navigates through the panorama or the position is manually set. Note that not all position changes trigger a pano\_changed.
 
-position\_changed
+[position\_changed](#StreetViewPanorama.position_changed)
 
 function()
 
@@ -270,7 +270,7 @@ function()
 
 This event is fired when the panorama's position changes. The position changes as the user navigates through the panorama or the position is set manually.
 
-pov\_changed
+[pov\_changed](#StreetViewPanorama.pov_changed)
 
 function()
 
@@ -278,15 +278,15 @@ function()
 
 This event is fired when the panorama's point-of-view changes. The point of view changes as the pitch, zoom, or heading changes.
 
-resize
+[resize](#StreetViewPanorama.resize)
 
 function()
 
 **Arguments:**  None
 
-Developers should trigger this event on the panorama when its div changes size: [google.maps.event.trigger](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md)(panorama, 'resize').
+Developers should trigger this event on the panorama when its div changes size: [google.maps.event.trigger](#event)(panorama, 'resize').
 
-status\_changed
+[status\_changed](#StreetViewPanorama.status_changed)
 
 function()
 
@@ -294,7 +294,7 @@ function()
 
 This event is fired after every panorama lookup by id or location, via setPosition() or setPano().
 
-visible\_changed
+[visible\_changed](#StreetViewPanorama.visible_changed)
 
 function()
 
@@ -302,7 +302,7 @@ function()
 
 This event is fired when the panorama's visibility changes. The visibility is changed when the Pegman is dragged onto the map, the close button is clicked, or setVisible() is called.
 
-zoom\_changed
+[zoom\_changed](#StreetViewPanorama.zoom_changed)
 
 function()
 

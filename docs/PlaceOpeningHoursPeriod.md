@@ -14,14 +14,14 @@ places
 
 Properties
 
-close
+[close](#PlaceOpeningHoursPeriod.close)
 
-**Type:**  [PlaceOpeningHoursTime](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHoursTime.md)
+**Type:**  [PlaceOpeningHoursTime](PlaceOpeningHoursTime.md)
 
 The closing time for the Place.
 
-open
+[open](#PlaceOpeningHoursPeriod.open)
 
-**Type:**  [PlaceOpeningHoursTime](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHoursTime.md)
+**Type:**  [PlaceOpeningHoursTime](PlaceOpeningHoursTime.md)
 
 The opening time for the Place.

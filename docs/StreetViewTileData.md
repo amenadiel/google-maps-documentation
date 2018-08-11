@@ -10,7 +10,7 @@ The properties of the tile set used in a Street View panorama.
 
 Methods
 
-getTileUrl
+[getTileUrl](#StreetViewTileData.getTileUrl)
 
 getTileUrl(pano, tileZoom, tileX, tileY)
 
@@ -33,20 +33,20 @@ Your custom method must return the URL for the tile image.
 
 Properties
 
-centerHeading
+[centerHeading](#StreetViewTileData.centerHeading)
 
 **Type:**  number
 
 The heading (in degrees) at the center of the panoramic tiles.
 
-tileSize
+[tileSize](#StreetViewTileData.tileSize)
 
-**Type:**  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
+**Type:**  [Size](Size.md)
 
 The size (in pixels) at which tiles will be rendered.
 
-worldSize
+[worldSize](#StreetViewTileData.worldSize)
 
-**Type:**  [Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md)
+**Type:**  [Size](Size.md)
 
 The size (in pixels) of the whole panorama's "world".

@@ -10,7 +10,7 @@ A service for computing directions between two or more places.
 
 Constructor
 
-DirectionsService
+[DirectionsService](#DirectionsService.constructor)
 
 DirectionsService()
 
@@ -20,14 +20,14 @@ Creates a new instance of a DirectionsService that sends directions queries to G
 
 Methods
 
-route
+[route](#DirectionsService.route)
 
 route(request, callback)
 
 **Parameters:** 
 
-*   request:  [DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md)
-*   callback:  function([DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md), [DirectionsStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md))
+*   request:  [DirectionsRequest](DirectionsRequest.md)
+*   callback:  function([DirectionsResult](DirectionsResult.md), [DirectionsStatus](DirectionsStatus.md))
 
 **Return Value:**  None
 

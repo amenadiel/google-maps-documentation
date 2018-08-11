@@ -8,7 +8,7 @@ google.maps.drawing.DrawingManager class
 
 Allows users to draw markers, polygons, polylines, rectangles, and circles on the map. The DrawingManager's drawing mode defines the type of overlay that will be created by the user. Adds a control to the map, allowing the user to switch drawing mode.
 
-This class extends [MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md).
+This class extends [MVCObject](MVCObject.md).
 
 #### Library
 
@@ -16,69 +16,69 @@ drawing
 
 Constructor
 
-DrawingManager
+[DrawingManager](#DrawingManager.constructor)
 
 DrawingManager(\[options\])
 
 **Parameters:** 
 
-*   options (optional):  [DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md)
+*   options (optional):  [DrawingManagerOptions](DrawingManagerOptions.md)
 
 Creates a DrawingManager that allows users to draw overlays on the map, and switch between the type of overlay to be drawn with a drawing control.
 
 Methods
 
-getDrawingMode
+[getDrawingMode](#DrawingManager.getDrawingMode)
 
 getDrawingMode()
 
 **Parameters:**  None
 
-**Return Value:**  [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
+**Return Value:**  [OverlayType](OverlayType.md)
 
 Returns the DrawingManager's drawing mode.
 
-getMap
+[getMap](#DrawingManager.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+**Return Value:**  [Map](Map.md)
 
 Returns the Map to which the DrawingManager is attached, which is the Map on which the overlays created will be placed.
 
-setDrawingMode
+[setDrawingMode](#DrawingManager.setDrawingMode)
 
 setDrawingMode(drawingMode)
 
 **Parameters:** 
 
-*   drawingMode:  [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
+*   drawingMode:  [OverlayType](OverlayType.md)
 
 **Return Value:**  None
 
 Changes the DrawingManager's drawing mode, which defines the type of overlay to be added on the map. Accepted values are 'marker', 'polygon', 'polyline', 'rectangle', 'circle', or null. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything.
 
-setMap
+[setMap](#DrawingManager.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
+*   map:  [Map](Map.md)
 
 **Return Value:**  None
 
 Attaches the DrawingManager object to the specified Map.
 
-setOptions
+[setOptions](#DrawingManager.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md)
+*   options:  [DrawingManagerOptions](DrawingManagerOptions.md)
 
 **Return Value:**  None
 
@@ -86,62 +86,62 @@ Sets the DrawingManager's options.
 
 Events
 
-circlecomplete
+[circlecomplete](#DrawingManager.circlecomplete)
 
 function(circle)
 
 **Arguments:** 
 
-*   circle:  [Circle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Circle.md)
+*   circle:  [Circle](Circle.md)
 
 This event is fired when the user has finished drawing a circle.
 
-markercomplete
+[markercomplete](#DrawingManager.markercomplete)
 
 function(marker)
 
 **Arguments:** 
 
-*   marker:  [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)
+*   marker:  [Marker](Marker.md)
 
 This event is fired when the user has finished drawing a marker.
 
-overlaycomplete
+[overlaycomplete](#DrawingManager.overlaycomplete)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [OverlayCompleteEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md)
+*   event:  [OverlayCompleteEvent](OverlayCompleteEvent.md)
 
 This event is fired when the user has finished drawing an overlay of any type.
 
-polygoncomplete
+[polygoncomplete](#DrawingManager.polygoncomplete)
 
 function(polygon)
 
 **Arguments:** 
 
-*   polygon:  [Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md)
+*   polygon:  [Polygon](Polygon.md)
 
 This event is fired when the user has finished drawing a polygon.
 
-polylinecomplete
+[polylinecomplete](#DrawingManager.polylinecomplete)
 
 function(polyline)
 
 **Arguments:** 
 
-*   polyline:  [Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md)
+*   polyline:  [Polyline](Polyline.md)
 
 This event is fired when the user has finished drawing a polyline.
 
-rectanglecomplete
+[rectanglecomplete](#DrawingManager.rectanglecomplete)
 
 function(rectangle)
 
 **Arguments:** 
 
-*   rectangle:  [Rectangle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md)
+*   rectangle:  [Rectangle](Rectangle.md)
 
 This event is fired when the user has finished drawing a rectangle.

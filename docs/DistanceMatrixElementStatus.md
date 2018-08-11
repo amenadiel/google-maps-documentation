@@ -10,14 +10,14 @@ The element-level status about a particular origin-destination pairing returned 
 
 Constants
 
-NOT\_FOUND
+[NOT\_FOUND](#DistanceMatrixElementStatus.NOT_FOUND)
 
 The origin and/or destination of this pairing could not be geocoded.
 
-OK
+[OK](#DistanceMatrixElementStatus.OK)
 
 The response contains a valid result.
 
-ZERO\_RESULTS
+[ZERO\_RESULTS](#DistanceMatrixElementStatus.ZERO_RESULTS)
 
 No route could be found between the origin and destination.

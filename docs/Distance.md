@@ -10,13 +10,13 @@ A representation of distance as a numeric value and a display string.
 
 Properties
 
-text
+[text](#Distance.text)
 
 **Type:**  string
 
 A string representation of the distance value, using the UnitSystem specified in the request.
 
-value
+[value](#Distance.value)
 
 **Type:**  number
 

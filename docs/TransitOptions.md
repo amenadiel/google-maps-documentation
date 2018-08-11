@@ -6,30 +6,30 @@ TransitOptions interface
 
 google.maps.TransitOptions interface
 
-The TransitOptions object to be included in a [DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md) when the travel mode is set to TRANSIT.
+The TransitOptions object to be included in a [DirectionsRequest](DirectionsRequest.md) when the travel mode is set to TRANSIT.
 
 Properties
 
-arrivalTime
+[arrivalTime](#TransitOptions.arrivalTime)
 
 **Type:**  Date
 
 The desired arrival time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. If arrival time is specified, departure time is ignored.
 
-departureTime
+[departureTime](#TransitOptions.departureTime)
 
 **Type:**  Date
 
 The desired departure time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. If neither departure time nor arrival time is specified, the time is assumed to be "now".
 
-modes
+[modes](#TransitOptions.modes)
 
-**Type:**  Array<[TransitMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitMode.md)\>
+**Type:**  Array<[TransitMode](TransitMode.md)\>
 
 One or more preferred modes of transit, such as bus or train. If no preference is given, the API returns the default best route.
 
-routingPreference
+[routingPreference](#TransitOptions.routingPreference)
 
-**Type:**  [TransitRoutePreference](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitRoutePreference.md)
+**Type:**  [TransitRoutePreference](TransitRoutePreference.md)
 
 A preference that can bias the choice of transit route, such as less walking. If no preference is given, the API returns the default best route.

@@ -10,146 +10,146 @@ Options defining the properties of a StreetViewPanorama object.
 
 Properties
 
-addressControl
+[addressControl](#StreetViewPanoramaOptions.addressControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the address control.
 
-addressControlOptions
+[addressControlOptions](#StreetViewPanoramaOptions.addressControlOptions)
 
-**Type:**  [StreetViewAddressControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewAddressControlOptions.md)
+**Type:**  [StreetViewAddressControlOptions](StreetViewAddressControlOptions.md)
 
 The display options for the address control.
 
-clickToGo
+[clickToGo](#StreetViewPanoramaOptions.clickToGo)
 
 **Type:**  boolean
 
 The enabled/disabled state of click-to-go.
 
-disableDefaultUI
+[disableDefaultUI](#StreetViewPanoramaOptions.disableDefaultUI)
 
 **Type:**  boolean
 
 Enables/disables all default UI. May be overridden individually.
 
-disableDoubleClickZoom
+[disableDoubleClickZoom](#StreetViewPanoramaOptions.disableDoubleClickZoom)
 
 **Type:**  boolean
 
 Enables/disables zoom on double click. Disabled by default.
 
-enableCloseButton
+[enableCloseButton](#StreetViewPanoramaOptions.enableCloseButton)
 
 **Type:**  boolean
 
 If true, the close button is displayed. Disabled by default.
 
-fullscreenControl
+[fullscreenControl](#StreetViewPanoramaOptions.fullscreenControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the fullscreen control.
 
-fullscreenControlOptions
+[fullscreenControlOptions](#StreetViewPanoramaOptions.fullscreenControlOptions)
 
-**Type:**  [FullscreenControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FullscreenControlOptions.md)
+**Type:**  [FullscreenControlOptions](FullscreenControlOptions.md)
 
 The display options for the fullscreen control.
 
-imageDateControl
+[imageDateControl](#StreetViewPanoramaOptions.imageDateControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the imagery acquisition date control. Disabled by default.
 
-linksControl
+[linksControl](#StreetViewPanoramaOptions.linksControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the links control.
 
-motionTracking
+[motionTracking](#StreetViewPanoramaOptions.motionTracking)
 
 **Type:**  boolean
 
 Whether motion tracking is on or off. Enabled by default when the motion tracking control is present, so that the POV (point of view) follows the orientation of the device. This is primarily applicable to mobile devices. If motionTracking is set to false while motionTrackingControl is enabled, the motion tracking control appears but tracking is off. The user can tap the motion tracking control to toggle this option.
 
-motionTrackingControl
+[motionTrackingControl](#StreetViewPanoramaOptions.motionTrackingControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the motion tracking control. Enabled by default when the device has motion data, so that the control appears on the map. This is primarily applicable to mobile devices.
 
-motionTrackingControlOptions
+[motionTrackingControlOptions](#StreetViewPanoramaOptions.motionTrackingControlOptions)
 
-**Type:**  [MotionTrackingControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MotionTrackingControlOptions.md)
+**Type:**  [MotionTrackingControlOptions](MotionTrackingControlOptions.md)
 
 The display options for the motion tracking control.
 
-panControl
+[panControl](#StreetViewPanoramaOptions.panControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the pan control.
 
-panControlOptions
+[panControlOptions](#StreetViewPanoramaOptions.panControlOptions)
 
-**Type:**  [PanControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanControlOptions.md)
+**Type:**  [PanControlOptions](PanControlOptions.md)
 
 The display options for the pan control.
 
-pano
+[pano](#StreetViewPanoramaOptions.pano)
 
 **Type:**  string
 
 The panorama ID, which should be set when specifying a custom panorama.
 
-position
+[position](#StreetViewPanoramaOptions.position)
 
-**Type:**  [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)|[LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
 
 The LatLng position of the Street View panorama.
 
-pov
+[pov](#StreetViewPanoramaOptions.pov)
 
-**Type:**  [StreetViewPov](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md)
+**Type:**  [StreetViewPov](StreetViewPov.md)
 
 The camera orientation, specified as heading and pitch, for the panorama.
 
-scrollwheel
+[scrollwheel](#StreetViewPanoramaOptions.scrollwheel)
 
 **Type:**  boolean
 
 If false, disables scrollwheel zooming in Street View. The scrollwheel is enabled by default.
 
-showRoadLabels
+[showRoadLabels](#StreetViewPanoramaOptions.showRoadLabels)
 
 **Type:**  boolean
 
 The display of street names on the panorama. If this value is not specified, or is set to true, street names are displayed on the panorama. If set to false, street names are not displayed.
 
-visible
+[visible](#StreetViewPanoramaOptions.visible)
 
 **Type:**  boolean
 
 If true, the Street View panorama is visible on load.
 
-zoom
+[zoom](#StreetViewPanoramaOptions.zoom)
 
 **Type:**  number
 
 The zoom of the panorama, specified as a number. A zoom of 0 gives a 180 degrees Field of View.
 
-zoomControl
+[zoomControl](#StreetViewPanoramaOptions.zoomControl)
 
 **Type:**  boolean
 
 The enabled/disabled state of the zoom control.
 
-zoomControlOptions
+[zoomControlOptions](#StreetViewPanoramaOptions.zoomControlOptions)
 
-**Type:**  [ZoomControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ZoomControlOptions.md)
+**Type:**  [ZoomControlOptions](ZoomControlOptions.md)
 
 The display options for the zoom control.

@@ -14,10 +14,10 @@ places
 
 Constants
 
-DISTANCE
+[DISTANCE](#RankBy.DISTANCE)
 
 Ranks place results by distance from the location.
 
-PROMINENCE
+[PROMINENCE](#RankBy.PROMINENCE)
 
 Ranks place results by their prominence.

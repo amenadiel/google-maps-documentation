@@ -10,25 +10,25 @@ This class is used to specify options when creating a StyledMapType. These optio
 
 Properties
 
-alt
+[alt](#StyledMapTypeOptions.alt)
 
 **Type:**  string
 
 Text to display when this MapType's button is hovered over in the map type control.
 
-maxZoom
+[maxZoom](#StyledMapTypeOptions.maxZoom)
 
 **Type:**  number
 
 The maximum zoom level for the map when displaying this MapType. Optional.
 
-minZoom
+[minZoom](#StyledMapTypeOptions.minZoom)
 
 **Type:**  number
 
 The minimum zoom level for the map when displaying this MapType. Optional.
 
-name
+[name](#StyledMapTypeOptions.name)
 
 **Type:**  string
 

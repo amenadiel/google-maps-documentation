@@ -14,22 +14,22 @@ drawing
 
 Constants
 
-CIRCLE
+[CIRCLE](#OverlayType.CIRCLE)
 
 Specifies that the DrawingManager creates circles, and that the overlay given in the overlaycomplete event is a circle.
 
-MARKER
+[MARKER](#OverlayType.MARKER)
 
 Specifies that the DrawingManager creates markers, and that the overlay given in the overlaycomplete event is a marker.
 
-POLYGON
+[POLYGON](#OverlayType.POLYGON)
 
 Specifies that the DrawingManager creates polygons, and that the overlay given in the overlaycomplete event is a polygon.
 
-POLYLINE
+[POLYLINE](#OverlayType.POLYLINE)
 
 Specifies that the DrawingManager creates polylines, and that the overlay given in the overlaycomplete event is a polyline.
 
-RECTANGLE
+[RECTANGLE](#OverlayType.RECTANGLE)
 
 Specifies that the DrawingManager creates rectangles, and that the overlay given in the overlaycomplete event is a rectangle.

@@ -10,13 +10,13 @@ Describes a single cell from a Fusion Tables table.
 
 Properties
 
-columnName
+[columnName](#FusionTablesCell.columnName)
 
 **Type:**  string
 
 The name of the column in which the cell was located.
 
-value
+[value](#FusionTablesCell.value)
 
 **Type:**  string
 

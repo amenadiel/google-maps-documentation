@@ -10,19 +10,19 @@ Information about an agency that operates a transit line.
 
 Properties
 
-name
+[name](#TransitAgency.name)
 
 **Type:**  string
 
 The name of this transit agency.
 
-phone
+[phone](#TransitAgency.phone)
 
 **Type:**  string
 
 The transit agency's phone number.
 
-url
+[url](#TransitAgency.url)
 
 **Type:**  string
 

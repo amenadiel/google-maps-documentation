@@ -6,17 +6,17 @@ TransitFare interface
 
 google.maps.TransitFare interface
 
-A fare of a [DirectionsRoute](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md) consisting of value and currency.
+A fare of a [DirectionsRoute](DirectionsResult.md) consisting of value and currency.
 
 Properties
 
-currency
+[currency](#TransitFare.currency)
 
 **Type:**  string
 
 An [ISO 4217 currency code](http://en.wikipedia.org/wiki/ISO_4217) indicating the currency in which the fare is expressed.
 
-value
+[value](#TransitFare.value)
 
 **Type:**  number
 

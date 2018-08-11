@@ -10,32 +10,32 @@ A single element of a response to a DistanceMatrixService request, which contain
 
 Properties
 
-distance
+[distance](#DistanceMatrixResponseElement.distance)
 
-**Type:**  [Distance](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md)
+**Type:**  [Distance](Distance.md)
 
 The distance for this origin-destination pairing. This property may be undefined as the distance may be unknown.
 
-duration
+[duration](#DistanceMatrixResponseElement.duration)
 
-**Type:**  [Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md)
+**Type:**  [Duration](Duration.md)
 
 The duration for this origin-destination pairing. This property may be undefined as the duration may be unknown.
 
-duration\_in\_traffic
+[duration\_in\_traffic](#DistanceMatrixResponseElement.duration_in_traffic)
 
-**Type:**  [Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md)
+**Type:**  [Duration](Duration.md)
 
 The duration for this origin-destination pairing, taking into account the traffic conditions indicated by the trafficModel property. This property may be undefined as the duration may be unknown. Only available to Premium Plan customers when drivingOptions is defined when making the request.
 
-fare
+[fare](#DistanceMatrixResponseElement.fare)
 
-**Type:**  [TransitFare](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md)
+**Type:**  [TransitFare](TransitFare.md)
 
 The total fare for this origin-destination pairing. Only applicable to transit requests.
 
-status
+[status](#DistanceMatrixResponseElement.status)
 
-**Type:**  [DistanceMatrixElementStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixElementStatus.md)
+**Type:**  [DistanceMatrixElementStatus](DistanceMatrixElementStatus.md)
 
 The status of this particular origin-destination pairing.

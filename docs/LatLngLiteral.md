@@ -17,13 +17,13 @@ LatLng object literals are not supported in the Geometry library.
 
 Properties
 
-lat
+[lat](#LatLngLiteral.lat)
 
 **Type:**  number
 
 Latitude in degrees. Values will be clamped to the range \[-90, 90\]. This means that if the value specified is less than -90, it will be set to -90. And if the value is greater than 90, it will be set to 90.
 
-lng
+[lng](#LatLngLiteral.lng)
 
 **Type:**  number
 

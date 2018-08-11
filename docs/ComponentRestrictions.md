@@ -14,7 +14,7 @@ places
 
 Properties
 
-country
+[country](#ComponentRestrictions.country)
 
 **Type:**  string|Array<string>
 
