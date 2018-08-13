@@ -6,7 +6,7 @@ FindPlaceFromPhoneNumberRequest interface
 
 google.maps.places.FindPlaceFromPhoneNumberRequest interface
 
-A find place from text search request to be sent to [PlacesService.findPlaceFromPhoneNumber](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.findPlaceFromPhoneNumber).
+A find place from text search request to be sent to [PlacesService.findPlaceFromPhoneNumber](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.findPlaceFromPhoneNumber).
 
 #### Library
 

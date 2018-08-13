@@ -24,4 +24,4 @@ The Place's position.
 
 **Type:**  [LatLngBounds](LatLngBounds.md)
 
-The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails).
+The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).

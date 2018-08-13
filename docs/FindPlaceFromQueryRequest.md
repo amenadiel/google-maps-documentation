@@ -6,7 +6,7 @@ FindPlaceFromQueryRequest interface
 
 google.maps.places.FindPlaceFromQueryRequest interface
 
-A find place from text search request to be sent to [PlacesService.findPlaceFromQuery](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.findPlaceFromQuery).
+A find place from text search request to be sent to [PlacesService.findPlaceFromQuery](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.findPlaceFromQuery).
 
 #### Library
 

@@ -6,7 +6,7 @@ AutocompletionRequest interface
 
 google.maps.places.AutocompletionRequest interface
 
-An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-autocomplete-service#AutocompleteService.getPlacePredictions).
+An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions).
 
 #### Library
 

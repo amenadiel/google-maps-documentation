@@ -30,7 +30,7 @@ A set of substrings in the place's description that match elements in the user's
 
 **Type:**  string
 
-A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails)).
+A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails)).
 
 [structured\_formatting](#AutocompletePrediction.structured_formatting)
 
