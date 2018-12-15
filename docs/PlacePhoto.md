@@ -16,15 +16,15 @@ Methods
 
 [getUrl](#PlacePhoto.getUrl)
 
-getUrl(opts)
+getUrl(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [PhotoOptions](PhotoOptions.md)
+*   opts (optional):  [PhotoOptions](PhotoOptions.md)
 
 **Return Value:**  string
 
-Returns the image URL corresponding to the specified options. You must include a PhotoOptions object with at least one of maxWidth or maxHeight specified.
+Returns the image URL corresponding to the specified options.
 
 Properties
 

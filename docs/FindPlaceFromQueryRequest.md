@@ -14,6 +14,12 @@ places
 
 Properties
 
+[fields](#FindPlaceFromQueryRequest.fields)
+
+**Type:**  Array<string>
+
+Fields to be included in the response. For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+
 [locationBias](#FindPlaceFromQueryRequest.locationBias)
 
 **Type:**  [LocationBias](LocationBias.md)

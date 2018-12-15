@@ -105,13 +105,13 @@ Removes the given listener, which should have been returned by addListener above
 
 [trigger](#event.trigger)
 
-trigger(instance, eventName, var\_args)
+trigger(instance, eventName, eventArgs)
 
 **Parameters:** 
 
 *   instance:  Object
 *   eventName:  string
-*   var\_args:  ...\*
+*   eventArgs:  ...\*
 
 **Return Value:**  None
 
