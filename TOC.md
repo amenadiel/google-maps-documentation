@@ -13,6 +13,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [IconMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md)
 * [Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md)
 * [MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md)
+* [MapRestriction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapRestriction.md)
 * [MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md)
 * [MapTypeRegistry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeRegistry.md)
 * [MapTypeStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md)
@@ -303,4 +304,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Monday, August 13, 2018
+Last updated Wednesday, May 15, 2019
